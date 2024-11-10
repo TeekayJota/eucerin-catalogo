@@ -18,15 +18,14 @@ export async function getStaticPaths() {
     category.subcategories.flatMap((subcategory) =>
       subcategory.products.map((product) => ({
         params: {
-          category: category.name.toLowerCase(),
-          subcategory: subcategory.name.toLowerCase(),
-          product: product.name.toLowerCase(),
+          category: encodeURIComponent(category.name.toLowerCase()),
+          subcategory: encodeURIComponent(subcategory.name.toLowerCase()),
+          product: encodeURIComponent(product.name.toLowerCase()),
         },
       }))
     )
   );
 
-  // Retorna paths directamente como un array, no como un objeto
   return paths;
 }
 
