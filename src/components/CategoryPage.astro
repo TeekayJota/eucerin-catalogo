@@ -21,18 +21,20 @@ const { category } = Astro.props as { category: CategoryType };
   <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem;">{category.name}</h1>
 </header>
 
-<section style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; padding: 2rem; margin: auto;">
+<section style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0;">
   {category.subcategories.map((subcategory) => (
-    <Card
-      key={subcategory.name}
-      width="250px"
-      height="420px"
-      maxHeight="310px"
-      name={subcategory.name}
-      description={subcategory.description}
-      img={`https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${subcategory.icon}/public`}
-      color={subcategory.color}
-      imgWidth="70%"
-    />
+    <div style="margin: 15px;">
+        <Card
+        key={subcategory.name}
+        width="250px"
+        height="450px"
+        maxHeight="310px"
+        name={subcategory.name}
+        description={subcategory.description}
+        img={`https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${subcategory.icon}/public`}
+        color={subcategory.color}
+        imgWidth="65%"
+        />
+    </div>
   ))}
 </section>

@@ -47,9 +47,9 @@ const categories = data.categories.map((category) => ({
     </div>
 
     <!-- Categories Section -->
-    <div class="flex flex-wrap justify-center mt-8 mb-8">
+    <div class="flex flex-wrap justify-center" style="margin: 40px 0;">
       {categories.map((category) => (
-        <a href={`/categoria/${category.name.toLowerCase()}`} style="text-decoration: none; margin: 0 10px">
+        <a href={`/categoria/${category.name.toLowerCase()}`} style="text-decoration: none; margin: 5px 10px">
           <Card
             width="240px"
             height="270px"
