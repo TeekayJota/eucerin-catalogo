@@ -1,39 +1,22 @@
-<header>
-    <div class="main-container">
-        <div class="container-img">
-            <img 
-                src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/978d334b-ef01-4df5-4061-eb4480629e00/public"
-                class="center-image"
-                alt="eucerin-logo"
-            />
-        </div>
-        <div class="container-img">
-            <img
-                src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5bfc0677-20cd-4dd2-6312-76e0c47e8a00/public"
-                class="end-image"
-                alt="eucerin-n1"
-            />
-        </div>
+<header class="grid grid-cols-1 md:grid-cols-3 items-center py-6 px-4">
+    <!-- Espacio a la izquierda para mantener el logo centrado en pantallas grandes -->
+    <div class="hidden md:block"></div>
+
+    <!-- Logo central -->
+    <div class="flex justify-center mb-4 md:mb-0">
+        <img 
+            src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/978d334b-ef01-4df5-4061-eb4480629e00/public"
+            class="w-auto max-h-20"
+            alt="eucerin-logo"
+        />
+    </div>
+
+    <!-- Imagen al extremo derecho -->
+    <div class="flex justify-center md:justify-end">
+        <img
+            src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5bfc0677-20cd-4dd2-6312-76e0c47e8a00/public"
+            class="w-auto max-h-20"
+            alt="eucerin-n1"
+        />
     </div>
 </header>
-
-<style is:global>
-    header {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        padding-top: 50px;
-    }
-    .main-container {
-        display: flex;
-        justify-content: space-between;
-        width: 55%;
-    }
-    .container-img img {
-        width: 150px;
-    }
-    .end-image {
-        margin-right: 50px ;
-    }
-    }
-</style>

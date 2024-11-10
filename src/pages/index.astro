@@ -3,54 +3,35 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Catálogo Eucerin">
-  <main class="container py-5 text-center">
+  <main>
     <!-- Header Section -->
-    <div class="text-white py-5 mb-5" style="background-color: #223341;">
-      <h1 class="display-4">Eucerin</h1>
-      <p class="lead">¿QUÉ NECESITAS HOY?</p>
+    <div class="main-body-container">
+      <h1>¿QUÉ NECESITAS HOY?</h1>
       <p>Selecciona la categoría de producto y tipo de piel para encontrar los productos que mejor se adecúen a tus necesidades</p>
-    </div>
-
-    <!-- Card Section -->
-    <div class="row justify-content-center">
-      <div class="col-6 col-md-3 mb-4">
-        <div class="card border-0 shadow text-center">
-          <img src="/icons/face_icon.png" class="card-img-top mx-auto" alt="Face" style="width: 50%;">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Face</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="card border-0 shadow text-center">
-          <img src="/icons/body_icon.png" class="card-img-top mx-auto" alt="Body" style="width: 50%;">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Body</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="card border-0 shadow text-center">
-          <img src="/icons/sun_icon.png" class="card-img-top mx-auto" alt="Sun" style="width: 50%;">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Sun</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 mb-4">
-        <div class="card border-0 shadow text-center">
-          <img src="/icons/hair_icon.png" class="card-img-top mx-auto" alt="Hair" style="width: 50%;">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Hair</h5>
-          </div>
-        </div>
-      </div>
     </div>
   </main>
 </Layout>
 
 <style is:global>
-  .card img {
-    max-width: 100px;
-  }
+	.main-body-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		color: white;
+		background-color: #223341;
+		padding: 30px 0;
+	}
+	.main-body-container h1 {
+		font-size: 40px;
+	}
+	.main-body-container p {
+		width: 50%;
+		text-align: center;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+  	.card img {
+    	max-width: 100px;
+  	}
 </style>
