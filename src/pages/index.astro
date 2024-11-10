@@ -26,6 +26,20 @@ const categories = data.categories.map((category) => ({
 
 <Layout title="Catálogo Eucerin">
   <main>
+	<!-- Title Section -->
+    <div class="flex flex-col items-center w-full text-custom-color bg-custom-color py-2 mb-4">
+		<h2 class="text-3xl font-semibold">Conoce nuestras últimas innovaciones</h2>
+	  </div>
+  
+	  <!-- Responsive Image Row Section -->
+	  <div class="flex flex-wrap justify-center items-center p-4">
+		{banners.map((banner, index) => (
+		  <div class="flex-shrink-0 min-w-[250px] md:min-w-[200px] lg:min-w-[250px] xl:w-[300px] mx-2 my-2">
+			<img src={banner.small} alt={`Banner ${index + 1}`} class="w-full h-auto object-cover rounded-lg shadow-lg" />
+		  </div>
+		))}
+	  </div>
+
     <!-- Header Section -->
     <div class="flex flex-col items-center w-full text-custom-color bg-custom-color py-8 px-4">
       <h1 class="text-3xl md:text-5xl font-bold mb-4 text-center">¿QUÉ NECESITAS HOY?</h1>
@@ -34,27 +48,12 @@ const categories = data.categories.map((category) => ({
       </p>
     </div>
 
-    <!-- Title Section -->
-    <div class="flex flex-col items-center w-full mt-8 mb-4">
-      <h2 class="text-3xl font-semibold text-gray-custom">Conoce nuestras últimas innovaciones</h2>
-      <div class="w-[60%] border-t-2 border-gray-custom mt-2"></div>
-    </div>
-
-    <!-- Responsive Image Row Section -->
-    <div class="flex flex-wrap justify-center items-center p-4">
-      {banners.map((banner, index) => (
-        <div class="flex-shrink-0 min-w-[250px] md:min-w-[200px] lg:min-w-[250px] xl:w-[300px] mx-2 my-2">
-          <img src={banner.small} alt={`Banner ${index + 1}`} class="w-full h-auto object-cover rounded-lg shadow-lg" />
-        </div>
-      ))}
-    </div>
-
     <!-- Categories Section -->
     <div class="flex flex-wrap justify-center mt-8">
       {categories.map((category) => (
         <Card
-          width="190px"
-          height="220px"
+          width="250px"
+          height="285px"
           color={category.color}
           img={category.img}
           name={category.name}
