@@ -14,20 +14,18 @@ interface Params {
 const { category, subcategory, product: productSlug } = Astro.params as Params;
 
 export async function getStaticPaths() {
-  const paths = data.categories.flatMap((category) =>
-    category.subcategories.flatMap((subcategory) =>
-      subcategory.products.map((product) => ({
-        params: {
-          category: category.name.toLowerCase(),
-          subcategory: subcategory.name.toLowerCase(),
-          product: product.name.toLowerCase(),
-        },
-      }))
-    )
-  );
-
-  // Retorna paths directamente como un array, no como un objeto
-  return paths;
+    const paths = data.categories.flatMap((category) =>
+        category.subcategories.flatMap((subcategory) =>
+            subcategory.products.map((product) => ({
+                params: {
+                    category: category.name.toLowerCase(),
+                    subcategory: subcategory.name.toLowerCase(),
+                    product: product.index.toString(),
+                },
+            }))
+        )
+    );
+    return paths;
 }
 
 
@@ -42,7 +40,7 @@ if (!subcategoryData) {
   throw new Error(`Subcategoría "${subcategory}" no encontrada`);
 }
 
-const productData = subcategoryData.products.find((prod) => prod.name.toLowerCase() === productSlug.toLowerCase());
+const productData = subcategoryData.products.find((prod) => prod.index.toString() === productSlug);
 if (!productData) {
   throw new Error(`Producto "${productSlug}" no encontrado`);
 }
