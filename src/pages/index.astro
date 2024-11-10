@@ -30,47 +30,51 @@ const banners = [
 		</p>
 	  </div>
   
-	  <!-- Slider Section -->
-	  <div class="slider-container w-full h-[50vh] overflow-hidden relative">
-		<div class="slider-track flex transition-transform duration-1000 ease-linear" id="sliderTrack">
-		  {banners.concat(banners).map((banner, index) => (
-			<div class="slider-item flex-shrink-0 w-full h-full" data-index={index}>
-			  <picture>
-				<source media="(max-width: 768px)" srcset={banner.small} />
-				<source media="(max-width: 1280px)" srcset={banner.medium} />
-				<img src={banner.large} alt={`Banner ${index + 1}`} class="w-full h-auto" />
-			  </picture>
-			</div>
-		  ))}
-		</div>
+	  <!-- Image Display Section -->
+	  <div class="w-full h-[50vh] flex items-center justify-center">
+		<picture id="bannerImage">
+		  <source media="(max-width: 768px)" srcset={banners[0].small} />
+		  <source media="(max-width: 1280px)" srcset={banners[0].medium} />
+		  <img src={banners[0].large} alt="Banner 1" class="w-full h-full object-cover" />
+		</picture>
 	  </div>
 	</main>
   
 	<script>
+	  const banners = [
+		{
+		  large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/ec0b1b63-d439-4eb2-9f80-ae005d615200/public",
+		  medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/e577316a-fff6-495a-92ec-ed9bed456d00/public",
+		  small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/c5d69eda-2afe-434a-74a3-a237ccf2a600/public"
+		},
+		{
+		  large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/89b021c6-f014-41c8-09d5-a862c3a60a00/public",
+		  medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/8c7c3e89-3278-49b3-46b1-c2ee267a4f00/public",
+		  small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5dd7512e-f9ba-4ec8-9954-ca6774bb2600/public"
+		},
+		{
+		  large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/2c141df4-9edb-417a-1f2b-0a107b2f5e00/public",
+		  medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/6d9f7cbd-bb98-4040-16c9-6e0134858700/public",
+		  small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/737c14a7-2e5c-48b3-77cb-5791fdc6bd00/public"
+		}
+	  ];
+	  
 	  let currentIndex = 0;
-	  const sliderTrack = document.getElementById('sliderTrack') as HTMLElement | null;
-	  const totalSlides = sliderTrack ? sliderTrack.children.length / 2 : 0;
+	  const bannerImage = document.getElementById("bannerImage");
   
-	  function slide() {
-		if (sliderTrack) {
-		  currentIndex++;
-		  sliderTrack.style.transition = 'transform 1s linear';
+	  function updateBanner() {
+		if (bannerImage) {
+		  currentIndex = (currentIndex + 1) % banners.length;
   
-		  // Si llegamos al final de los duplicados, hacemos el cambio instantáneo
-		  if (currentIndex >= totalSlides) {
-			setTimeout(() => {
-			  sliderTrack.style.transition = 'none'; // Desactiva la transición
-			  currentIndex = 0;
-			  sliderTrack.style.transform = `translateX(0%)`;
-			}, 1000); // Espera a que termine la transición antes de reiniciar
-		  }
-  
-		  sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+		  const sources = bannerImage.getElementsByTagName("source");
+		  sources[0].srcset = banners[currentIndex].small;
+		  sources[1].srcset = banners[currentIndex].medium;
+		  bannerImage.getElementsByTagName("img")[0].src = banners[currentIndex].large;
 		}
 	  }
   
-	  setInterval(slide, 8000);
-	</script>  
+	  setInterval(updateBanner, 5000);
+	</script>
   </Layout>
   
   <style is:global>
@@ -78,19 +82,9 @@ const banners = [
 	@tailwind components;
 	@tailwind utilities;
   
-	.slider-container {
-	  width: 100%;
-	  height: 50vh;
-	}
-  
-	.slider-track {
-	  display: flex;
-	  width: 100%;
-	}
-  
-	.slider-item {
-	  width: 100%;
-	  height: 100%;
+	.object-cover {
+	  object-fit: cover;
 	}
   </style>
+  
   
