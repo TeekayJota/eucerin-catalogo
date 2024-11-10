@@ -1,6 +1,5 @@
-<header class="custom-header text-white py-3">
-    <div class="container d-flex align-items-center w-100">
-        <!-- Primera imagen centrada -->
+<header>
+    <div class="main-container">
         <div class="container-img">
             <img 
                 src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/978d334b-ef01-4df5-4061-eb4480629e00/public"
@@ -8,8 +7,6 @@
                 alt="eucerin-logo"
             />
         </div>
-
-        <!-- Segunda imagen al final -->
         <div class="container-img">
             <img
                 src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5bfc0677-20cd-4dd2-6312-76e0c47e8a00/public"
@@ -21,18 +18,22 @@
 </header>
 
 <style is:global>
-    .custom-header .container {
-        display: flex;
-    }
-
-    .container-img {
+    header {
         display: flex;
         justify-content: flex-end;
-        width: 50%;
+        width: 100%;
+        padding-top: 50px;
     }
-
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+    }
     .container-img img {
         width: 150px;
-        height: 61.6px;
+    }
+    .end-image {
+        margin-right: 50px ;
+    }
     }
 </style>
