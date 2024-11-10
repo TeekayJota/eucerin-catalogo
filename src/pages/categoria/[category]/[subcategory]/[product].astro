@@ -14,7 +14,6 @@ interface Params {
 const { category, subcategory, product: productSlug } = Astro.params as Params;
 
 export async function getStaticPaths() {
-  // Genera rutas para cada producto en cada subcategoría de cada categoría
   const paths = data.categories.flatMap((category) =>
     category.subcategories.flatMap((subcategory) =>
       subcategory.products.map((product) => ({
@@ -27,7 +26,8 @@ export async function getStaticPaths() {
     )
   );
 
-  return  paths;
+  // Retorna paths en el formato correcto
+  return { paths };
 }
 
 // Encuentra la categoría, subcategoría y producto correspondientes en los datos JSON
