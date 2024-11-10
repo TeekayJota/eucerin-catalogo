@@ -1,5 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const banners = [
+  {
+    large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/ec0b1b63-d439-4eb2-9f80-ae005d615200/public",
+    medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/e577316a-fff6-495a-92ec-ed9bed456d00/public",
+    small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/c5d69eda-2afe-434a-74a3-a237ccf2a600/public"
+  },
+  {
+    large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/89b021c6-f014-41c8-09d5-a862c3a60a00/public",
+    medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/8c7c3e89-3278-49b3-46b1-c2ee267a4f00/public",
+    small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5dd7512e-f9ba-4ec8-9954-ca6774bb2600/public"
+  },
+  {
+    large: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/2c141df4-9edb-417a-1f2b-0a107b2f5e00/public",
+    medium: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/6d9f7cbd-bb98-4040-16c9-6e0134858700/public",
+    small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/737c14a7-2e5c-48b3-77cb-5791fdc6bd00/public"
+  }
+];
 ---
 
 <Layout title="Catálogo Eucerin">
@@ -11,5 +29,55 @@ import Layout from '../layouts/Layout.astro';
         Selecciona la categoría de producto y tipo de piel para encontrar los productos que mejor se adecúen a tus necesidades
       </p>
     </div>
+
+    <!-- Slider Section -->
+    <div class="slider-container w-full h-[50vh] overflow-hidden relative">
+      <div class="slider-track flex transition-transform duration-1000 ease-in-out">
+        {banners.map((banner, index) => (
+			<div class="slider-item flex-shrink-0 w-full h-full">
+			  <picture>
+				<source media="(max-width: 768px)" srcset={banner.small} />
+				<source media="(max-width: 1280px)" srcset={banner.medium} />
+				<img src={banner.large} alt={`Banner ${index + 1}`} class="w-full h-auto" />
+			  </picture>
+			</div>
+		))}		  
+      </div>
+    </div>
   </main>
+
+  <script>
+	let currentIndex = 0;
+	const sliderTrack = document.querySelector('.slider-track') as HTMLElement;
+  
+	function slide() {
+	  if (sliderTrack) {
+		currentIndex = (currentIndex + 1) % sliderTrack.children.length;
+		sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+	  }
+	}
+  
+	setInterval(slide, 5000);
+  </script>  
 </Layout>
+
+<style is:global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  .slider-container {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .slider-track {
+    display: flex;
+    width: 100%; /* Adjusted for 3 images */
+  }
+
+  .slider-item {
+    width: 100%;
+    height: 100%;
+  }
+</style>
