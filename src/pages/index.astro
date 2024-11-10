@@ -25,9 +25,9 @@ const banners = [
     </div>
 
     <!-- Responsive Image Row Section -->
-    <div class="flex flex-wrap justify-center items-center p-4 gap-4">
+    <div class="flex flex-wrap justify-center items-center p-4">
       {banners.map((banner, index) => (
-        <div class="flex-shrink-0 min-w-[250px] md:min-w-[200px] lg:min-w-[250px] xl:w-[300px]">
+        <div class="flex-shrink-0 min-w-[250px] md:min-w-[200px] lg:min-w-[250px] xl:w-[300px] mx-2 my-2">
           <img src={banner.small} alt={`Banner ${index + 1}`} class="w-full h-auto object-cover rounded-lg shadow-lg" />
         </div>
       ))}
@@ -36,10 +36,10 @@ const banners = [
 </Layout>
 
 <style is:global>
-  .flex-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  /* Ajuste de márgenes para separación */
+  .flex-wrap > div {
+    margin: 0 10px; /* Margen horizontal entre imágenes */
+    margin-bottom: 20px; /* Margen vertical entre filas de imágenes */
   }
 
   /* Adaptaciones de ancho para diferentes tamaños de pantalla */
