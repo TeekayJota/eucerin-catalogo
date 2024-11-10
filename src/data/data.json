@@ -1,0 +1,202 @@
+{
+    "categories": [
+      {
+        "name": "Face",
+        "icon": "97bb20c6-843a-40c5-6900-18637db61b00",
+        "subcategories": [
+          {
+            "name": "Antipigment",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición",
+            "products": [
+              { "name": "Eucerin Anti-Pigment Crema Facial de Día FPS30 50ml", "image": "5e11dad2-06cb-44a6-05fa-34745d65a400" },
+              { "name": "Eucerin Anti-Pigment Serum Dual 50ml", "image": "2b24e751-b0cd-4675-0b0f-f527488fb000" },
+              { "name": "Eucerin Anti-Pigment Crema Facial de Noche 50ml", "image": "anti_pigment_crema_noche_50ml.webp" },
+              { "name": "Eucerin Anti-Pigment Serum Ultra Light 50ml", "image": "anti_pigment_serum_ultra_light_50ml.webp" },
+              { "name": "Eucerin Anti-Pigment Crema Anti-Ojeras 15ml", "image": "28af9dc4-de4c-41e6-b900-56ecb9d70800" },
+              { "name": "Eucerin Anti-Pigment Crema Facial de Día Tono Medio FPS30 50ml", "image": "anti_pigment_crema_dia_tono_medio_50ml.webp" }
+            ]
+          },
+          {
+            "name": "Hyaluron Filler + 3x Effect",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Rellena, estimula y protege",
+            "products": [
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating Booster 30ml", "image": "hyaluron_filler_hydrating_booster_30ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche 50ml", "image": "hyaluron_filler_crema_noche_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Contorno de Ojos FPS15 15ml", "image": "hyaluron_filler_contorno_ojos_15ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Pore Minimizer Serum 30ml", "image": "766984ce-c41d-412c-7398-783cd4620f00" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Todo Tipo de Piel FPS30 50ml", "image": "hyaluron_filler_crema_dia_todo_tipo_piel_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 50ml", "image": "hyaluron_filler_crema_dia_piel_seca_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating+Repair Ultra-Light Gel 50ml", "image": "4e36932b-1bba-4eb3-cb6e-69abcb41f400" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Vitamin C Booster 8ml", "image": "hyaluron_filler_vitamin_c_booster_8ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche - Repuesto 50ml", "image": "hyaluron_filler_crema_noche_repuesto_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 - Repuesto 50ml", "image": "hyaluron_filler_crema_dia_piel_seca_repuesto_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + 3x Effect Epigenetic Serum 30ml", "image": "0cbaedb6-0c04-4974-0107-35b8187a5c00" }
+            ]
+          },
+          {
+            "name": "Hyaluron Filler + Elasticity",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Ayuda a reducir las arrugas y las manchas de envejecimiento, mejora la elasticidad y la luminosidad de la piel",
+            "products": [
+              { "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Día FPS30 50ml", "image": "hyaluron_elasticity_crema_dia_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Noche 50ml", "image": "hyaluron_elasticity_crema_noche_50ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + Elasticity 3D Serum 30ml", "image": "hyaluron_elasticity_3d_serum_30ml.webp" },
+              { "name": "Eucerin Hyaluron-Filler + Elasticity Contorno de Ojos FPS 20 15ml", "image": "hyaluron_elasticity_contorno_ojos_15ml.webp" }
+            ]
+          },
+          {
+            "name": "Dermopure",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Eficaz línea para pieles grasas con tendencia a impurezas",
+            "products": [
+              { "name": "Eucerin DermoPure Gel Limpiador Facial 200ml", "image": "acf6c675-c092-4e2f-58e3-c7052aebf600" },
+              { "name": "Eucerin DermoPure Gel Limpiador Facial 400ml", "image": "dermopure_gel_limpiador_facial_400ml.webp" },
+              { "name": "Eucerin DermoPure Exfoliante 100ml", "image": "8a8a0174-7908-4635-755e-e80a6484d100" },
+              { "name": "Eucerin DermoPure Crema Facial Acción Intensiva de Noche 40ml", "image": "dermopure_crema_intensiva_noche_40ml.webp" },
+              { "name": "Eucerin DermoPure Fluido Facial Matificante 200ml", "image": "2102d176-ef56-45db-1b9a-162506986400" },
+              { "name": "Eucerin DermoPure Triple Effect Serum 40ml", "image": "64b809e4-0606-4003-1259-60af5b3c6700" },
+              { "name": "Eucerin Dermopure Triple Effect Gel Limpiador Concentrado 150ml", "image": "d975f491-5a6e-4627-f987-364cb4205800" }
+            ]
+          },
+          {
+            "name": "Dermatoclean",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Una limpieza suave pero efectiva para todo tipo de piel, incluso piel sensible",
+            "products": [
+              { "name": "Eucerin DermatoCLEAN Gel Limpiador Facial 200ml", "image": "dermatoclean_gel_limpiador_200ml.webp" },
+              { "name": "Eucerin DermatoCLEAN Loción Micelar Limpiadora 3 en 1 200ml", "image": "dermatoclean_locion_micelar_200ml.webp" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Body",
+        "icon": "a1d216b8-ce35-4cfd-aa41-5f61cd7a6200",
+        "subcategories": [
+          {
+            "name": "pH5",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Restaura las defensas naturales de la piel para más resistencia y menos sensibilidad",
+            "products": [
+              { "name": "Eucerin PH5 Loción Hidratante 400ml", "image": "ph5_lotion_hidratante_400ml.webp" },
+              { "name": "Eucerin PH5 Jabón Higiene Íntima 250ml", "image": "ph5_jabon_higiene_intima_250ml.webp" },
+              { "name": "Eucerin PH5 Syndet Gel 400ml", "image": "ph5_syndet_gel_400ml.webp" },
+              { "name": "Eucerin PH5 Aceite de Ducha 400ml", "image": "ph5_aceite_ducha_400ml.webp" },
+              { "name": "Eucerin PH5 Aceite para prevenir estrías 125ml", "image": "ph5_aceite_estrias_125ml.webp" },
+              { "name": "Eucerin PH5 Advanced Repair Crema Corporal 450ml", "image": "ph5_crema_advanced_repair_450ml.webp" },
+              { "name": "Eucerin PH5 Gel Crema Corporal Hidratante 200ml", "image": "ph5_gel_crema_corporal_200ml.webp" },
+              { "name": "Eucerin PH5 Refill Syndet Gel 400ml", "image": "ph5_refill_syndet_gel_400ml.webp" }
+            ]
+          },
+          {
+            "name": "Antipigment",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": " Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición",
+            "products": [
+              { "name": "Eucerin Anti-Pigment Crema Corporal 200ml", "image": "eucerin_anti-pigment_crema_corporal_200ml.webp" }
+            ]
+          },
+          {
+            "name": "Atopi Control",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
+            "products": [
+              { "name": "Eucerin AtopiControl Aceite de Ducha 400ml", "image": "atopi_control_aceite_ducha_400ml.webp" },
+              { "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml", "image": "atopi_control_spray_corp_calman_50ml.webp" },
+              { "name": "Eucerin AtopiControl Bálsamo 400ml", "image": "atopi_control_balsamo_400ml.webp" },
+              { "name": "Eucerin AtopiControl Crema Forte 100ml", "image": "atopi_control_crema_forte_100ml.webp" }
+            ]
+          },
+          {
+            "name": "Aquaphor",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Experta para el cuidado de la piel dañada - probada clínicamente que ayuda a acelerar la regeneración de la piel.",
+            "products": [
+              { "name": "Eucerin Aquaphor Ungüento Reparador 55ml", "image": "aquaphor_unguento_reparador_55ml.webp" },
+              { "name": "Eucerin Aquaphor Ungüento Reparador Duo Pack 2x10ml", "image": "aquaphor_unguento_reparador_duo_pack_2x10ml.webp" },
+              { "name": "Eucerin Aquaphor Bálsamo Reparador de Labios SOS 10ml", "image": "aquaphor_balsamo_reparador_labios_sos_10ml.webp" }
+            ]
+          },
+          {
+            "name": "Baby",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Fortifica la piel delicada y sensible del bebé.",
+            "products": [
+              { "name": "Eucerin Baby Crema Corporal 400ml", "image": "baby_crema_corporal_400ml.webp" },
+              { "name": "Eucerin Baby Baño y Shampoo 400ml", "image": "baby_bano_shampoo_400ml.webp" },
+              { "name": "Eucerin Baby Baño y Shampoo 240ml", "image": "baby_bano_shampoo_240ml.webp" }
+            ]
+          },
+          {
+            "name": "Urea Repair",
+            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+            "description": "Hidrata la piel seca y muy seca.",
+            "products": [
+              { "name": "Eucerin UreaRepair PLUS Loción Corporal 10% Urea 250ml", "image": "urea_repair_locion_corporal_10_urea_250ml.webp" }
+            ]
+          }                             
+        ]
+      },
+      {
+        "name": "Sun",
+        "icon": "d0c6fd04-9292-4b64-998e-baf72b4b1200",
+        "subcategories": [
+            {
+                "name": "Face",
+                "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+                "description": "Protección solar superior para las necesidades individuales de tu piel.",
+                "products": [
+                  { "name": "Eucerin Protector Solar Facial Photoaging Control Tono Medio FPS50+ 50ml", "image": "face_photoaging_control_tono_medio_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Photoaging Control FPS50+ 50ml", "image": "face_photoaging_control_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Pigment Control FPS50+ 50ml", "image": "face_pigment_control_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Hydro-Fluid FPS50+ 50ml", "image": "45a31041-a9fc-4f4a-6828-6a969e10e000" },
+                  { "name": "Eucerin Protector Solar Facial Sensitive Protect FPS50+ 50ml", "image": "face_sensitive_protect_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Oil Control FPS50+ 50ml", "image": "face_oil_control_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Oil Control Tono Claro FPS50+ 50ml", "image": "face_oil_control_tono_claro_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Oil Control Tono Medio FPS50+ 50ml", "image": "face_oil_control_tono_medio_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Pigment Control Tono Medio FPS50+ 50ml", "image": "face_pigment_control_tono_medio_fps50_50ml.webp" },
+                  { "name": "Eucerin Protector Solar Facial Pigment Control Tono Claro FPS50+ 50ml", "image": "face_pigment_control_tono_claro_fps50_50ml.webp" }
+                ]
+            },
+            {
+                "name": "Body",
+                "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+                "description": "Protección solar superior para las necesidades individuales de tu piel.",
+                "products": [
+                  { "name": "Eucerin Protector Solar Corporal Oil Control Gel-Crema Toque seco FPS50+ 200ml", "image": "body_oil_control_gel_crema_toque_seco_fps50_200ml.webp" },
+                  { "name": "Eucerin Protector Solar Corporal Sensitive Protect Aerosol Toque Seco FPS50 200ml", "image": "body_sensitive_protect_aerosol_toque_seco_fps50_200ml.webp" },
+                  { "name": "Eucerin Protector Solar Corporal Sensitive Protect Loción Textura Muy Ligera FPS50+ 150ml", "image": "body_sensitive_protect_locion_textura_muy_ligera_fps50_150ml.webp" }
+                ]
+            },
+            {
+                "name": "Kids",
+                "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+                "description": "Protección solar superior para las necesidades individuales de tu piel.",
+                "products": [
+                  { "name": "Eucerin Protector Solar Niños Sensitive Protect Toque Seco Gel-Crema Ultra-Ligera FPS50+ 200ml", "image": "kids_sensitive_protect_toque_seco_gel_crema_ultra_ligera_fps50_200ml.webp" },
+                  { "name": "Eucerin Protector Solar Niños Sensitive Protect Spray Trigger FPS50+ 250ml", "image": "kids_sensitive_protect_spray_trigger_fps50_250ml.webp" }
+                ]
+            }                 
+        ]
+      },
+      {
+        "name": "Hair",
+        "icon": "40f787a2-96a0-43a6-b3f3-ff0264a9af00",
+        "subcategories": [
+            {
+                "name": "Dermocapillaire",
+                "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
+                "description": "Productos para el cuero cabelludo y el cabello.",
+                "products": [
+                  { "name": "Eucerin DermoCapillaire Shampoo pH5 250ml", "image": "dermocapillaire_shampoo_ph5_250ml.webp" },
+                  { "name": "Eucerin DermoCapillaire Shampoo Gel Anticaspa 250ml", "image": "dermocapillaire_shampoo_gel_anticaspa_250ml.webp" },
+                  { "name": "Eucerin DermoCapillaire Shampoo Crema Anticaspa 250ml", "image": "dermocapillaire_shampoo_crema_anticaspa_250ml.webp" },
+                  { "name": "Eucerin DermoCapillaire Shampoo Revitalizante Anticaída 250ml", "image": "dermocapillaire_shampoo_revitalizante_anticaida_250ml.webp" }
+                ]
+            }  
+        ]
+      }
+    ]
+  }
