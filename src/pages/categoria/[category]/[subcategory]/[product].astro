@@ -60,16 +60,24 @@ if (!productData) {
       <hr style="margin: 1rem 0;" />
       <p style="font-size: 1rem; color: #555;">{productData.description}</p>
       <hr style="margin: 1rem 0;" />
+      
+      <!-- Ingredientes en bullets -->
       <h3 style="font-size: 1.2rem; font-weight: bold;">Ingredientes</h3>
-      <p style="font-size: 1rem; color: #555;">{productData.ingredients}</p>
+      <ul style="font-size: 1rem; color: #555;">
+        {productData.ingredients.map((ingredient) => (
+          <li>· {ingredient}</li>
+        ))}
+      </ul>
+      
       <hr style="margin: 1rem 0;" />
+      
       <h3 style="font-size: 1.2rem; font-weight: bold;">Características</h3>
       <ul style="font-size: 1rem; color: #555;">
         {productData.bullets.map((bullet) => (
           <li>· {bullet}</li>
         ))}
       </ul>
-    </div>
+    </div>    
 
     <!-- Columna de imagen del producto -->
     <div style="flex: 1; display: flex; justify-content: center; align-items: center; border-radius: 15px; background-color: white; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">

@@ -9,12 +9,12 @@ const banners = [
     url: "/categoria/face/anti-pigment/4"
   },
   {
-    small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/7c44af81-bf74-4ffd-2541-f1f4dd258c00/public",
-    url: "/categoria/face/dermopure/6"
-  },
-  {
     small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/c1d1ade2-1a80-47a0-274e-2786ce89ef00/public",
     url: "/categoria/face/hyaluron-filler%20%2B%203x%20effect/10"
+  },
+  {
+    small: "https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/7c44af81-bf74-4ffd-2541-f1f4dd258c00/public",
+    url: "/categoria/face/dermopure/6"
   }
 ];
 
@@ -26,13 +26,10 @@ const categories = data.categories.map((category) => ({
 ---
 
 <Layout title="Catálogo Eucerin">
-  <main class="catalog-container">
-    <!-- Línea superior -->
-    <div class="top-border"></div>
-
+  <main>
     <!-- Title Section -->
-    <div class="title-section">
-      <h2>Conoce nuestras últimas innovaciones</h2>
+    <div class="text-custom-color bg-custom-color">
+      <h1 class="text-2xl md:text-3xl font-bold text-center" style="margin-bottom: 20px; padding:5px 0;">Conoce nuestras últimas innovaciones</h1>
     </div>
   
     <!-- Responsive Image Row Section -->
@@ -47,8 +44,8 @@ const categories = data.categories.map((category) => ({
     </div>
 
     <!-- Header Section -->
-    <div class="flex flex-col items-center w-full text-custom-color bg-custom-color py-8 px-4">
-      <h1 class="text-3xl md:text-5xl font-bold mb-4 text-center">DESCUBRE NUESTRO CATÁLOGO</h1>
+    <div class="flex flex-col items-center w-full text-custom-color bg-custom-color py-2 px-4">
+      <h1 class="text-3xl md:text-3xl font-bold text-center">DESCUBRE NUESTRO CATÁLOGO</h1>
     </div>
 
     <!-- Categories Section -->
@@ -71,40 +68,6 @@ const categories = data.categories.map((category) => ({
 </Layout>
 
 <style is:global>
-  /* Estilos principales */
-  .catalog-container {
-    background-color: white;
-    padding-bottom: 20px;
-  }
-
-  /* Línea superior */
-  .top-border {
-    width: 100%;
-    height: 5px;
-    background-color: #878C92;
-  }
-
-  /* Estilo del título */
-  .title-section {
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .title-section h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    position: relative;
-    margin-bottom: 10px;
-  }
-
-  .title-section h2::after {
-    content: "";
-    width: 60%;
-    height: 2px;
-    background-color: #878C92;
-    display: block;
-    margin: 8px auto 0 auto;
-  }
 
   /* Color personalizado */
   .text-gray-custom {
