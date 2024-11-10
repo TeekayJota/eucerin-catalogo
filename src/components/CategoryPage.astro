@@ -1,0 +1,38 @@
+---
+import Card from './Card.astro';
+
+// Define el tipo para `category`
+interface CategoryType {
+  name: string;
+  color: string;
+  subcategories: {
+    name: string;
+    description: string;
+    icon: string;
+    color: string;
+  }[];
+}
+
+// Asegura que `category` cumple con el tipo `CategoryType`
+const { category } = Astro.props as { category: CategoryType };
+---
+
+<header style={`background-color: ${category.color}; padding: 2rem; text-align: center; color: white;`}>
+  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem;">{category.name}</h1>
+</header>
+
+<section style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; padding: 2rem; margin: auto;">
+  {category.subcategories.map((subcategory) => (
+    <Card
+      key={subcategory.name}
+      width="250px"
+      height="420px"
+      maxHeight="310px"
+      name={subcategory.name}
+      description={subcategory.description}
+      img={`https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${subcategory.icon}/public`}
+      color={subcategory.color}
+      imgWidth="70%"
+    />
+  ))}
+</section>

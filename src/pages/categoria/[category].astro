@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CategoryPage from '../../components/CategoryPage.astro';
+import data from '../../data/data.json';
+
+// Define el tipo de los parámetros de la ruta
+interface Params {
+  category: string;
+}
+
+// Castea Astro.params a nuestro tipo definido
+const { category } = Astro.params as Params;
+
+export async function getStaticPaths() {
+  // Genera una lista de rutas basadas en las categorías en tu JSON
+  const paths = data.categories.map((category) => ({
+    params: { category: category.name.toLowerCase() },
+  }));
+
+  // Retorna los paths en el formato esperado por Astro
+  return paths;
+}
+
+// Verifica si el parámetro 'category' está definido
+if (!category) {
+  throw new Error("Parámetro 'category' no proporcionado en la URL.");
+}
+
+// Encuentra la categoría correspondiente en los datos JSON
+const categoryData = data.categories.find((cat) => cat.name.toLowerCase() === category.toLowerCase());
+
+if (!categoryData) {
+  throw new Error(`Categoría "${category}" no encontrada`);
+}
+---
+
+<Layout title={`Categoría: ${categoryData.name}`}>
+  <CategoryPage category={categoryData} />
+</Layout>

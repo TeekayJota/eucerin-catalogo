@@ -1,1205 +1,1362 @@
 {
-    "categories": [
-      {
-        "name": "Face",
-        "icon": "1c5df8e2-1a26-4c27-ff06-660e68acce00",
-        "color": "#878C92",
-        "subcategories": [
-          {
-            "name": "Anti-Pigment",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición. Con nuestro ingrediente patentado Thiamidol®",
-            "color": "#B88084",
-            "products": [
-              {
-                "name": "Eucerin Anti-Pigment Crema Facial de Día FPS30 50ml",
-                "description": "Crema Antipigmento de Día que reduce eficazmene las manchas y áreas de hiperpigmentación.",
-                "ingredients": [
-                  "Thiamidol", "Sistema de Filtros UVA/UVB (FPS 30)"
-                ],
-                "bullets": [
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Crema de día para el cuidado facial",
-                  "Reduce las manchas de hiperpigmentación y previene su reaparición.",
-                  "Protección FPS 30 frente a los rayos solares UVA y UVB.",
-                  "NSOC87293-18CO"
-                ],
-                "image": "5e11dad2-06cb-44a6-05fa-34745d65a400"
-              },
-              {
-                "name": "Eucerin Anti-Pigment Serum Dual 50ml",
-                "description": "Serum Antipigmento de doble acción con Thiamidol y Ácido Hialurónico concentrado para una piel radiante y con un tono homogéneo.",
-                "ingredients": [
-                  "Thiamidol", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Serum de doble acción con Thiamidol y ácido hialurónico",
-                  "Reduce las manchas de hiperpigmentación y previene su reaparición",
-                  "Reduce las arrugas",
-                  "Resultados visibles a partir de 2 semanas",
-                  "NSOC86957-18CO"
-                ],
-                "image": "2b24e751-b0cd-4675-0b0f-f527488fb000"
-              },
-              {
-                "name": "Eucerin Anti-Pigment Crema Facial de Noche 50ml",
-                "description": "Crema Antipigmento de Noche que reduce eficazmene las manchas y áreas de hiperpigmentación.",
-                "ingredients": [
-                  "Thiamidol", "Dexpanthenol"
-                ],
-                "bullets": [
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Crema regeneradora de noche para el cuidado facial",
-                  "Reduce las manchas de hiperpigmentación y previene su reaparición.",
-                  "Para todo tipo de piel",
-                  "NSOC87495-18CO"
-                ],
-                "image": "anti_pigment_crema_noche_50ml.webp"
-              },
-              {
-                "name": "Eucerin Anti-Pigment Serum Ultra Light 50ml",
-                "description": "Eucerin Anti-Pigment Ultra Light Serum, clínicamente probado, contiene Thiamidol para ayudar a reducir las manchas de pigmentación y prevenir su reaparición.",
-                "ingredients": [
-                  "Thiamidol", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Serum anti-manchas de textura ultra-ligera",
-                  "Reduce las manchas de hiperpigmentación y previene su reaparición",
-                  "Resultados visibles a partir de 2 semanas",
-                  "Serum de doble acción con Thiamidol y ácido hialurónico",
-                  "NSOC09647-21CO"
-                ],
-                "image": "anti_pigment_serum_ultra_light_50ml.webp"
-              },
-              {
-                "name": "Eucerin Anti-Pigment Crema Anti-Ojeras 15ml",
-                "description": "Contorno de ojos y anti-ojeras que corrige y reduce todo tipo de ojeras y bolsas y suaviza las líneas de expresión a la vez que ilumina y alisa el contorno de ojos.",
-                "ingredients": [
-                  "Thiamidol", "Pigmentos que reflejan la luz", "Ácido Hialurónico", "Oligopéptidos"
-                ],
-                "bullets": [
-                  "Con Thiamidol patentado y ácido hialurónico",
-                  "Ayuda a reducir visiblemente cualquier tipo de ojeras y bolsas en los ojos",
-                  "Aplicador metálico refrescante",
-                  "Para todo tipo de piel",
-                  "NSOC18071-22CO"
-                ],
-                "image": "28af9dc4-de4c-41e6-b900-56ecb9d70800"
-              },
-              {
-                "name": "Eucerin Anti-Pigment Crema Facial de Día Tono Medio FPS30 50ml",
-                "description": "Crema Antipigmento de Día que cubre y reduce eficazmene las manchas y áreas de hiperpigmentación.",
-                "ingredients": [
-                  "Thiamidol", "Sistema de Filtros UVA/UVB (FPS 30)", "Pigmentos Minerales de Color"
-                ],
-                "bullets": [
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Reduce las manchas de hiperpigmentación y previene su reaparición.",
-                  "Ofrece una cobertura de color para una piel más uniforme",
-                  "Protección FPS 30 frente a los rayos solares UVA y UVB.",
-                  "NSOC09634-21CO"
-                ],
-                "image": "anti_pigment_crema_dia_tono_medio_50ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Hyaluron-Filler + 3x Effect",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Rellena, estimula y protege. Conoce nuestra nueva innovación: Epicelline®",
-            "color": "#878C92",
-            "products": [
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating Booster 30ml",
-                "description": "Un booster hidratante ultra ligero y refrescante para todos los tipos de piel.",
-                "ingredients": [
-                  "Glicerina", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Serum ultra-ligero y refrescante",
-                  "Hidratación hasta por 24h",
-                  "Rellena primeras líneas de expresión",
-                  "Para piel mixta a grasa",
-                  "NSOC92438-19CO"
-                ],
-                "image": "hyaluron_filler_hydrating_booster_30ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche 50ml",
-                "description": "Crema Antiarrugas de noche que ayuda a rellenar hasta las arrugas más profundas.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema facial anti-arrugas de noche",
-                  "Para todo tipo de piel",
-                  "Reduce visiblemente las líneas finas y las arrugas",
-                  "Favorece el proceso natural de reparación de la piel",
-                  "NSOC42349-11CO"
-                ],
-                "image": "hyaluron_filler_crema_noche_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Contorno de Ojos FPS15 15ml",
-                "description": "Una crema antiarrugas contorno de ojos.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Glicina Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema anti-arrugas para el contorno de ojos",
-                  "Con FPS 15",
-                  "Con ácido hialurónico, enoxolona y glicina saponina",
-                  "Probado oftalmológicamente",
-                  "NSOC42682-11CO"
-                ],
-                "image": "hyaluron_filler_contorno_ojos_15ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Pore Minimizer Serum 30ml",
-                "description": "Nuevo Serum ultraligero que reduce los poros y previene las primeras líneas de expresión, con protección antioxidante.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Ácido Glicólico", "Ácido Láctico"
-                ],
-                "bullets": [
-                  "Ayuda a refinar los poros",
-                  "Con protección antioxidante",
-                  "Textura acuosa",
-                  "Rellena primeras líneas de expresión",
-                  "NSOC01275-20CO"
-                ],
-                "image": "766984ce-c41d-412c-7398-783cd4620f00"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Todo Tipo de Piel FPS30 50ml",
-                "description": "Crema Antiarrugas facial de día con FPS30 para piel normal a mixta con protección UVA y UVB que ayuda a rellenar las arrugas.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema facial anti-arrugas de día",
-                  "Para todo tipo de Piel",
-                  "Reduce visiblemente las líneas finas y las arrugas",
-                  "Con FPS 30",
-                  "NSOC85891-18CO"
-                ],
-                "image": "hyaluron_filler_crema_dia_todo_tipo_piel_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 50ml",
-                "description": "Crema Antiarrugas facial de día con FPS15 para piel seca o normal con protección UVA y UVB que ayuda a rellenar las arrugas.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema facial anti-arrugas de día",
-                  "Para piel seca",
-                  "Reduce visiblemente las líneas finas y las arrugas",
-                  "Con FPS 15",
-                  "NSOC42346-11CO"
-                ],
-                "image": "hyaluron_filler_crema_dia_piel_seca_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating+Repair Ultra-Light Gel 50ml",
-                "description": "Eucerin Hydrating+Repair Ultra-Light Gel es un refuerzo de hidratación para las primeras líneas de expresión.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Provitamina B5", "Vitamina E"
-                ],
-                "bullets": [
-                  "Rellena primeras líneas de expresión",
-                  "Textura ultra-ligera",
-                  "Ayuda a la reparación natural de la piel",
-                  "Para piel mixta a grasa",
-                  "NSOC14190-22CO"
-                ],
-                "image": "4e36932b-1bba-4eb3-cb6e-69abcb41f400"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Vitamin C Booster 8ml",
-                "description": "Serum de absorción rápida que fortalece y suaviza la piel a la vez que rellena las arrugas, aspecto más fresco y luminoso en tan solo siete días.",
-                "ingredients": [
-                  "Vitamina C", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Sérum Antiedad",
-                  "Con 10% de vitamina C pura",
-                  "Para todo tipo de pieles",
-                  "Fortalece y suaviza la piel",
-                  "Rellena arrugas",
-                  "Potenciador de rápida absorción",
-                  "Piel luce más fresca y radiante en sólo siete días",
-                  "NSOC90623-19CO"
-                ],
-                "image": "hyaluron_filler_vitamin_c_booster_8ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche - Repuesto 50ml",
-                "description": "Crema Antiarrugas de noche que ayuda a rellenar hasta las arrugas más profundas.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema facial de noche",
-                  "Refill 90% menos plástico",
-                  "Para piel seca",
-                  "Rellena arrugas",
-                  "Reactiva la producción natural de ácido hialurónico",
-                  "Previene el envejecimiento causado por los rayos UV",
-                  "No comedogénico",
-                  "NSOC42349-11CO"
-                ],
-                "image": "hyaluron_filler_crema_noche_repuesto_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 - Repuesto 50ml",
-                "description": "Crema Antiarrugas facial de día con FPS15 para piel seca o normal con protección UVA y UVB que ayuda a rellenar las arrugas.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Saponina", "Enoxolona"
-                ],
-                "bullets": [
-                  "Crema facial de día",
-                  "Refill 90% menos plástico",
-                  "Para piel seca",
-                  "Rellena arrugas",
-                  "Reactiva la producción natural de ácido hialurónico",
-                  "Previene el envejecimiento causado por los rayos UV",
-                  "No comedogénico",
-                  "NSOC42346-11CO"
-                ],
-                "image": "hyaluron_filler_crema_dia_piel_seca_repuesto_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + 3x Effect Epigenetic Serum 30ml",
-                "description": "Un revolucionario serum antienvejecimiento con Epicelline® que revierte visiblemente los signos del envejecimiento y reactiva los genes de juventud de la piel para obtener resultados visibles en 4 semanas.",
-                "ingredients": [
-                  "Epicelline", "Saponina de soya", "Enoxolona", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Ingrediente patentado Epicelline®, que reactiva los genes de juventud de la piel",
-                  "Con ácido hialurónico y enoxolona",
-                  "Resultados visibles en 4 semanas de uso",
-                  "NSOC29883-24CO"
-                ],
-                "image": "0cbaedb6-0c04-4974-0107-35b8187a5c00"
-              }
-            ]
-          },
-          {
-            "name": "Hyaluron Filler + Elasticity",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Ayuda a reducir las arrugas y las manchas de envejecimiento, mejora la elasticidad y la luminosidad de la piel.",
-            "color": "#C7AF90",
-            "products": [
-              {
-                "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Día FPS30 50ml",
-                "description": "Crema Antiarrugas facial de día para el cuidado de pieles maduras, ayuda a fortalecer la estructura de la piel y mejora la elasticidad y rellena arrugas.",
-                "ingredients": [
-                  "Thiamidol", "Complejo colágeno-elastina", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Crema facial anti-edad para pieles maduras",
-                  "Con FPS 30",
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Mejora la elasticidad y luminosidad de la piel",
-                  "NSOC99250-20CO"
-                ],
-                "image": "hyaluron_elasticity_crema_dia_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Noche 50ml",
-                "description": "Crema Antiarrugas facial de noche para pieles maduras. Ayuda a fortalecer la estructura de la piel, mejora la elasticidad y rellena arrugas.",
-                "ingredients": [
-                  "Thiamidol", "Complejo colágeno-elastina", "Aceite de argán"
-                ],
-                "bullets": [
-                  "Crema facial anti-edad noche para pieles maduras",
-                  "Ayuda al proceso natural de renovación de la piel",
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Mejora la elasticidad y luminosidad de la piel",
-                  "NSOC80238-17CO"
-                ],
-                "image": "hyaluron_elasticity_crema_noche_50ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + Elasticity 3D Serum 30ml",
-                "description": "Serum antiedad para pieles maduras que trata eficazmente las 3 dimensiones del envejecimiento de la piel: Arrugas, Pérdida de Elasticidad y Manchas de la edad.",
-                "ingredients": [
-                  "Thiamidol", "Arctiina", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Serum anti-edad para pieles maduras",
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Resultados visibles en 2 semanas",
-                  "Mejora la elasticidad y luminosidad de la piel",
-                  "NSOC01135-20CO"
-                ],
-                "image": "hyaluron_elasticity_3d_serum_30ml.webp"
-              },
-              {
-                "name": "Eucerin Hyaluron-Filler + Elasticity Contorno de Ojos FPS 20 15ml",
-                "description": "Crema antiedad para el contorno de ojos que rellena las arrugas profundas, mejora la elasticidad de la piel y suaviza el aspecto de las ojeras.",
-                "ingredients": [
-                  "Arctiina", "Ácido Hialurónico"
-                ],
-                "bullets": [
-                  "Crema anti-arrugas para el contorno de ojos",
-                  "Con FPS 20",
-                  "Da firmeza a la piel madura",
-                  "Probado oftalmológicamente",
-                  "NSOC92240-19CO"
-                ],
-                "image": "hyaluron_elasticity_contorno_ojos_15ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "DermoPure",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Conoce la rutina ideal para pieles grasas con tendencia a imperfecciones.",
-            "color": "#94BEA7",
-            "products": [
-              {
-                "name": "Eucerin DermoPure Gel Limpiador Facial 200ml",
-                "description": "Un gel limpiador para piel grasa propensa a impurezas, no comedogénico, suave y efectivo para remover el exceso de grasa mientras remueve la suciedad y maquillaje.",
-                "ingredients": [
-                  "L-Carnitina", "Ácido Láctico", "Decandiol", "Licochalcona A"
-                ],
-                "bullets": [
-                  "Gel limpiador antibacterial",
-                  "Para piel grasa y con imperfecciones",
-                  "Elimina el exceso de sebo e impurezas",
-                  "Fórmula sin detergentes",
-                  "NSOC11399-22CO"
-                ],
-                "image": "acf6c675-c092-4e2f-58e3-c7052aebf600"
-              },
-              {
-                "name": "Eucerin DermoPure Gel Limpiador Facial 400ml",
-                "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
-                "ingredients": [
-                  "L-Carnitina", "Ácido Láctico", "Decandiol", "Licochalcona A"
-                ],
-                "bullets": [
-                  "Gel limpiador antibacterial",
-                  "Para piel grasa y con imperfecciones",
-                  "Elimina el exceso de sebo e impurezas",
-                  "Fórmula sin detergentes",
-                  "NSOC11399-22CO"
-                ],
-                "image": "dermopure_gel_limpiador_facial_400ml.webp"
-              },
-              {
-                "name": "Eucerin DermoPure Exfoliante 100ml",
-                "description": "Exfoliante con Ácido Láctico y micropartículas que reducen los puntos negros e imperfecciones. Destapa los poros y alisa la textura de la piel.",
-                "ingredients": [
-                  "Ácido Láctico", "Micropartículas para destapar los poros"
-                ],
-                "bullets": [
-                  "Exfoliante facial",
-                  "Para piel grasa y con imperfecciones",
-                  "Reduce visiblemente puntos negros y espinillas",
-                  "Mejora la textura de la piel",
-                  "NSOC31553-08CO"
-                ],
-                "image": "8a8a0174-7908-4635-755e-e80a6484d100"
-              },
-              {
-                "name": "Eucerin DermoPure Crema Facial Acción Intensiva de Noche 40ml",
-                "description": "Un serum con 10% de Complejo Hidróxilo que ayuda a destapar los poros, reduce las imperfecciones de forma visible y ayuda a prevenir su reaparición.",
-                "ingredients": [
-                  "Ácido Glicólico", "Ácido Salicílico", "Ácido Polihidroxi"
-                ],
-                "bullets": [
-                  "Crema facial de acción intensiva",
-                  "Para piel grasa y con imperfecciones",
-                  "Uso solo de noche",
-                  "Piel libre de imperfecciones y espinillas",
-                  "NSOC80240-17CO"
-                ],
-                "image": "dermopure_crema_intensiva_noche_40ml.webp"
-              },
-              {
-                "name": "Eucerin DermoPure Fluido Facial Matificante 200ml",
-                "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
-                "ingredients": [
-                  "Ácido Salicílico", "Licochalcona A", "Tecnología Sebo Reguladora"
-                ],
-                "bullets": [
-                  "Crema facial hidratante matificante",
-                  "Anti-brillo hasta por 8 horas",
-                  "Ayuda a reducir las impurezas y el exceso de sebo",
-                  "Con ácido salicílico",
-                  "NSOC45190-11CO"
-                ],
-                "image": "2102d176-ef56-45db-1b9a-162506986400"
-              },
-              {
-                "name": "Eucerin DermoPure Triple Effect Serum 40ML",
-                "description": "Serum anti-manchas, anti-imperfecciones y anti-brillo para piel grasa.",
-                "ingredients": [
-                  "Thiamidol", "Licochalcona A"
-                ],
-                "bullets": [
-                  "Serum facial triple efecto",
-                  "Para piel grasa y con imperfecciones",
-                  "Con ingrediente antimanchas patentado Thiamidol",
-                  "Anti-brillo hasta por 8 horas",
-                  "NSOC07495-21CO"
-                ],
-                "image": "64b809e4-0606-4003-1259-60af5b3c6700"
-              },
-              {
-                "name": "Eucerin Dermopure Triple Effect Gel Limpiador Concentrado 150ml",
-                "description": "Gel Limpiador concentrado para piel grasa con triple efecto: anti-imperfecciones, anti-manchas y anti-brillo.",
-                "ingredients": [
-                  "2% de Ácido Salicílico", "Ácido Glicólico", "Agentes humectantes"
-                ],
-                "bullets": [
-                  "Gel limpiador concentrado para uso diario",
-                  "Reduce manchas post-imperfecciones",
-                  "Reduce imperfecciones",
-                  "Control el brillo de la piel",
-                  "Para piel grasa y con tendencia a imperfecciones",
-                  "NSOC26186-23CO"
-                ],
-                "image": "d975f491-5a6e-4627-f987-364cb4205800"
-              }
-            ]
-          },
-          {
-            "name": "DermatoCLEAN",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Una limpieza suave pero efectiva para todo tipo de piel, incluso piel sensible.",
-            "color": "#89BBE5",
-            "products": [
-              {
-                "name": "Eucerin DermatoCLEAN Gel Limpiador Facial 200ml",
-                "description": "Este gel suave pero efectivo elimina el maquillaje y permite que la piel respire con mayor facilidad.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Complejo APG"
-                ],
-                "bullets": [
-                  "Gel limpiador facial suave",
-                  "Para todo tipo de piel, incluso sensible",
-                  "Remueve el maquillaje e impurezas",
-                  "Con ácido hialurónico",
-                  "NSOC41041-11CO"
-                ],
-                "image": "dermatoclean_gel_limpiador_200ml.webp"
-              },
-              {
-                "name": "Eucerin DermatoCLEAN Loción Micelar Limpiadora 3 en 1 200ml",
-                "description": "Este líquido suave pero efectivo elimina el maquillaje y ayuda a que la piel respire con más facilidad.",
-                "ingredients": [
-                  "Ácido Hialurónico", "Complejo APG"
-                ],
-                "bullets": [
-                  "Limpiador Micelar facial suave",
-                  "Para todo tipo de piel, incluso sensible",
-                  "Remueve el maquillaje e impurezas",
-                  "Con ácido hialurónico",
-                  "NSOC41038-11CO"
-                ],
-                "image": "dermatoclean_locion_micelar_200ml.webp"
-              }
-            ]
-          }          
-        ]
-      },
-      {
-        "name": "Body",
-        "icon": "4f4aeae3-6c29-48ba-b7f3-b6684906b700",
-        "color": "#A70532",
-        "subcategories": [
-          {
-            "name": "pH5",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Restaura las defensas naturales de la piel para más resistencia y menos sensibilidad.",
-            "color": "#A70532",
-            "products": [
-              {
-                "name": "Eucerin PH5 Loción Hidratante 400ml",
-                "description": "Loción corporal para niños y adultos con piel sensible que brinda humectación por 24 horas.",
-                "ingredients": [
-                  "Dexpanthenol", "PH5 Balance System"
-                ],
-                "bullets": [
-                  "Loción corporal para niños y adultos",
-                  "Para las necesidades especiales de la piel sensible",
-                  "Brinda humectación por 24 horas",
-                  "Hidrata y protege la piel",
-                  "Con dexpantenol y Vitamina E",
-                  "NSOC08962-03CO"
-                ],
-                "image": "ph5_lotion_hidratante_400ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Jabón Higiene Íntima 250ml",
-                "description": "Jabón de limpieza suave especialmente desarrollado para el área íntima, ofrece comodidad y protección, y ayuda a aliviar irritaciones.",
-                "ingredients": [
-                  "Ácido Láctico", "Bisabolol"
-                ],
-                "bullets": [
-                  "Jabón de limpieza suave, especialmente desarrollado para el área íntima",
-                  "Ofrece comodidad y protección",
-                  "Ayuda a aliviar irritaciones",
-                  "Fórmula extra suave para uso diario",
-                  "Ayuda a proteger de irritaciones en la piel",
-                  "Protege lo microbioma de la Piel",
-                  "NSOC54287-13CO"
-                ],
-                "image": "ph5_jabon_higiene_intima_250ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Syndet Gel 400ml",
-                "description": "Sustituto del jabón para niños y adultos que limpia muy suavemente sin resecar la piel y protege las defensas naturales.",
-                "ingredients": [
-                  "Dexpanthenol", "PH5 Balance System"
-                ],
-                "bullets": [
-                  "Gel que evita que la piel se reseque y conforta la piel",
-                  "Piel protegida incluso con el lavado frecuente",
-                  "Protege el microbioma de la piel",
-                  "Para el cuerpo y el rostro",
-                  "Hidrata y protege",
-                  "Para toda la familia",
-                  "NSOC44403-11CO"
-                ],
-                "image": "ph5_syndet_gel_400ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Aceite de Ducha 400ml",
-                "description": "Sustituto del jabón para pieles muy secas que limpia, hidrata y evita su resecamiento, incluso después de la ducha.",
-                "ingredients": [
-                  "53% Aceites Naturales", "Dexpanthenol", "PH5 Balance System"
-                ],
-                "bullets": [
-                  "Aceite corporal de ducha para piel seca",
-                  "Limpieza corporal de uso diario",
-                  "Aceite corporal estabilizador de PH",
-                  "Aceite corporal de ducha para toda la familia",
-                  "Aceite corporal para piel sensible y resecada",
-                  "NSOC44403-11CO"
-                ],
-                "image": "ph5_aceite_ducha_400ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Aceite para prevenir estrías 125ml",
-                "description": "Aceite para prevenir estrías que ayuda a disminuir significativamente las estrías y previene su aparición.",
-                "ingredients": [
-                  "Ácido Linoleico", "Vitamina E"
-                ],
-                "bullets": [
-                  "Aceites 100% naturales de rápida absorción",
-                  "Mejoran la elasticidad de la piel sensible, incluso durante el embarazo",
-                  "Efectivo contra las estrías cutáneas.",
-                  "Con Ácido Linoleico y Vitamina E",
-                  "Libre de parafina, colorantes y conservantes",
-                  "Deja la piel com una sensación suave",
-                  "Ayuda a prevenir y reducir estrías",
-                  "NSOC05780-21CO"
-                ],
-                "image": "ph5_aceite_estrias_125ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Advanced Repair Crema Corporal 450ml",
-                "description": "Crema enriquecida con Ceramidas, para pieles muy secas, de textura ligera y brinda 48 horas de hidratación.",
-                "ingredients": [
-                  "Ceramidas", "Urea 5%", "Factores Naturales de Hidratación"
-                ],
-                "bullets": [
-                  "Crema corporal para piel seca",
-                  "Entrega 48-horas de hidratación",
-                  "Alivio inmediato de la sequedad",
-                  "Ayuda a reparar la barrera natural de la piel",
-                  "Entrega 76% más hidratación",
-                  "Se absorbe rápidamente",
-                  "NSOC00130-20CO"
-                ],
-                "image": "ph5_crema_advanced_repair_450ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Gel Crema Corporal Hidratante 200ml",
-                "description": "Una crema corporal de textura ultra ligera, que protege y reconforta la piel sensible sin dejar residuos. Hidrata la piel, dejándola suave, con una apariencia tersa y protegida.",
-                "ingredients": [
-                  "Dexpanthenol", "PH5 Balance System"
-                ],
-                "bullets": [
-                  "Crema corporal de textura ultra ligera",
-                  "Protege y reconforta la piel sensible sin dejar residuos",
-                  "Hidrata la piel",
-                  "Textura ultraligera",
-                  "Absorbe en segundos",
-                  "100% Comodidad",
-                  "0% pegajosidad",
-                  "NSOC16453-22CO"
-                ],
-                "image": "ph5_gel_crema_corporal_200ml.webp"
-              },
-              {
-                "name": "Eucerin PH5 Refill Syndet Gel 400ml",
-                "description": "Sustituto del jabón para niños y adultos que limpia muy suavemente sin resecar la piel y protege las defensas naturales.",
-                "ingredients": [
-                  "Dexpanthenol", "PH5 Balance System"
-                ],
-                "bullets": [
-                  "65% menos plástico",
-                  "Para piel seca y sensible",
-                  "Repuesto PH5 Syndet Gel",
-                  "Libre de jabón alcalino",
-                  "Limpieza extra suave",
-                  "Mantiene el PH de la piel"
-                ],
-                "image": "ph5_refill_syndet_gel_400ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Antipigment",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición",
-            "color": "#B88084",
-            "products": [
-              {
-                "name": "Eucerin Anti-Pigment Crema Corporal 200ml",
-                "description": "Eucerin Anti-Pigment Crema Corporal para Áreas Específicas es una crema corporal clínicamente probada que reduce eficazmente la apariencia de manchas oscuras.",
-                "ingredients": [
-                  "Thiamidol", "Dexpanthenol", "Ácido Hialurónico", "Ácido Láctico"
-                ],
-                "bullets": [
-                  "Crema corporal antimanchas",
-                  "Con Thiamidol",
-                  "Reduce las manchas de hiperpigmentación",
-                  "Exfolia suavemente",
-                  "NSOC24466-23CO"
-                ],
-                "image": "eucerin_anti-pigment_crema_corporal_200ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Atopi Control",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
-            "color": "#9DC8D8",
-            "products": [
-              {
-                "name": "Eucerin AtopiControl Aceite de Ducha 400ml",
-                "description": "Oleogel para el baño y la ducha de uso diario. Adecuado para niños y bebés. Repone la barrera cutánea y la protege frente a la sequedad.",
-                "ingredients": [
-                  "Aceites Omega-3 y Omega-6"
-                ],
-                "bullets": [
-                  "Limpiador suave de uso diario para piel seca y sensible",
-                  "Con aceites Omega 3 y Omega 6",
-                  "Apto para adultos, niños y bebés",
-                  "Limpia suavemente",
-                  "Ayuda a calmar y a preservar la barrera natural de la piel",
-                  "Protege la piel de la sensación de picazón provocada por la resequedad",
-                  "NSOC03218-20CO"
-                ],
-                "image": "atopi_control_aceite_ducha_400ml.webp"
-              },
-              {
-                "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml",
-                "description": "Alivio instantáneo de la comezón.",
-                "ingredients": [
-                  "Mentoxipropanediol", "SymSitive", "Polidocanol"
-                ],
-                "bullets": [
-                  "Spray corporal que calma el picor",
-                  "Ayuda a reducir en 60 segundos, hasta por 6 horas la sensación de picazón provocada por la resequedad",
-                  "Refresca, calma y suaviza al instante la piel irritada",
-                  "Sensación refrescante para la piel",
-                  "Apto para la piel de bebés",
-                  "NSOC11197-21CO"
-                ],
-                "image": "atopi_control_spray_corp_calman_50ml.webp"
-              },
-              {
-                "name": "Eucerin AtopiControl Bálsamo 400ml",
-                "description": "Cuidado diario básico para la piel con dermatitis atópica. Un bálsamo ligero que alivia el picor de la piel y la irritación, y fortalece la barrera de la piel.",
-                "ingredients": [
-                  "Licochalcona A", "Ceramidas", "Manteca de karité"
-                ],
-                "bullets": [
-                  "Bálsamo corporal de textura ligera de uso diario",
-                  "Formulado especialmente para suavizar e hidratar intensamente la piel irritada y con picor",
-                  "Enriquecido con Ceramidas, Omega 3 y 6, Manteca de Karité y Licochalcona A",
-                  "Fortalece la barrera de la piel y alivia la sequedad y el picor",
-                  "Se recomienda usar diariamente",
-                  "NSOC97024-19CO"
-                ],
-                "image": "atopi_control_balsamo_400ml.webp"
-              },
-              {
-                "name": "Eucerin AtopiControl Crema Forte 100ml",
-                "description": "Crema de Cuidado Intensivo con ingredientes antipicazón, antibacteriales y regeneradores que mejoran la apariencia de la piel atópica.",
-                "ingredients": [
-                  "Licochalcona A", "Decanediol", "Mentoxipropandiol", "Ceramidas"
-                ],
-                "bullets": [
-                  "Crema corporal forte día y noche",
-                  "Ayuda a reducir la sensación de picazón provocada por la resequedad",
-                  "Refresca la piel",
-                  "Cuidado intensivo para la piel sensible",
-                  "Para brotes de atopia y eczema",
-                  "NSOC57542-14CO"
-                ],
-                "image": "atopi_control_crema_forte_100ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Aquaphor",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Experta para el cuidado de la piel dañada - probada clínicamente que ayuda a acelerar la regeneración de la piel.",
-            "color": "#00305F",
-            "products": [
-              {
-                "name": "Eucerin Aquaphor Ungüento Reparador 55ml",
-                "description": "Pomada regeneradora que ayuda a acelerar la regeneración de la piel comprobada clínicamente.",
-                "ingredients": [
-                  "Panthenol", "Glicerina", "Bisabolol"
-                ],
-                "bullets": [
-                  "Crema reparadora para las manos día y noche",
-                  "Ayuda a acelerar la reparación de la piel",
-                  "Suaviza la piel seca y agrietada",
-                  "Sin fragancia",
-                  "Sin conservadores",
-                  "Para bebés, niños y adultos",
-                  "NSOC80508-17CO"
-                ],
-                "image": "aquaphor_unguento_reparador_55ml.webp"
-              },
-              {
-                "name": "Eucerin Aquaphor Ungüento Reparador Duo Pack 2x10ml",
-                "description": "Eucerin Aquaphor Ungüento Reparador es una pomada clínicamente probada para acelerar la regeneración de la piel.",
-                "ingredients": [
-                  "Panthenol", "Glicerina", "Bisabolol"
-                ],
-                "bullets": [
-                  "Suaviza la piel seca y agrietada",
-                  "Ayuda a acelerar la reparación de la piel",
-                  "Para bebés, niños y adultos",
-                  "Libre de fragancias, alcohol y preservantes",
-                  "NSOC80508-17CO"
-                ],
-                "image": "aquaphor_unguento_reparador_duo_pack_2x10ml.webp"
-              },
-              {
-                "name": "Eucerin Aquaphor Bálsamo Reparador de Labios SOS 10ml",
-                "description": "Repara, protege y calma los labios secos y agrietados. Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios.",
-                "ingredients": [
-                  "Panthenol", "Vitaminas C & E"
-                ],
-                "bullets": [
-                  "Bálsamo calmante para los labios",
-                  "Alivio de labios en 60 segundos",
-                  "Repara, protege y calma",
-                  "Para labios secos y agrietados",
-                  "Con vitamina C & E",
-                  "Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios",
-                  "NSOC01193-20CO"
-                ],
-                "image": "aquaphor_balsamo_reparador_labios_sos_10ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "UreaRepair PLUS",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Hidrata la piel seca y muy seca.",
-            "color": "#00305F",
-            "products": [
-              {
-                "name": "Eucerin UreaRepair PLUS Loción Corporal 10% Urea 250ml",
-                "description": "Loción con 10% de urea para piel seca, áspera y tirante.",
-                "ingredients": [
-                  "Urea", "Ceramidas", "Factores Hidratantes Naturales"
-                ],
-                "bullets": [
-                  "Piel seca / extremadamente seca",
-                  "Loción corporal humectante",
-                  "Loción de rápida absorción",
-                  "Producto calma la piel con picazón",
-                  "Hidratación intensiva para la piel áspera",
-                  "NSOC46671-12CO"
-                ],
-                "image": "urea_repair_locion_corporal_10_urea_250ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "DermoCapillaire",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Productos para el cuero cabelludo y el cabello.",
-            "color": "#00305F",
-            "products": [
-              {
-                "name": "Eucerin DermoCapillaire Shampoo pH5 250ml",
-                "description": "Shampoo suave para el cuero cabelludo sensible. Limpia suavemente y acondiciona el cabello a la vez que preserva las defensas naturales del cuero cabelludo.",
-                "ingredients": ["Tampón de Citrato pH5"],
-                "bullets": [
-                  "Shampoo suave para cuero cabelludo sensible",
-                  "Lava la suciedad y las impurezas",
-                  "Ayuda a preservar el cuero cabelludo saludable y previene su resequedad",
-                  "Protege el manto ácido natural del cuero cabelludo",
-                  "Ayuda a mantener el balance del pH en el cuero cabelludo",
-                  "Limpia de manera gentil y remueve el polen",
-                  "Cabello con apariencia saludable",
-                  "Libre de jabón alcalino",
-                  "Ligeramente perfumado",
-                  "NSOC76660-17CO"
-                ],
-                "image": "dermocapillaire_shampoo_ph5_250ml.webp"
-              },
-              {
-                "name": "Eucerin DermoCapillaire Shampoo Gel Anticaspa 250ml",
-                "description": "Shampoo anticaspa para la caspa grasa que alivia la picazón mientras limpia el cuero cabelludo y el cabello con suavidad.",
-                "ingredients": ["Climbazole", "Piroctona olamina", "Polidocanol"],
-                "bullets": [
-                  "Shampoo gel para niños y adultos anticaspa grasosa y dermatitis seborreica",
-                  "Ayuda a combatir efectivamente la caspa causada por exceso de grasa",
-                  "Limpia de manera gentil el cabello y el cuero cabelludo",
-                  "Ayuda a calmar la sensación de picor",
-                  "Uso diario",
-                  "Le da al cabello un brillo saludable, sensación de suavidad y elasticidad",
-                  "NSOC49510-12CO"
-                ],
-                "image": "dermocapillaire_shampoo_gel_anticaspa_250ml.webp"
-              },
-              {
-                "name": "Eucerin DermoCapillaire Shampoo Crema Anticaspa 250ml",
-                "description": "Shampoo anticaspa para la caspa seca que alivia la picazón mientras limpia el cuero cabelludo y el cabello con suavidad.",
-                "ingredients": ["Climbazole", "Piroctona olamina", "Polidocanol"],
-                "bullets": [
-                  "Shampoo gel para niños y adultos anticaspa seca",
-                  "Ayuda a combatir efectivamente la caspa causada por resequedad",
-                  "Limpia de manera gentil el cabello y el cuero cabelludo",
-                  "Ayuda a calmar la sensación de picor",
-                  "Uso diario",
-                  "Le da al cabello un brillo saludable, sensación de suavidad y elasticidad",
-                  "NSOC49509-12CO"
-                ],
-                "image": "dermocapillaire_shampoo_crema_anticaspa_250ml.webp"
-              },
-              {
-                "name": "Eucerin DermoCapillaire Shampoo Revitalizante Anticaída 250ml",
-                "description": "Shampoo revitalizante ideal para el cabello debilitado desarrollado especialmente para retrasar el proceso de caída del cabello.",
-                "ingredients": ["Creatina", "Carnitina"],
-                "bullets": [
-                  "Shampoo revitalizante para el cabello debilitado",
-                  "Uso diario",
-                  "Retrasa el proceso de caída del cabello",
-                  "Desarrollado especialmente para usar en combinación con Eucerin Dermocapillaire tratamiento intensivo y revitalizante anticaída, para retrasar el proceso de caída de cabello",
-                  "Con Creatina y Carnitina",
-                  "Sin colorantes, Libre de parabenos",
-                  "Libre de silicona, Libre de jabón alcalino",
-                  "NSOC90424-19CO"
-                ],
-                "image": "dermocapillaire_shampoo_revitalizante_anticaida_250ml.webp"
-              }
-            ]
-          }          
-        ]
-      },
-      {
-        "name": "Sun",
-        "icon": "58f6f449-85b3-47a7-0fba-b8bde1a4cf00",
-        "color": "#F7921E",
-        "subcategories": [
-          {
-            "name": "Face",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Protección solar superior para las necesidades individuales de tu piel.",
-            "color": "#F7921E",
-            "products": [
-              {
-                "name": "Eucerin Protector Solar Facial Photoaging Control Tono Medio FPS50+ 50ml",
-                "description": "Eucerin Sun Photoaging Control FPS 50+ Tono Medio es un protector solar para el rostro con un alto factor de protección UV, Protección Biológica de Células y un corrección instantánea de la tez para piel de tono medio.",
-                "ingredients": ["Ácido Hialurónico", "Filtros UVA/UVB", "Pigmentos Minerales con Color"],
-                "bullets": [
-                  "Protector solar facial anti-edad",
-                  "Con ácido hialurónico",
-                  "Cobertura de color tono medio",
-                  "Alta protección UVA/UVB",
-                  "NSOC71190-16CO"
-                ],
-                "image": "face_photoaging_control_tono_medio_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Photoaging Control FPS50+ 50ml",
-                "description": "Eucerin Sun Photoaging Control FPS 50+ es un protector solar anti-envejecimiento para todo tipo de piel, incluyendo piel sensible. Protege la piel del rostro de las quemaduras solares y del daño cutáneo inducido por el sol.",
-                "ingredients": ["Licochalcona A", "Ácido Hialurónico", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar facial anti-edad",
-                  "Con ácido hialurónico",
-                  "Textura ligera",
-                  "Alta protección UVA/UVB",
-                  "NSOC72298-16CO"
-                ],
-                "image": "face_photoaging_control_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Pigment Control FPS50+ 50ml",
-                "description": "Protector solar facial avanzado para todo tipo de pieles que previene la hiperpigmentación provocada por el sol.",
-                "ingredients": ["Licochalcona A", "Thiamidol"],
-                "bullets": [
-                  "Protector solar facial anti-manchas",
-                  "Reduce y previene la hiperpigmentación",
-                  "Con Thiamidol",
-                  "No graso, no pegajoso",
-                  "NSOC90478-19CO"
-                ],
-                "image": "face_pigment_control_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Hydro-Fluid FPS50+ 50ml",
-                "description": "Un Protector Solar facial ultra ligero de rápida absorción para todo tipo de piel, incluso la sensible.",
-                "ingredients": ["Sistema de filtros UVA/UVB", "Ácido Glicirretínico", "Licochalcona A", "Ácido Hialurónico"],
-                "bullets": [
-                  "Para todo tipo de piel",
-                  "Acabado no pegajoso y no grasoso",
-                  "Con ácido hialurónico",
-                  "Textura ultra-ligera",
-                  "NSOC17861-22CO"
-                ],
-                "image": "45a31041-a9fc-4f4a-6828-6a969e10e000"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Sensitive Protect FPS50+ 50ml",
-                "description": "Eucerin Sun Face Sensitive Crema Protectora SPF 50+ es un protector solar facial ideal para piel seca y sensible. Combina protección UV muy alta con protección celular y del ADN.",
-                "ingredients": ["Sistema de filtros UVA/UVB", "Ácido Glicirretínico", "Licochalcona A"],
-                "bullets": [
-                  "Protector solar facial para piel seca y sensible",
-                  "Textura crema-gel",
-                  "Sin perfume",
-                  "Alta protección UVA/UVB",
-                  "NSOC70373-16CO"
-                ],
-                "image": "face_sensitive_protect_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Oil Control FPS50+ 50ml",
-                "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas.",
-                "ingredients": ["Licochalcona A", "Ácido Glicirretínico", "L-Carnitina", "Micropartículas absorbentes de Lípidos"],
-                "bullets": [
-                  "Protector solar facial de rápida absorción",
-                  "Diseñado específicamente para proteger las pieles mixtas a grasas",
-                  "Con L-Carnitina que actúa como seboregulador y pigmentos matificantes que otorgan un acabado mate inmediato",
-                  "8hrs de Efecto Anti-Brillo",
-                  "30% Reducción de producción de sebo con el uso regular",
-                  "Protección UVA, UVB y Luz Visible de Alta Energía (HEVIS)",
-                  "No graso ni pegajoso, No comedogénico",
-                  "Sin fragancia, Libre de parabenos",
-                  "NSOC63190-14CO"
-                ],
-                "image": "face_oil_control_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Oil Control Tono Claro FPS50+ 50ml",
-                "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas. Tono Claro.",
-                "ingredients": ["Licochalcona A", "Pigmentos de Color", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar facial para pieles grasas",
-                  "8h de efecto anti-brillo",
-                  "Cobertura de color tono claro",
-                  "Alta protección UVA/UVB",
-                  "NSOC04354-21CO"
-                ],
-                "image": "face_oil_control_tono_claro_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Oil Control Tono Medio FPS50+ 50ml",
-                "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas. Tono Medio.",
-                "ingredients": ["Licochalcona A", "Pigmentos de Color", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar facial para pieles grasas",
-                  "8h de efecto anti-brillo",
-                  "Cobertura de color tono medio",
-                  "Alta protección UVA/UVB",
-                  "NSOC04365-21CO"
-                ],
-                "image": "face_oil_control_tono_medio_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Pigment Control Tono Medio FPS50+ 50ml",
-                "description": "Eucerin Sun Pigment Control FPS50+ Tono Medio es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
-                "ingredients": ["Thiamidol", "Filtros UVA/UVB", "Pigmentos Minerales con Color"],
-                "bullets": [
-                  "Protector solar facial anti-manchas",
-                  "Con Thiamidol",
-                  "Cobertura de color tono medio",
-                  "Alta protección UVA/UVB",
-                  "NSOC09605-21CO"
-                ],
-                "image": "face_pigment_control_tono_medio_fps50_50ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Facial Pigment Control Tono Claro FPS50+ 50ml",
-                "description": "Eucerin Sun Pigment Control FPS50+ Tono Claro es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
-                "ingredients": ["Thiamidol", "Filtros UVA/UVB", "Pigmentos Minerales con Color"],
-                "bullets": [
-                  "Protector solar facial anti-manchas",
-                  "Con Thiamidol",
-                  "Cobertura de color tono claro",
-                  "Alta protección UVA/UVB",
-                  "NSOC09610-21CO"
-                ],
-                "image": "face_pigment_control_tono_claro_fps50_50ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Body",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Protección solar superior para las necesidades individuales de tu piel.",
-            "color": "#F7921E",
-            "products": [
-              {
-                "name": "Eucerin Protector Solar Corporal Oil Control Gel-Crema Toque seco FPS50+ 200ml",
-                "description": "Toque seco corporal crema gel.",
-                "ingredients": ["Licochalcona A", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar ultraligero",
-                  "Textura gel-crema",
-                  "0% residuos, efecto anti-arena",
-                  "Resistente al agua",
-                  "NSOC97061-19CO"
-                ],
-                "image": "body_oil_control_gel_crema_toque_seco_fps50_200ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Corporal Sensitive Protect Aerosol Toque Seco FPS50 200ml",
-                "description": "Eucerin Transparent Sun Spray Toque Seco FPS 50+ es un protector solar en spray transparente y ligero que brinda protección de nivel superior contra el sol para la piel sensible e incluso para la piel propensa al acné.",
-                "ingredients": ["Licochalcona A"],
-                "bullets": [
-                  "Protector solar ultraligero",
-                  "Aplicación en spray",
-                  "0% residuos, efecto anti-arena",
-                  "Resistente al agua",
-                  "NSOC64075-15CO"
-                ],
-                "image": "body_sensitive_protect_aerosol_toque_seco_fps50_200ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Corporal Sensitive Protect Loción Textura Muy Ligera FPS50+ 150ml",
-                "description": "Eucerin Sun Loción Textura Muy Ligera FPS 50 es un protector solar corporal con un factor de protección muy alto y con textura extra ligera de rápida absorción.",
-                "ingredients": ["Licochalcona A", "Filtros UVA/UVB"],
-                "bullets": [
-                  "Loción de Protección solar corporal con una textura muy ligera",
-                  "Ideal para deportistas, con amplia banda de protección UVA/UVB y protección celular biológica",
-                  "Rápida absorción para dejar un aspecto final no graso",
-                  "FPS 50, Resistente al agua",
-                  "Protección UVA, UVA y Luz Visible de Alta Energía (HEVIS)",
-                  "Sin fragancia, No comedogénico, Libre de parabenos",
-                  "Absorción inmediata",
-                  "Para piel sensible, áspera y seca",
-                  "NSOC70377-16CO"
-                ],
-                "image": "body_sensitive_protect_locion_textura_muy_ligera_fps50_150ml.webp"
-              }
-            ]
-          },
-          {
-            "name": "Kids",
-            "icon": "f2d33121-67e4-4bf0-efe6-98343544ed00",
-            "description": "Protección solar superior para las necesidades individuales de tu piel.",
-            "color": "#F7921E",
-            "products": [
-              {
-                "name": "Eucerin Protector Solar Niños Sensitive Protect Toque Seco Gel-Crema Ultra-Ligera FPS50+ 200ml",
-                "description": "Eucerin Sun Kids Sensitive Protect Gel-Crema FPS50+ es un protector solar de nivel superior para niños. Ideal para proteger la piel sensible, y ayuda a reducir el riesgo de daños a largo plazo en la piel.",
-                "ingredients": ["Licochalcona A", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar para niños a partir de 6 meses",
-                  "Extra resistente al agua",
-                  "Protección UVA/UVB",
-                  "Apto para rostro y cuerpo",
-                  "NSOC47444-12CO"
-                ],
-                "image": "kids_sensitive_protect_toque_seco_gel_crema_ultra_ligera_fps50_200ml.webp"
-              },
-              {
-                "name": "Eucerin Protector Solar Niños Sensitive Protect Spray Trigger FPS50+ 250ml",
-                "description": "Un protector solar de gama superior para niños, con tecnología antimanchas tras el lavado de la prenda y un spray activador fácil de aplicar. Calma y protege la piel sensible de los niños y reduce el riesgo de daño en la piel a largo plazo.",
-                "ingredients": ["Licochalcona A", "Ácido Glicirretínico"],
-                "bullets": [
-                  "Protector solar para niños a partir de 1 año",
-                  "Extra resistente al agua",
-                  "Protección UVA/UVB",
-                  "Apto para rostro y cuerpo",
-                  "NSOC47440-12CO"
-                ],
-                "image": "kids_sensitive_protect_spray_trigger_fps50_250ml.webp"
-              }
-            ]
-          }          
-        ]
-      },
-      {
-        "name": "Baby",
-        "icon": "0bb7aac8-ead7-48b9-cd55-b89b22be7700",
-        "color": "#00305F",
-        "subcategories": [
-          {
-            "name": "Baby",
-            "icon": "0bb7aac8-ead7-48b9-cd55-b89b22be7700",
-            "description": "Fortifica la piel delicada y sensible del bebé",
-            "color": "#00305F",
-            "products": [
-              {
-                "name": "Eucerin Baby Crema Corporal 400ml",
-                "description": "Crema corporal de absorción inmediata, que hidrata, fortalece y protege suavemente la delicada piel del bebé.",
-                "ingredients": ["Dexpantenol", "Manteca de Karité"],
-                "bullets": [
-                  "Crema Corporal de uso diario para la delicada piel de bebés",
-                  "Hidrata, fortalece y protege suavemente la piel",
-                  "Con Dexpantenol y Manteca de Karité",
-                  "Libre de fragancias, libre de parabenos y libre de colorantes",
-                  "Mantiene los niveles óptimos de pH de la piel del bebé",
-                  "Probado bajo control dermatológico y pediátrico",
-                  "NSOC72300-16CO"
-                ],
-                "image": "baby_crema_corporal_400ml.webp"
-              },
-              {
-                "name": "Eucerin Baby Baño y Shampoo 400ml",
-                "description": "Limpiador 2 en 1 ligero y suave para la piel y el cabello delicado del bebé.",
-                "ingredients": ["Dexpantenol", "Manteca de Karité"],
-                "bullets": [
-                  "Limpiador 2-en-1 ligero y suave",
-                  "Para la piel y el cabello delicados del bebé",
-                  "Con Dexpantenol y Manteca de Karité",
-                  "Libre de fragancias, libre de parabenos y libre de colorantes",
-                  "Limpia sin resecar la piel del bebé",
-                  "No provoca lágrimas",
-                  "Uso diario",
-                  "NSOC72092-16CO"
-                ],
-                "image": "baby_bano_shampoo_400ml.webp"
-              },
-              {
-                "name": "Eucerin Baby Baño y Shampoo 240ml",
-                "description": "Limpiador 2 en 1 ligero y suave para la piel y el cabello delicado del bebé.",
-                "ingredients": ["Dexpantenol", "Manteca de Karité"],
-                "bullets": [
-                  "Limpiador 2-en-1 ligero y suave",
-                  "Para la piel y el cabello delicados del bebé",
-                  "Con Dexpantenol y Manteca de Karité",
-                  "Libre de fragancias, libre de parabenos y libre de colorantes",
-                  "Limpia sin resecar la piel del bebé",
-                  "No provoca lágrimas",
-                  "Uso diario",
-                  "NSOC72092-16CO"
-                ],
-                "image": "baby_bano_shampoo_240ml.webp"
-              }
-            ]
-          }          
-        ]
-      }
-    ]
-  }
+  "categories": [
+    {
+      "name": "Face",
+      "icon": "272835d4-b57c-44e2-b5be-f492eb570200",
+      "color": "#878C92",
+      "subcategories": [
+        {
+          "name": "Anti-Pigment",
+          "icon": "86c68201-8641-47c7-6495-050edb451100",
+          "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición. Con nuestro ingrediente patentado Thiamidol®",
+          "color": "#B88084",
+          "products": [
+            {
+              "name": "Eucerin Anti-Pigment Crema Facial de Día FPS30 50ml",
+              "description": "Crema Antipigmento de Día que reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "ingredients": [
+                "Thiamidol",
+                "Sistema de Filtros UVA/UVB (FPS 30)"
+              ],
+              "bullets": [
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Crema de día para el cuidado facial",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición.",
+                "Protección FPS 30 frente a los rayos solares UVA y UVB.",
+                "NSOC87293-18CO"
+              ],
+              "image": "181dee8d-e3de-4d34-6fc5-7d2ad4991300"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Serum Dual 50ml",
+              "description": "Serum Antipigmento de doble acción con Thiamidol y Ácido Hialurónico concentrado para una piel radiante y con un tono homogéneo.",
+              "ingredients": [
+                "Thiamidol",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Serum de doble acción con Thiamidol y ácido hialurónico",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición",
+                "Reduce las arrugas",
+                "Resultados visibles a partir de 2 semanas",
+                "NSOC86957-18CO"
+              ],
+              "image": "86c68201-8641-47c7-6495-050edb451100"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Crema Facial de Noche 50ml",
+              "description": "Crema Antipigmento de Noche que reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "ingredients": [
+                "Thiamidol",
+                "Dexpanthenol"
+              ],
+              "bullets": [
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Crema regeneradora de noche para el cuidado facial",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición.",
+                "Para todo tipo de piel",
+                "NSOC87495-18CO"
+              ],
+              "image": "1ff82f1b-ee9d-4241-cda3-57f7a9827900"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Serum Ultra Light 50ml",
+              "description": "Eucerin Anti-Pigment Ultra Light Serum, clínicamente probado, contiene Thiamidol para ayudar a reducir las manchas de pigmentación y prevenir su reaparición.",
+              "ingredients": [
+                "Thiamidol",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Serum anti-manchas de textura ultra-ligera",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición",
+                "Resultados visibles a partir de 2 semanas",
+                "Serum de doble acción con Thiamidol y ácido hialurónico",
+                "NSOC09647-21CO"
+              ],
+              "image": "a913dc04-8186-48a0-9efd-d96b87c97300"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Crema Anti-Ojeras 15ml",
+              "description": "Contorno de ojos y anti-ojeras que corrige y reduce todo tipo de ojeras y bolsas y suaviza las líneas de expresión a la vez que ilumina y alisa el contorno de ojos.",
+              "ingredients": [
+                "Thiamidol",
+                "Pigmentos que reflejan la luz",
+                "Ácido Hialurónico",
+                "Oligopéptidos"
+              ],
+              "bullets": [
+                "Con Thiamidol patentado y ácido hialurónico",
+                "Ayuda a reducir visiblemente cualquier tipo de ojeras y bolsas en los ojos",
+                "Aplicador metálico refrescante",
+                "Para todo tipo de piel",
+                "NSOC18071-22CO"
+              ],
+              "image": "cca48402-cd23-4881-f0f4-be0c17368800"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Crema Facial de Día Tono Medio FPS30 50ml",
+              "description": "Crema Antipigmento de Día que cubre y reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "ingredients": [
+                "Thiamidol",
+                "Sistema de Filtros UVA/UVB (FPS 30)",
+                "Pigmentos Minerales de Color"
+              ],
+              "bullets": [
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición.",
+                "Ofrece una cobertura de color para una piel más uniforme",
+                "Protección FPS 30 frente a los rayos solares UVA y UVB.",
+                "NSOC09634-21CO"
+              ],
+              "image": "29c3614c-c106-4e6c-2842-06726e850800"
+            }
+          ]
+        },
+        {
+          "name": "Hyaluron-Filler + 3x Effect",
+          "icon": "7dea0d17-4b66-4aea-c81b-c64b9e178a00",
+          "description": "Rellena, estimula y protege. Conoce nuestra nueva innovación: Epicelline®",
+          "color": "#878C92",
+          "products": [
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating Booster 30ml",
+              "description": "Un booster hidratante ultra ligero y refrescante para todos los tipos de piel.",
+              "ingredients": [
+                "Glicerina",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Serum ultra-ligero y refrescante",
+                "Hidratación hasta por 24h",
+                "Rellena primeras líneas de expresión",
+                "Para piel mixta a grasa",
+                "NSOC92438-19CO"
+              ],
+              "image": "9d7d9f7b-d245-40c5-bee0-9cdfa1ec1a00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche 50ml",
+              "description": "Crema Antiarrugas de noche que ayuda a rellenar hasta las arrugas más profundas.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema facial anti-arrugas de noche",
+                "Para todo tipo de piel",
+                "Reduce visiblemente las líneas finas y las arrugas",
+                "Favorece el proceso natural de reparación de la piel",
+                "NSOC42349-11CO"
+              ],
+              "image": "ed2fa8e0-f32d-4903-9bcf-e2be7afe7800"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Contorno de Ojos FPS15 15ml",
+              "description": "Una crema antiarrugas contorno de ojos.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Glicina Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema anti-arrugas para el contorno de ojos",
+                "Con FPS 15",
+                "Con ácido hialurónico, enoxolona y glicina saponina",
+                "Probado oftalmológicamente",
+                "NSOC42682-11CO"
+              ],
+              "image": "cca48402-cd23-4881-f0f4-be0c17368800"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Pore Minimizer Serum 30ml",
+              "description": "Nuevo Serum ultraligero que reduce los poros y previene las primeras líneas de expresión, con protección antioxidante.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Ácido Glicólico",
+                "Ácido Láctico"
+              ],
+              "bullets": [
+                "Ayuda a refinar los poros",
+                "Con protección antioxidante",
+                "Textura acuosa",
+                "Rellena primeras líneas de expresión",
+                "NSOC01275-20CO"
+              ],
+              "image": "c208e0bb-e74f-459e-8b42-efe5c126e000"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Todo Tipo de Piel FPS30 50ml",
+              "description": "Crema Antiarrugas facial de día con FPS30 para piel normal a mixta con protección UVA y UVB que ayuda a rellenar las arrugas.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema facial anti-arrugas de día",
+                "Para todo tipo de Piel",
+                "Reduce visiblemente las líneas finas y las arrugas",
+                "Con FPS 30",
+                "NSOC85891-18CO"
+              ],
+              "image": "a26ab707-6b8e-4eb0-ebb3-83db49344400"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 50ml",
+              "description": "Crema Antiarrugas facial de día con FPS15 para piel seca o normal con protección UVA y UVB que ayuda a rellenar las arrugas.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema facial anti-arrugas de día",
+                "Para piel seca",
+                "Reduce visiblemente las líneas finas y las arrugas",
+                "Con FPS 15",
+                "NSOC42346-11CO"
+              ],
+              "image": "575d9e39-439f-4953-bc7a-3d20e6a04300"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Hydrating+Repair Ultra-Light Gel 50ml",
+              "description": "Eucerin Hydrating+Repair Ultra-Light Gel es un refuerzo de hidratación para las primeras líneas de expresión.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Provitamina B5",
+                "Vitamina E"
+              ],
+              "bullets": [
+                "Rellena primeras líneas de expresión",
+                "Textura ultra-ligera",
+                "Ayuda a la reparación natural de la piel",
+                "Para piel mixta a grasa",
+                "NSOC14190-22CO"
+              ],
+              "image": "520dbce5-f4fe-4766-2dc7-f95c8dd1ec00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Vitamin C Booster 8ml",
+              "description": "Serum de absorción rápida que fortalece y suaviza la piel a la vez que rellena las arrugas, aspecto más fresco y luminoso en tan solo siete días.",
+              "ingredients": [
+                "Vitamina C",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Sérum Antiedad",
+                "Con 10% de vitamina C pura",
+                "Para todo tipo de pieles",
+                "Fortalece y suaviza la piel",
+                "Rellena arrugas",
+                "Potenciador de rápida absorción",
+                "Piel luce más fresca y radiante en sólo siete días",
+                "NSOC90623-19CO"
+              ],
+              "image": "02696762-75d5-4016-fb98-29c6707dad00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche - Repuesto 50ml",
+              "description": "Crema Antiarrugas de noche que ayuda a rellenar hasta las arrugas más profundas.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema facial de noche",
+                "Refill 90% menos plástico",
+                "Para piel seca",
+                "Rellena arrugas",
+                "Reactiva la producción natural de ácido hialurónico",
+                "Previene el envejecimiento causado por los rayos UV",
+                "No comedogénico",
+                "NSOC42349-11CO"
+              ],
+              "image": "f7363c69-6276-4e08-6ec4-d13ef544eb00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 - Repuesto 50ml",
+              "description": "Crema Antiarrugas facial de día con FPS15 para piel seca o normal con protección UVA y UVB que ayuda a rellenar las arrugas.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Saponina",
+                "Enoxolona"
+              ],
+              "bullets": [
+                "Crema facial de día",
+                "Refill 90% menos plástico",
+                "Para piel seca",
+                "Rellena arrugas",
+                "Reactiva la producción natural de ácido hialurónico",
+                "Previene el envejecimiento causado por los rayos UV",
+                "No comedogénico",
+                "NSOC42346-11CO"
+              ],
+              "image": "c2160b53-d142-4ad9-aba8-f35fb93e1b00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Epigenetic Serum 30ml",
+              "description": "Un revolucionario serum antienvejecimiento con Epicelline® que revierte visiblemente los signos del envejecimiento y reactiva los genes de juventud de la piel para obtener resultados visibles en 4 semanas.",
+              "ingredients": [
+                "Epicelline",
+                "Saponina de soya",
+                "Enoxolona",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Ingrediente patentado Epicelline®, que reactiva los genes de juventud de la piel",
+                "Con ácido hialurónico y enoxolona",
+                "Resultados visibles en 4 semanas de uso",
+                "NSOC29883-24CO"
+              ],
+              "image": "7dea0d17-4b66-4aea-c81b-c64b9e178a00"
+            }
+          ]
+        },
+        {
+          "name": "Hyaluron Filler + Elasticity",
+          "icon": "3822c305-c36e-43aa-1f32-4ba306a4ff00",
+          "description": "Ayuda a reducir las arrugas y las manchas de envejecimiento, mejora la elasticidad y la luminosidad de la piel.",
+          "color": "#C7AF90",
+          "products": [
+            {
+              "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Día FPS30 50ml",
+              "description": "Crema Antiarrugas facial de día para el cuidado de pieles maduras, ayuda a fortalecer la estructura de la piel y mejora la elasticidad y rellena arrugas.",
+              "ingredients": [
+                "Thiamidol",
+                "Complejo colágeno-elastina",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Crema facial anti-edad para pieles maduras",
+                "Con FPS 30",
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Mejora la elasticidad y luminosidad de la piel",
+                "NSOC99250-20CO"
+              ],
+              "image": "1b2a945c-08f5-4310-ac23-6aeffbd4da00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + Elasticity Crema Facial de Noche 50ml",
+              "description": "Crema Antiarrugas facial de noche para pieles maduras. Ayuda a fortalecer la estructura de la piel, mejora la elasticidad y rellena arrugas.",
+              "ingredients": [
+                "Thiamidol",
+                "Complejo colágeno-elastina",
+                "Aceite de argán"
+              ],
+              "bullets": [
+                "Crema facial anti-edad noche para pieles maduras",
+                "Ayuda al proceso natural de renovación de la piel",
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Mejora la elasticidad y luminosidad de la piel",
+                "NSOC80238-17CO"
+              ],
+              "image": "dab30848-e6f8-43af-5aef-a1d08f335900"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + Elasticity 3D Serum 30ml",
+              "description": "Serum antiedad para pieles maduras que trata eficazmente las 3 dimensiones del envejecimiento de la piel: Arrugas, Pérdida de Elasticidad y Manchas de la edad.",
+              "ingredients": [
+                "Thiamidol",
+                "Arctiina",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Serum anti-edad para pieles maduras",
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Resultados visibles en 2 semanas",
+                "Mejora la elasticidad y luminosidad de la piel",
+                "NSOC01135-20CO"
+              ],
+              "image": "3822c305-c36e-43aa-1f32-4ba306a4ff00"
+            },
+            {
+              "name": "Eucerin Hyaluron-Filler + Elasticity Contorno de Ojos FPS 20 15ml",
+              "description": "Crema antiedad para el contorno de ojos que rellena las arrugas profundas, mejora la elasticidad de la piel y suaviza el aspecto de las ojeras.",
+              "ingredients": [
+                "Arctiina",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Crema anti-arrugas para el contorno de ojos",
+                "Con FPS 20",
+                "Da firmeza a la piel madura",
+                "Probado oftalmológicamente",
+                "NSOC92240-19CO"
+              ],
+              "image": "55395629-9d0f-495b-f4d1-8561534dbd00"
+            }
+          ]
+        },
+        {
+          "name": "DermoPure",
+          "icon": "7fa70814-a991-4047-a135-c8422b815800",
+          "description": "Conoce la rutina ideal para pieles grasas con tendencia a imperfecciones.",
+          "color": "#94BEA7",
+          "products": [
+            {
+              "name": "Eucerin DermoPure Gel Limpiador Facial 200ml",
+              "description": "Un gel limpiador para piel grasa propensa a impurezas, no comedogénico, suave y efectivo para remover el exceso de grasa mientras remueve la suciedad y maquillaje.",
+              "ingredients": [
+                "L-Carnitina",
+                "Ácido Láctico",
+                "Decandiol",
+                "Licochalcona A"
+              ],
+              "bullets": [
+                "Gel limpiador antibacterial",
+                "Para piel grasa y con imperfecciones",
+                "Elimina el exceso de sebo e impurezas",
+                "Fórmula sin detergentes",
+                "NSOC11399-22CO"
+              ],
+              "image": "7f82496a-c893-46b8-ffe3-f7380de59400"
+            },
+            {
+              "name": "Eucerin DermoPure Gel Limpiador Facial 400ml",
+              "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
+              "ingredients": [
+                "L-Carnitina",
+                "Ácido Láctico",
+                "Decandiol",
+                "Licochalcona A"
+              ],
+              "bullets": [
+                "Gel limpiador antibacterial",
+                "Para piel grasa y con imperfecciones",
+                "Elimina el exceso de sebo e impurezas",
+                "Fórmula sin detergentes",
+                "NSOC11399-22CO"
+              ],
+              "image": "610ef03e-3218-4781-106d-5c3e0ae3d200"
+            },
+            {
+              "name": "Eucerin DermoPure Exfoliante 100ml",
+              "description": "Exfoliante con Ácido Láctico y micropartículas que reducen los puntos negros e imperfecciones. Destapa los poros y alisa la textura de la piel.",
+              "ingredients": [
+                "Ácido Láctico",
+                "Micropartículas para destapar los poros"
+              ],
+              "bullets": [
+                "Exfoliante facial",
+                "Para piel grasa y con imperfecciones",
+                "Reduce visiblemente puntos negros y espinillas",
+                "Mejora la textura de la piel",
+                "NSOC31553-08CO"
+              ],
+              "image": "2d50778f-204c-4dac-4627-3a3fbd6ebe00"
+            },
+            {
+              "name": "Eucerin DermoPure Crema Facial Acción Intensiva de Noche 40ml",
+              "description": "Un serum con 10% de Complejo Hidróxilo que ayuda a destapar los poros, reduce las imperfecciones de forma visible y ayuda a prevenir su reaparición.",
+              "ingredients": [
+                "Ácido Glicólico",
+                "Ácido Salicílico",
+                "Ácido Polihidroxi"
+              ],
+              "bullets": [
+                "Crema facial de acción intensiva",
+                "Para piel grasa y con imperfecciones",
+                "Uso solo de noche",
+                "Piel libre de imperfecciones y espinillas",
+                "NSOC80240-17CO"
+              ],
+              "image": "f2a3aee4-21b9-4985-df9a-7b7f9bce1e00"
+            },
+            {
+              "name": "Eucerin DermoPure Fluido Facial Matificante 200ml",
+              "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
+              "ingredients": [
+                "Ácido Salicílico",
+                "Licochalcona A",
+                "Tecnología Sebo Reguladora"
+              ],
+              "bullets": [
+                "Crema facial hidratante matificante",
+                "Anti-brillo hasta por 8 horas",
+                "Ayuda a reducir las impurezas y el exceso de sebo",
+                "Con ácido salicílico",
+                "NSOC45190-11CO"
+              ],
+              "image": "9d5b0f7e-e428-4e14-a066-ca1f79c8c200"
+            },
+            {
+              "name": "Eucerin DermoPure Triple Effect Serum 40ML",
+              "description": "Serum anti-manchas, anti-imperfecciones y anti-brillo para piel grasa.",
+              "ingredients": [
+                "Thiamidol",
+                "Licochalcona A"
+              ],
+              "bullets": [
+                "Serum facial triple efecto",
+                "Para piel grasa y con imperfecciones",
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Anti-brillo hasta por 8 horas",
+                "NSOC07495-21CO"
+              ],
+              "image": "be9f61e4-eb3a-4a2e-7ebf-a4a8f2420200"
+            },
+            {
+              "name": "Eucerin Dermopure Triple Effect Gel Limpiador Concentrado 150ml",
+              "description": "Gel Limpiador concentrado para piel grasa con triple efecto: anti-imperfecciones, anti-manchas y anti-brillo.",
+              "ingredients": [
+                "2% de Ácido Salicílico",
+                "Ácido Glicólico",
+                "Agentes humectantes"
+              ],
+              "bullets": [
+                "Gel limpiador concentrado para uso diario",
+                "Reduce manchas post-imperfecciones",
+                "Reduce imperfecciones",
+                "Control el brillo de la piel",
+                "Para piel grasa y con tendencia a imperfecciones",
+                "NSOC26186-23CO"
+              ],
+              "image": "7fa70814-a991-4047-a135-c8422b815800"
+            }
+          ]
+        },
+        {
+          "name": "DermatoCLEAN",
+          "icon": "83fa0170-1cd1-4f45-59f6-829bd84f2200",
+          "description": "Una limpieza suave pero efectiva para todo tipo de piel, incluso piel sensible.",
+          "color": "#89BBE5",
+          "products": [
+            {
+              "name": "Eucerin DermatoCLEAN Gel Limpiador Facial 200ml",
+              "description": "Este gel suave pero efectivo elimina el maquillaje y permite que la piel respire con mayor facilidad.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Complejo APG"
+              ],
+              "bullets": [
+                "Gel limpiador facial suave",
+                "Para todo tipo de piel, incluso sensible",
+                "Remueve el maquillaje e impurezas",
+                "Con ácido hialurónico",
+                "NSOC41041-11CO"
+              ],
+              "image": "83fa0170-1cd1-4f45-59f6-829bd84f2200"
+            },
+            {
+              "name": "Eucerin DermatoCLEAN Loción Micelar Limpiadora 3 en 1 200ml",
+              "description": "Este líquido suave pero efectivo elimina el maquillaje y ayuda a que la piel respire con más facilidad.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Complejo APG"
+              ],
+              "bullets": [
+                "Limpiador Micelar facial suave",
+                "Para todo tipo de piel, incluso sensible",
+                "Remueve el maquillaje e impurezas",
+                "Con ácido hialurónico",
+                "NSOC41038-11CO"
+              ],
+              "image": "074b8a20-7b3b-479a-c39a-8cdeb5071000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "icon": "8490aa6a-d4a8-49a6-3d1b-f30fdc78a800",
+      "color": "#A70532",
+      "subcategories": [
+        {
+          "name": "pH5",
+          "icon": "c650e8c3-0531-42db-759f-dc26e2015b00",
+          "description": "Restaura las defensas naturales de la piel para más resistencia y menos sensibilidad.",
+          "color": "#A70532",
+          "products": [
+            {
+              "name": "Eucerin PH5 Loción Hidratante 400ml",
+              "description": "Loción corporal para niños y adultos con piel sensible que brinda humectación por 24 horas.",
+              "ingredients": [
+                "Dexpanthenol",
+                "PH5 Balance System"
+              ],
+              "bullets": [
+                "Loción corporal para niños y adultos",
+                "Para las necesidades especiales de la piel sensible",
+                "Brinda humectación por 24 horas",
+                "Hidrata y protege la piel",
+                "Con dexpantenol y Vitamina E",
+                "NSOC08962-03CO"
+              ],
+              "image": "c650e8c3-0531-42db-759f-dc26e2015b00"
+            },
+            {
+              "name": "Eucerin PH5 Jabón Higiene Íntima 250ml",
+              "description": "Jabón de limpieza suave especialmente desarrollado para el área íntima, ofrece comodidad y protección, y ayuda a aliviar irritaciones.",
+              "ingredients": [
+                "Ácido Láctico",
+                "Bisabolol"
+              ],
+              "bullets": [
+                "Jabón de limpieza suave, especialmente desarrollado para el área íntima",
+                "Ofrece comodidad y protección",
+                "Ayuda a aliviar irritaciones",
+                "Fórmula extra suave para uso diario",
+                "Ayuda a proteger de irritaciones en la piel",
+                "Protege lo microbioma de la Piel",
+                "NSOC54287-13CO"
+              ],
+              "image": "5d5cb82a-0ae6-4868-8c3d-742031d68400"
+            },
+            {
+              "name": "Eucerin PH5 Syndet Gel 400ml",
+              "description": "Sustituto del jabón para niños y adultos que limpia muy suavemente sin resecar la piel y protege las defensas naturales.",
+              "ingredients": [
+                "Dexpanthenol",
+                "PH5 Balance System"
+              ],
+              "bullets": [
+                "Gel que evita que la piel se reseque y conforta la piel",
+                "Piel protegida incluso con el lavado frecuente",
+                "Protege el microbioma de la piel",
+                "Para el cuerpo y el rostro",
+                "Hidrata y protege",
+                "Para toda la familia",
+                "NSOC44403-11CO"
+              ],
+              "image": "436513d7-462e-4eb5-c6ab-34d39aa05400"
+            },
+            {
+              "name": "Eucerin PH5 Aceite de Ducha 400ml",
+              "description": "Sustituto del jabón para pieles muy secas que limpia, hidrata y evita su resecamiento, incluso después de la ducha.",
+              "ingredients": [
+                "53% Aceites Naturales",
+                "Dexpanthenol",
+                "PH5 Balance System"
+              ],
+              "bullets": [
+                "Aceite corporal de ducha para piel seca",
+                "Limpieza corporal de uso diario",
+                "Aceite corporal estabilizador de PH",
+                "Aceite corporal de ducha para toda la familia",
+                "Aceite corporal para piel sensible y resecada",
+                "NSOC44403-11CO"
+              ],
+              "image": "5b70127f-a56a-457f-c0be-1e72b659b600"
+            },
+            {
+              "name": "Eucerin PH5 Aceite para prevenir estrías 125ml",
+              "description": "Aceite para prevenir estrías que ayuda a disminuir significativamente las estrías y previene su aparición.",
+              "ingredients": [
+                "Ácido Linoleico",
+                "Vitamina E"
+              ],
+              "bullets": [
+                "Aceites 100% naturales de rápida absorción",
+                "Mejoran la elasticidad de la piel sensible, incluso durante el embarazo",
+                "Efectivo contra las estrías cutáneas.",
+                "Con Ácido Linoleico y Vitamina E",
+                "Libre de parafina, colorantes y conservantes",
+                "Deja la piel com una sensación suave",
+                "Ayuda a prevenir y reducir estrías",
+                "NSOC05780-21CO"
+              ],
+              "image": "12396d98-7c48-4587-fa37-48ecf1460600"
+            },
+            {
+              "name": "Eucerin PH5 Advanced Repair Crema Corporal 450ml",
+              "description": "Crema enriquecida con Ceramidas, para pieles muy secas, de textura ligera y brinda 48 horas de hidratación.",
+              "ingredients": [
+                "Ceramidas",
+                "Urea 5%",
+                "Factores Naturales de Hidratación"
+              ],
+              "bullets": [
+                "Crema corporal para piel seca",
+                "Entrega 48-horas de hidratación",
+                "Alivio inmediato de la sequedad",
+                "Ayuda a reparar la barrera natural de la piel",
+                "Entrega 76% más hidratación",
+                "Se absorbe rápidamente",
+                "NSOC00130-20CO"
+              ],
+              "image": "52c66031-caf5-4842-1729-8c6701cee500"
+            },
+            {
+              "name": "Eucerin PH5 Gel Crema Corporal Hidratante 200ml",
+              "description": "Una crema corporal de textura ultra ligera, que protege y reconforta la piel sensible sin dejar residuos. Hidrata la piel, dejándola suave, con una apariencia tersa y protegida.",
+              "ingredients": [
+                "Dexpanthenol",
+                "PH5 Balance System"
+              ],
+              "bullets": [
+                "Crema corporal de textura ultra ligera",
+                "Protege y reconforta la piel sensible sin dejar residuos",
+                "Hidrata la piel",
+                "Textura ultraligera",
+                "Absorbe en segundos",
+                "100% Comodidad",
+                "0% pegajosidad",
+                "NSOC16453-22CO"
+              ],
+              "image": "fe9c7a76-f141-433c-b101-5e3fb084bd00"
+            },
+            {
+              "name": "Eucerin PH5 Refill Syndet Gel 400ml",
+              "description": "Sustituto del jabón para niños y adultos que limpia muy suavemente sin resecar la piel y protege las defensas naturales.",
+              "ingredients": [
+                "Dexpanthenol",
+                "PH5 Balance System"
+              ],
+              "bullets": [
+                "65% menos plástico",
+                "Para piel seca y sensible",
+                "Repuesto PH5 Syndet Gel",
+                "Libre de jabón alcalino",
+                "Limpieza extra suave",
+                "Mantiene el PH de la piel"
+              ],
+              "image": "66a2c20d-4b32-4687-e7e5-0e9519499d00"
+            }
+          ]
+        },
+        {
+          "name": "Antipigment",
+          "icon": "71b796cb-b8b0-4632-1c20-bbe7ffdf1300",
+          "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición",
+          "color": "#B88084",
+          "products": [
+            {
+              "name": "Eucerin Anti-Pigment Crema Corporal 200ml",
+              "description": "Eucerin Anti-Pigment Crema Corporal para Áreas Específicas es una crema corporal clínicamente probada que reduce eficazmente la apariencia de manchas oscuras.",
+              "ingredients": [
+                "Thiamidol",
+                "Dexpanthenol",
+                "Ácido Hialurónico",
+                "Ácido Láctico"
+              ],
+              "bullets": [
+                "Crema corporal antimanchas",
+                "Con Thiamidol",
+                "Reduce las manchas de hiperpigmentación",
+                "Exfolia suavemente",
+                "NSOC24466-23CO"
+              ],
+              "image": "71b796cb-b8b0-4632-1c20-bbe7ffdf1300"
+            }
+          ]
+        },
+        {
+          "name": "Atopi Control",
+          "icon": "424a580d-e401-4355-8282-7dea3bc18100",
+          "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
+          "color": "#9DC8D8",
+          "products": [
+            {
+              "name": "Eucerin AtopiControl Aceite de Ducha 400ml",
+              "description": "Oleogel para el baño y la ducha de uso diario. Adecuado para niños y bebés. Repone la barrera cutánea y la protege frente a la sequedad.",
+              "ingredients": [
+                "Aceites Omega-3 y Omega-6"
+              ],
+              "bullets": [
+                "Limpiador suave de uso diario para piel seca y sensible",
+                "Con aceites Omega 3 y Omega 6",
+                "Apto para adultos, niños y bebés",
+                "Limpia suavemente",
+                "Ayuda a calmar y a preservar la barrera natural de la piel",
+                "Protege la piel de la sensación de picazón provocada por la resequedad",
+                "NSOC03218-20CO"
+              ],
+              "image": "424a580d-e401-4355-8282-7dea3bc18100"
+            },
+            {
+              "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml",
+              "description": "Alivio instantáneo de la comezón.",
+              "ingredients": [
+                "Mentoxipropanediol",
+                "SymSitive",
+                "Polidocanol"
+              ],
+              "bullets": [
+                "Spray corporal que calma el picor",
+                "Ayuda a reducir en 60 segundos, hasta por 6 horas la sensación de picazón provocada por la resequedad",
+                "Refresca, calma y suaviza al instante la piel irritada",
+                "Sensación refrescante para la piel",
+                "Apto para la piel de bebés",
+                "NSOC11197-21CO"
+              ],
+              "image": "57d7eeda-d338-4dc6-c955-07e96d7a9200"
+            },
+            {
+              "name": "Eucerin AtopiControl Bálsamo 400ml",
+              "description": "Cuidado diario básico para la piel con dermatitis atópica. Un bálsamo ligero que alivia el picor de la piel y la irritación, y fortalece la barrera de la piel.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ceramidas",
+                "Manteca de karité"
+              ],
+              "bullets": [
+                "Bálsamo corporal de textura ligera de uso diario",
+                "Formulado especialmente para suavizar e hidratar intensamente la piel irritada y con picor",
+                "Enriquecido con Ceramidas, Omega 3 y 6, Manteca de Karité y Licochalcona A",
+                "Fortalece la barrera de la piel y alivia la sequedad y el picor",
+                "Se recomienda usar diariamente",
+                "NSOC97024-19CO"
+              ],
+              "image": "85680914-62bc-4ed8-9512-6fd8ef2a2500"
+            },
+            {
+              "name": "Eucerin AtopiControl Crema Forte 100ml",
+              "description": "Crema de Cuidado Intensivo con ingredientes antipicazón, antibacteriales y regeneradores que mejoran la apariencia de la piel atópica.",
+              "ingredients": [
+                "Licochalcona A",
+                "Decanediol",
+                "Mentoxipropandiol",
+                "Ceramidas"
+              ],
+              "bullets": [
+                "Crema corporal forte día y noche",
+                "Ayuda a reducir la sensación de picazón provocada por la resequedad",
+                "Refresca la piel",
+                "Cuidado intensivo para la piel sensible",
+                "Para brotes de atopia y eczema",
+                "NSOC57542-14CO"
+              ],
+              "image": "0c360963-6a7c-47b2-aea8-7f1cd9034b00"
+            }
+          ]
+        },
+        {
+          "name": "Aquaphor",
+          "icon": "924cdd86-83ec-4747-53fb-77a9e3cea500",
+          "description": "Experta para el cuidado de la piel dañada - probada clínicamente que ayuda a acelerar la regeneración de la piel.",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin Aquaphor Ungüento Reparador 55ml",
+              "description": "Pomada regeneradora que ayuda a acelerar la regeneración de la piel comprobada clínicamente.",
+              "ingredients": [
+                "Panthenol",
+                "Glicerina",
+                "Bisabolol"
+              ],
+              "bullets": [
+                "Crema reparadora para las manos día y noche",
+                "Ayuda a acelerar la reparación de la piel",
+                "Suaviza la piel seca y agrietada",
+                "Sin fragancia",
+                "Sin conservadores",
+                "Para bebés, niños y adultos",
+                "NSOC80508-17CO"
+              ],
+              "image": "924cdd86-83ec-4747-53fb-77a9e3cea500"
+            },
+            {
+              "name": "Eucerin Aquaphor Ungüento Reparador Duo Pack 2x10ml",
+              "description": "Eucerin Aquaphor Ungüento Reparador es una pomada clínicamente probada para acelerar la regeneración de la piel.",
+              "ingredients": [
+                "Panthenol",
+                "Glicerina",
+                "Bisabolol"
+              ],
+              "bullets": [
+                "Suaviza la piel seca y agrietada",
+                "Ayuda a acelerar la reparación de la piel",
+                "Para bebés, niños y adultos",
+                "Libre de fragancias, alcohol y preservantes",
+                "NSOC80508-17CO"
+              ],
+              "image": "bc4f2710-5ef5-439b-dbb2-ebde5a4a7000"
+            },
+            {
+              "name": "Eucerin Aquaphor Bálsamo Reparador de Labios SOS 10ml",
+              "description": "Repara, protege y calma los labios secos y agrietados. Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios.",
+              "ingredients": [
+                "Panthenol",
+                "Vitaminas C & E"
+              ],
+              "bullets": [
+                "Bálsamo calmante para los labios",
+                "Alivio de labios en 60 segundos",
+                "Repara, protege y calma",
+                "Para labios secos y agrietados",
+                "Con vitamina C & E",
+                "Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios",
+                "NSOC01193-20CO"
+              ],
+              "image": "3bd2a1f8-e163-42e2-ab52-e0056eca7400"
+            }
+          ]
+        },
+        {
+          "name": "UreaRepair PLUS",
+          "icon": "f9bbcfeb-4058-4680-4ab9-db5360edc900",
+          "description": "Hidrata la piel seca y muy seca.",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin UreaRepair PLUS Loción Corporal 10% Urea 250ml",
+              "description": "Loción con 10% de urea para piel seca, áspera y tirante.",
+              "ingredients": [
+                "Urea",
+                "Ceramidas",
+                "Factores Hidratantes Naturales"
+              ],
+              "bullets": [
+                "Piel seca / extremadamente seca",
+                "Loción corporal humectante",
+                "Loción de rápida absorción",
+                "Producto calma la piel con picazón",
+                "Hidratación intensiva para la piel áspera",
+                "NSOC46671-12CO"
+              ],
+              "image": "f9bbcfeb-4058-4680-4ab9-db5360edc900"
+            }
+          ]
+        },
+        {
+          "name": "DermoCapillaire",
+          "icon": "b052ec7c-d487-40dd-7c91-5bc36c435800",
+          "description": "Productos para el cuero cabelludo y el cabello.",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin DermoCapillaire Shampoo pH5 250ml",
+              "description": "Shampoo suave para el cuero cabelludo sensible. Limpia suavemente y acondiciona el cabello a la vez que preserva las defensas naturales del cuero cabelludo.",
+              "ingredients": [
+                "Tampón de Citrato pH5"
+              ],
+              "bullets": [
+                "Shampoo suave para cuero cabelludo sensible",
+                "Lava la suciedad y las impurezas",
+                "Ayuda a preservar el cuero cabelludo saludable y previene su resequedad",
+                "Protege el manto ácido natural del cuero cabelludo",
+                "Ayuda a mantener el balance del pH en el cuero cabelludo",
+                "Limpia de manera gentil y remueve el polen",
+                "Cabello con apariencia saludable",
+                "Libre de jabón alcalino",
+                "Ligeramente perfumado",
+                "NSOC76660-17CO"
+              ],
+              "image": "b052ec7c-d487-40dd-7c91-5bc36c435800"
+            },
+            {
+              "name": "Eucerin DermoCapillaire Shampoo Gel Anticaspa 250ml",
+              "description": "Shampoo anticaspa para la caspa grasa que alivia la picazón mientras limpia el cuero cabelludo y el cabello con suavidad.",
+              "ingredients": [
+                "Climbazole",
+                "Piroctona olamina",
+                "Polidocanol"
+              ],
+              "bullets": [
+                "Shampoo gel para niños y adultos anticaspa grasosa y dermatitis seborreica",
+                "Ayuda a combatir efectivamente la caspa causada por exceso de grasa",
+                "Limpia de manera gentil el cabello y el cuero cabelludo",
+                "Ayuda a calmar la sensación de picor",
+                "Uso diario",
+                "Le da al cabello un brillo saludable, sensación de suavidad y elasticidad",
+                "NSOC49510-12CO"
+              ],
+              "image": "a8026d69-1168-4c3c-f14b-a5805e8aee00"
+            },
+            {
+              "name": "Eucerin DermoCapillaire Shampoo Crema Anticaspa 250ml",
+              "description": "Shampoo anticaspa para la caspa seca que alivia la picazón mientras limpia el cuero cabelludo y el cabello con suavidad.",
+              "ingredients": [
+                "Climbazole",
+                "Piroctona olamina",
+                "Polidocanol"
+              ],
+              "bullets": [
+                "Shampoo gel para niños y adultos anticaspa seca",
+                "Ayuda a combatir efectivamente la caspa causada por resequedad",
+                "Limpia de manera gentil el cabello y el cuero cabelludo",
+                "Ayuda a calmar la sensación de picor",
+                "Uso diario",
+                "Le da al cabello un brillo saludable, sensación de suavidad y elasticidad",
+                "NSOC49509-12CO"
+              ],
+              "image": "0da74ffe-742a-4b9d-92c1-9e91a3996b00"
+            },
+            {
+              "name": "Eucerin DermoCapillaire Shampoo Revitalizante Anticaída 250ml",
+              "description": "Shampoo revitalizante ideal para el cabello debilitado desarrollado especialmente para retrasar el proceso de caída del cabello.",
+              "ingredients": [
+                "Creatina",
+                "Carnitina"
+              ],
+              "bullets": [
+                "Shampoo revitalizante para el cabello debilitado",
+                "Uso diario",
+                "Retrasa el proceso de caída del cabello",
+                "Desarrollado especialmente para usar en combinación con Eucerin Dermocapillaire tratamiento intensivo y revitalizante anticaída, para retrasar el proceso de caída de cabello",
+                "Con Creatina y Carnitina",
+                "Sin colorantes, Libre de parabenos",
+                "Libre de silicona, Libre de jabón alcalino",
+                "NSOC90424-19CO"
+              ],
+              "image": "26932df0-4ab3-411d-285d-2a1aef67cc00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sun",
+      "icon": "4be072ec-3580-4f4d-29ba-898114bea300",
+      "color": "#F7921E",
+      "subcategories": [
+        {
+          "name": "Face",
+          "icon": "256d9010-6f29-45c6-cc21-32f04ef88700",
+          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "color": "#F7921E",
+          "products": [
+            {
+              "name": "Eucerin Protector Solar Facial Photoaging Control Tono Medio FPS50+ 50ml",
+              "description": "Eucerin Sun Photoaging Control FPS 50+ Tono Medio es un protector solar para el rostro con un alto factor de protección UV, Protección Biológica de Células y un corrección instantánea de la tez para piel de tono medio.",
+              "ingredients": [
+                "Ácido Hialurónico",
+                "Filtros UVA/UVB",
+                "Pigmentos Minerales con Color"
+              ],
+              "bullets": [
+                "Protector solar facial anti-edad",
+                "Con ácido hialurónico",
+                "Cobertura de color tono medio",
+                "Alta protección UVA/UVB",
+                "NSOC71190-16CO"
+              ],
+              "image": "b532a737-c3b5-4426-5cec-64bc35ea4b00"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Photoaging Control FPS50+ 50ml",
+              "description": "Eucerin Sun Photoaging Control FPS 50+ es un protector solar anti-envejecimiento para todo tipo de piel, incluyendo piel sensible. Protege la piel del rostro de las quemaduras solares y del daño cutáneo inducido por el sol.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Hialurónico",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar facial anti-edad",
+                "Con ácido hialurónico",
+                "Textura ligera",
+                "Alta protección UVA/UVB",
+                "NSOC72298-16CO"
+              ],
+              "image": "faac318f-cc30-4285-68db-d7e820948b00"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Pigment Control FPS50+ 50ml",
+              "description": "Protector solar facial avanzado para todo tipo de pieles que previene la hiperpigmentación provocada por el sol.",
+              "ingredients": [
+                "Licochalcona A",
+                "Thiamidol"
+              ],
+              "bullets": [
+                "Protector solar facial anti-manchas",
+                "Reduce y previene la hiperpigmentación",
+                "Con Thiamidol",
+                "No graso, no pegajoso",
+                "NSOC90478-19CO"
+              ],
+              "image": "9e27d4b2-e731-4d7c-3257-72705a92bd00"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Hydro-Fluid FPS50+ 50ml",
+              "description": "Un Protector Solar facial ultra ligero de rápida absorción para todo tipo de piel, incluso la sensible.",
+              "ingredients": [
+                "Sistema de filtros UVA/UVB",
+                "Ácido Glicirretínico",
+                "Licochalcona A",
+                "Ácido Hialurónico"
+              ],
+              "bullets": [
+                "Para todo tipo de piel",
+                "Acabado no pegajoso y no grasoso",
+                "Con ácido hialurónico",
+                "Textura ultra-ligera",
+                "NSOC17861-22CO"
+              ],
+              "image": "6bdad038-d888-4687-fbfb-c8d5f5172800"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Sensitive Protect FPS50+ 50ml",
+              "description": "Eucerin Sun Face Sensitive Crema Protectora SPF 50+ es un protector solar facial ideal para piel seca y sensible. Combina protección UV muy alta con protección celular y del ADN.",
+              "ingredients": [
+                "Sistema de filtros UVA/UVB",
+                "Ácido Glicirretínico",
+                "Licochalcona A"
+              ],
+              "bullets": [
+                "Protector solar facial para piel seca y sensible",
+                "Textura crema-gel",
+                "Sin perfume",
+                "Alta protección UVA/UVB",
+                "NSOC70373-16CO"
+              ],
+              "image": "57511d14-b1b4-4378-52ed-a84bbd2b3a00"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Oil Control FPS50+ 50ml",
+              "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Glicirretínico",
+                "L-Carnitina",
+                "Micropartículas absorbentes de Lípidos"
+              ],
+              "bullets": [
+                "Protector solar facial de rápida absorción",
+                "Diseñado específicamente para proteger las pieles mixtas a grasas",
+                "Con L-Carnitina que actúa como seboregulador y pigmentos matificantes que otorgan un acabado mate inmediato",
+                "8hrs de Efecto Anti-Brillo",
+                "30% Reducción de producción de sebo con el uso regular",
+                "Protección UVA, UVB y Luz Visible de Alta Energía (HEVIS)",
+                "No graso ni pegajoso, No comedogénico",
+                "Sin fragancia, Libre de parabenos",
+                "NSOC63190-14CO"
+              ],
+              "image": "256d9010-6f29-45c6-cc21-32f04ef88700"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Oil Control Tono Claro FPS50+ 50ml",
+              "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas. Tono Claro.",
+              "ingredients": [
+                "Licochalcona A",
+                "Pigmentos de Color",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar facial para pieles grasas",
+                "8h de efecto anti-brillo",
+                "Cobertura de color tono claro",
+                "Alta protección UVA/UVB",
+                "NSOC04354-21CO"
+              ],
+              "image": "c70fcaa3-4299-473b-82c5-896711012800"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Oil Control Tono Medio FPS50+ 50ml",
+              "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas. Tono Medio.",
+              "ingredients": [
+                "Licochalcona A",
+                "Pigmentos de Color",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar facial para pieles grasas",
+                "8h de efecto anti-brillo",
+                "Cobertura de color tono medio",
+                "Alta protección UVA/UVB",
+                "NSOC04365-21CO"
+              ],
+              "image": "d5c79b7f-c413-43b5-ee7d-9aee9cf75e00"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Pigment Control Tono Medio FPS50+ 50ml",
+              "description": "Eucerin Sun Pigment Control FPS50+ Tono Medio es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
+              "ingredients": [
+                "Thiamidol",
+                "Filtros UVA/UVB",
+                "Pigmentos Minerales con Color"
+              ],
+              "bullets": [
+                "Protector solar facial anti-manchas",
+                "Con Thiamidol",
+                "Cobertura de color tono medio",
+                "Alta protección UVA/UVB",
+                "NSOC09605-21CO"
+              ],
+              "image": "f17006f6-89e3-4e7f-12d1-99a8f2ab8200"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Pigment Control Tono Claro FPS50+ 50ml",
+              "description": "Eucerin Sun Pigment Control FPS50+ Tono Claro es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
+              "ingredients": [
+                "Thiamidol",
+                "Filtros UVA/UVB",
+                "Pigmentos Minerales con Color"
+              ],
+              "bullets": [
+                "Protector solar facial anti-manchas",
+                "Con Thiamidol",
+                "Cobertura de color tono claro",
+                "Alta protección UVA/UVB",
+                "NSOC09610-21CO"
+              ],
+              "image": "0a1e32d1-159d-4b88-196e-f9804db14f00"
+            }
+          ]
+        },
+        {
+          "name": "Body",
+          "icon": "73d15771-dacb-4b0e-a57d-d6ae79726b00",
+          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "color": "#F7921E",
+          "products": [
+            {
+              "name": "Eucerin Protector Solar Corporal Oil Control Gel-Crema Toque seco FPS50+ 200ml",
+              "description": "Toque seco corporal crema gel.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar ultraligero",
+                "Textura gel-crema",
+                "0% residuos, efecto anti-arena",
+                "Resistente al agua",
+                "NSOC97061-19CO"
+              ],
+              "image": "73d15771-dacb-4b0e-a57d-d6ae79726b00"
+            },
+            {
+              "name": "Eucerin Protector Solar Corporal Sensitive Protect Aerosol Toque Seco FPS50 200ml",
+              "description": "Eucerin Transparent Sun Spray Toque Seco FPS 50+ es un protector solar en spray transparente y ligero que brinda protección de nivel superior contra el sol para la piel sensible e incluso para la piel propensa al acné.",
+              "ingredients": [
+                "Licochalcona A"
+              ],
+              "bullets": [
+                "Protector solar ultraligero",
+                "Aplicación en spray",
+                "0% residuos, efecto anti-arena",
+                "Resistente al agua",
+                "NSOC64075-15CO"
+              ],
+              "image": "1bef1734-5b58-4ac6-4ed2-d7870ebc0300"
+            },
+            {
+              "name": "Eucerin Protector Solar Corporal Sensitive Protect Loción Textura Muy Ligera FPS50+ 150ml",
+              "description": "Eucerin Sun Loción Textura Muy Ligera FPS 50 es un protector solar corporal con un factor de protección muy alto y con textura extra ligera de rápida absorción.",
+              "ingredients": [
+                "Licochalcona A",
+                "Filtros UVA/UVB"
+              ],
+              "bullets": [
+                "Loción de Protección solar corporal con una textura muy ligera",
+                "Ideal para deportistas, con amplia banda de protección UVA/UVB y protección celular biológica",
+                "Rápida absorción para dejar un aspecto final no graso",
+                "FPS 50, Resistente al agua",
+                "Protección UVA, UVA y Luz Visible de Alta Energía (HEVIS)",
+                "Sin fragancia, No comedogénico, Libre de parabenos",
+                "Absorción inmediata",
+                "Para piel sensible, áspera y seca",
+                "NSOC70377-16CO"
+              ],
+              "image": "ca7083f0-57cb-455b-e8ad-126a40e3ad00"
+            }
+          ]
+        },
+        {
+          "name": "Kids",
+          "icon": "dbb51105-79ba-428d-359d-f20090b5d300",
+          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "color": "#F7921E",
+          "products": [
+            {
+              "name": "Eucerin Protector Solar Niños Sensitive Protect Toque Seco Gel-Crema Ultra-Ligera FPS50+ 200ml",
+              "description": "Eucerin Sun Kids Sensitive Protect Gel-Crema FPS50+ es un protector solar de nivel superior para niños. Ideal para proteger la piel sensible, y ayuda a reducir el riesgo de daños a largo plazo en la piel.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar para niños a partir de 6 meses",
+                "Extra resistente al agua",
+                "Protección UVA/UVB",
+                "Apto para rostro y cuerpo",
+                "NSOC47444-12CO"
+              ],
+              "image": "dbb51105-79ba-428d-359d-f20090b5d300"
+            },
+            {
+              "name": "Eucerin Protector Solar Niños Sensitive Protect Spray Trigger FPS50+ 250ml",
+              "description": "Un protector solar de gama superior para niños, con tecnología antimanchas tras el lavado de la prenda y un spray activador fácil de aplicar. Calma y protege la piel sensible de los niños y reduce el riesgo de daño en la piel a largo plazo.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar para niños a partir de 1 año",
+                "Extra resistente al agua",
+                "Protección UVA/UVB",
+                "Apto para rostro y cuerpo",
+                "NSOC47440-12CO"
+              ],
+              "image": "b1ec5e4b-3026-4a8b-e86f-1a16f9a1a300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baby",
+      "icon": "b20aec37-1da7-4c3a-f84c-3b754ac50b00",
+      "color": "#00305F",
+      "subcategories": [
+        {
+          "name": "Baby",
+          "icon": "c650e8c3-0531-42db-759f-dc26e2015b00",
+          "description": "Fortifica la piel delicada y sensible del bebé",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin Baby Crema Corporal 400ml",
+              "description": "Crema corporal de absorción inmediata, que hidrata, fortalece y protege suavemente la delicada piel del bebé.",
+              "ingredients": [
+                "Dexpantenol",
+                "Manteca de Karité"
+              ],
+              "bullets": [
+                "Crema Corporal de uso diario para la delicada piel de bebés",
+                "Hidrata, fortalece y protege suavemente la piel",
+                "Con Dexpantenol y Manteca de Karité",
+                "Libre de fragancias, libre de parabenos y libre de colorantes",
+                "Mantiene los niveles óptimos de pH de la piel del bebé",
+                "Probado bajo control dermatológico y pediátrico",
+                "NSOC72300-16CO"
+              ],
+              "image": "e995bc84-5ba8-4851-a71a-071bc253ba00"
+            },
+            {
+              "name": "Eucerin Baby Baño y Shampoo 400ml",
+              "description": "Limpiador 2 en 1 ligero y suave para la piel y el cabello delicado del bebé.",
+              "ingredients": [
+                "Dexpantenol",
+                "Manteca de Karité"
+              ],
+              "bullets": [
+                "Limpiador 2-en-1 ligero y suave",
+                "Para la piel y el cabello delicados del bebé",
+                "Con Dexpantenol y Manteca de Karité",
+                "Libre de fragancias, libre de parabenos y libre de colorantes",
+                "Limpia sin resecar la piel del bebé",
+                "No provoca lágrimas",
+                "Uso diario",
+                "NSOC72092-16CO"
+              ],
+              "image": "c650e8c3-0531-42db-759f-dc26e2015b00"
+            },
+            {
+              "name": "Eucerin Baby Baño y Shampoo 240ml",
+              "description": "Limpiador 2 en 1 ligero y suave para la piel y el cabello delicado del bebé.",
+              "ingredients": [
+                "Dexpantenol",
+                "Manteca de Karité"
+              ],
+              "bullets": [
+                "Limpiador 2-en-1 ligero y suave",
+                "Para la piel y el cabello delicados del bebé",
+                "Con Dexpantenol y Manteca de Karité",
+                "Libre de fragancias, libre de parabenos y libre de colorantes",
+                "Limpia sin resecar la piel del bebé",
+                "No provoca lágrimas",
+                "Uso diario",
+                "NSOC72092-16CO"
+              ],
+              "image": "69f7078f-4604-43af-81c2-0f4ac5dc8500"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
