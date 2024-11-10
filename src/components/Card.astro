@@ -1,5 +1,5 @@
 ---
-const { width, height, color, img, name, description } = Astro.props;
+const { width, height, color, img, name, description, maxHeight } = Astro.props;
 ---
 
 <style>
@@ -20,6 +20,7 @@ const { width, height, color, img, name, description } = Astro.props;
   .card img {
     width: 100%;
     height: auto;
+    max-height: var(--max-height, 150px); /* Valor por defecto */
     object-fit: cover;
     padding: 0 1rem;
   }
@@ -40,7 +41,7 @@ const { width, height, color, img, name, description } = Astro.props;
   }
 </style>
 
-<div class="card" style={`--width: ${width}; --height: ${height}; --color: ${color};`}>
+<div class="card" style={`--width: ${width}; --height: ${height}; --color: ${color}; --max-height: ${maxHeight};`}>
   {img && <img src={img} alt={name} />}
   <h3>{name}</h3>
   {description && <p>{description}</p>}

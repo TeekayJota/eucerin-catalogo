@@ -52,8 +52,9 @@ const categories = data.categories.map((category) => ({
     <div class="flex flex-wrap justify-center mt-8">
       {categories.map((category) => (
         <Card
-          width="250px"
-          height="300px"
+          width="240px"
+          height="270px"
+		  maxHeight="200px"
           color={category.color}
           img={category.img}
           name={category.name}
