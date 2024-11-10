@@ -39,6 +39,10 @@ const { title } = Astro.props;
 		-ms-overflow-style: none; /* IE 10+ */
 	}
 
+	html::-webkit-scrollbar {
+		display: none; /* Chrome, Safari y navegadores basados en WebKit */
+	}
+
 	:root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
