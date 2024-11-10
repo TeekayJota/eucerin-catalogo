@@ -26,8 +26,8 @@ export async function getStaticPaths() {
     )
   );
 
-  // Retorna paths en el formato correcto
-  return { paths };
+  // Retorna paths directamente como un array, no como un objeto
+  return paths;
 }
 
 // Encuentra la categoría, subcategoría y producto correspondientes en los datos JSON

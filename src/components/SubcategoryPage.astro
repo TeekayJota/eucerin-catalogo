@@ -32,7 +32,7 @@ if (!subcategoryData) {
   <section style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0;">
     {subcategoryData.products.map((product) => (
       <div style="margin: 15px;">
-        <a href={`/categoria/${category.toLowerCase()}/${subcategory.toLowerCase()}/${product.name.toLowerCase()}`} style="text-decoration: none;">
+        <a href={`/categoria/${encodeURIComponent(category)}/${encodeURIComponent(subcategory)}/${encodeURIComponent(product.name.toLowerCase())}`}>
           <Card
             key={product.name}
             width="250px"
@@ -51,7 +51,7 @@ if (!subcategoryData) {
 
   <!-- Imágenes de navegación -->
   <div style="display: flex; justify-content: center; margin: 10px 0 40px 0;">
-    <a href={`/categoria/${category.toLowerCase()}`} style="margin: 0 40px 0 0;">
+    <a href={`/categoria/${encodeURIComponent(category)}`} style="margin: 0 40px 0 0;">
       <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/67bb6f2c-4b78-4552-ff1a-259601741900/public" alt="Regresar" style="width: 50px; height: auto;" />
     </a>
     <a href="/" style="margin: 0 0 0 40px;">
