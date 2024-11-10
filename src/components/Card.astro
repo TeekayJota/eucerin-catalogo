@@ -1,0 +1,48 @@
+---
+const { width, height, color, img, name, description } = Astro.props;
+---
+
+<style>
+  .card {
+    width: var(--width, 200px); /* Valor por defecto */
+    height: var(--height, 300px); /* Valor por defecto */
+    border: 4px solid var(--color, #000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Ajusta el tamaño según tu preferencia */
+    object-fit: cover;
+    padding: 0 1rem;
+  }
+
+  .card h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color, #000); /* Fondo del color pasado */
+    width: 100%;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+</style>
+
+<div class="card" style={`--width: ${width}; --height: ${height}; --color: ${color};`}>
+  {img && <img src={img} alt={name} />}
+  <h3>{name}</h3>
+  {description && <p>{description}</p>}
+</div>
