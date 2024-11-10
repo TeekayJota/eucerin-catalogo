@@ -18,16 +18,18 @@ export async function getStaticPaths() {
     category.subcategories.flatMap((subcategory) =>
       subcategory.products.map((product) => ({
         params: {
-          category: encodeURIComponent(category.name.toLowerCase()),
-          subcategory: encodeURIComponent(subcategory.name.toLowerCase()),
-          product: encodeURIComponent(product.name.toLowerCase()),
+          category: category.name.toLowerCase(),
+          subcategory: subcategory.name.toLowerCase(),
+          product: product.name.toLowerCase(),
         },
       }))
     )
   );
 
+  // Retorna paths directamente como un array, no como un objeto
   return paths;
 }
+
 
 // Encuentra la categoría, subcategoría y producto correspondientes en los datos JSON
 const categoryData = data.categories.find((cat) => cat.name.toLowerCase() === category.toLowerCase());

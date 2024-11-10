@@ -55,21 +55,25 @@ try {
     let idIndex = 0;
 
     // Recorrer categorías, subcategorías y productos
-    data.categories.forEach(category => {
-        category.subcategories.forEach(subcategory => {
-            subcategory.products.forEach(product => {
+    data.categories.forEach((category, categoryIndex) => {
+        category.subcategories.forEach((subcategory, subcategoryIndex) => {
+            subcategory.products.forEach((product, productIndex) => {
                 // Asignar ID si hay disponibles
                 if (idIndex < ids.length) {
                     product.image = ids[idIndex];
                     idIndex++;
                 }
+                
+                // Agregar índice de producto en la categoría y subcategoría actual
+                product.index = productIndex;  // Índice en la subcategoría
+                product.orderNumber = `${categoryIndex}-${subcategoryIndex}-${productIndex}`;  // Número de orden único
             });
         });
     });
 
     // Guardar cambios en el archivo JSON
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-    console.log('Archivo JSON actualizado con los IDs en cada producto.');
+    console.log('Archivo JSON actualizado con los IDs, índices y números de orden en cada producto.');
 } catch (error) {
     console.error('Error al procesar el archivo JSON:', error);
 }
