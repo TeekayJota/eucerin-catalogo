@@ -24,7 +24,7 @@ const { category } = Astro.props as { category: CategoryType };
 <section style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0;">
   {category.subcategories.map((subcategory) => (
     <div style="margin: 15px;">
-        <Card
+      <Card
         key={subcategory.name}
         width="250px"
         height="500px"
@@ -34,7 +34,20 @@ const { category } = Astro.props as { category: CategoryType };
         img={`https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${subcategory.icon}/public`}
         color={subcategory.color}
         imgWidth="65%"
-        />
+      />
     </div>
   ))}
 </section>
+
+<!-- Imágenes de navegación -->
+<div style="display: flex; justify-content: center; margin: 10px 0 40px 0;">
+  <!-- Botón para regresar a la página anterior -->
+  <a href="javascript:history.back()" style="margin: 0 40px 0 0;">
+    <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/67bb6f2c-4b78-4552-ff1a-259601741900/public" alt="Regresar" style="width: 50px; height: auto;" />
+  </a>
+
+  <!-- Botón para regresar a la página de inicio -->
+  <a href="/" style="margin: 0 0 0 40px;">
+    <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5825f952-6751-4012-b299-eaf994106600/public" alt="Inicio" style="width: 50px; height: auto;" />
+  </a>
+</div>
