@@ -38,6 +38,8 @@ const { title } = Astro.props;
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
 		--accent-dark: 49, 10, 101;
+		--main-bg-color: #223341;
+    	--main-text-color: #ffffff;
 		--accent-gradient: linear-gradient(
 			45deg,
 			rgb(var(--accent)),
@@ -58,5 +60,12 @@ const { title } = Astro.props;
 			Bitstream Vera Sans Mono,
 			Courier New,
 			monospace;
+	}
+	.text-custom-color {
+		color: var(--main-text-color);
+	}
+
+	.bg-custom-color {
+		background-color: var(--main-bg-color);
 	}
 </style>
