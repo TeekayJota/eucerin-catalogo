@@ -5,33 +5,11 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Catálogo Eucerin">
   <main>
     <!-- Header Section -->
-    <div class="main-body-container">
-      <h1>¿QUÉ NECESITAS HOY?</h1>
-      <p>Selecciona la categoría de producto y tipo de piel para encontrar los productos que mejor se adecúen a tus necesidades</p>
+    <div class="flex flex-col items-center w-full text-white bg-[#223341] py-8 px-4">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4 text-center">¿QUÉ NECESITAS HOY?</h1>
+      <p class="w-full md:w-1/2 text-center text-lg md:text-xl uppercase">
+        Selecciona la categoría de producto y tipo de piel para encontrar los productos que mejor se adecúen a tus necesidades
+      </p>
     </div>
   </main>
 </Layout>
-
-<style is:global>
-	.main-body-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		color: white;
-		background-color: #223341;
-		padding: 30px 0;
-	}
-	.main-body-container h1 {
-		font-size: 40px;
-	}
-	.main-body-container p {
-		width: 50%;
-		text-align: center;
-		font-size: 18px;
-		text-transform: uppercase;
-	}
-  	.card img {
-    	max-width: 100px;
-  	}
-</style>
