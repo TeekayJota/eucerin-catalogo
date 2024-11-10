@@ -1,0 +1,43 @@
+<header class="custom-header text-white py-3">
+    <div class="container d-flex align-items-center">
+        <!-- Primera imagen centrada -->
+        <div class="container-img">
+            <img 
+                src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/978d334b-ef01-4df5-4061-eb4480629e00/public"
+                class="center-image"
+                alt="eucerin-logo"
+            />
+        </div>
+
+        <!-- Segunda imagen al final -->
+        <div class="container-img">
+            <img
+                src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5bfc0677-20cd-4dd2-6312-76e0c47e8a00/public"
+                class="end-image"
+                alt="eucerin-n1"
+            />
+        </div>
+    </div>
+</header>
+
+<style is:global>
+    .custom-header .container {
+        display: flex;
+    }
+
+    .container-img {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .center-image {
+        width: 20%;
+        min-width: 150px;
+    }
+
+    .end-image {
+        width: 20%;
+        min-width: 150px;
+    }
+</style>
