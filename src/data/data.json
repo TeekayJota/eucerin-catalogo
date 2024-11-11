@@ -7,7 +7,7 @@
       "subcategories": [
         {
           "name": "Anti-Pigment",
-          "icon": "86c68201-8641-47c7-6495-050edb451100",
+          "icon": "2d93727d-b187-495f-ae2a-61071941ea00",
           "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición. Con nuestro ingrediente patentado Thiamidol®",
           "color": "#B88084",
           "products": [
@@ -25,7 +25,7 @@
                 "Resultados visibles a partir de 2 semanas",
                 "NSOC86957-18CO"
               ],
-              "image": "86c68201-8641-47c7-6495-050edb451100",
+              "image": "2d93727d-b187-495f-ae2a-61071941ea00",
               "index": 1,
               "orderNumber": "0-0-1"
             },
@@ -63,7 +63,7 @@
                 "Para todo tipo de piel",
                 "NSOC18071-22CO"
               ],
-              "image": "cca48402-cd23-4881-f0f4-be0c17368800",
+              "image": "2e94328c-935e-48b7-5ac9-7f2650621000",
               "index": 4,
               "orderNumber": "0-0-4"
             },
@@ -220,7 +220,7 @@
                 "Probado oftalmológicamente",
                 "NSOC42682-11CO"
               ],
-              "image": "cca48402-cd23-4881-f0f4-be0c17368800",
+              "image": "ccf5face-1c5e-46ca-b8b6-bf994f27ad00",
               "index": 2,
               "orderNumber": "0-1-2"
             },
@@ -433,7 +433,7 @@
             },
             {
               "name": "Eucerin DermoPure Gel Limpiador Facial 400ml",
-              "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
+              "description": "Un gel limpiador para piel grasa propensa a impurezas, no comedogénico, suave y efectivo para remover el exceso de grasa mientras remueve la suciedad y maquillaje.",
               "ingredients": [
                 "L-Carnitina",
                 "Ácido Láctico",
@@ -490,27 +490,8 @@
               "orderNumber": "0-3-2"
             },
             {
-              "name": "Eucerin DermoPure Crema Facial Acción Intensiva de Noche 40ml",
-              "description": "Un serum con 10% de Complejo Hidróxilo que ayuda a destapar los poros, reduce las imperfecciones de forma visible y ayuda a prevenir su reaparición.",
-              "ingredients": [
-                "Ácido Glicólico",
-                "Ácido Salicílico",
-                "Ácido Polihidroxi"
-              ],
-              "bullets": [
-                "Crema facial de acción intensiva",
-                "Para piel grasa y con imperfecciones",
-                "Uso solo de noche",
-                "Piel libre de imperfecciones y espinillas",
-                "NSOC80240-17CO"
-              ],
-              "image": "f2a3aee4-21b9-4985-df9a-7b7f9bce1e00",
-              "index": 3,
-              "orderNumber": "0-3-3"
-            },
-            {
               "name": "Eucerin DermoPure Fluido Facial Matificante 200ml",
-              "description": "Gel Limpiador para piel grasa que es suave y efectivo para eliminar el exceso de grasa. No comedogénico.",
+              "description": "Fluido Facial Hidratante Matificante actúa con efectividad sobre las imperfecciones y los puntos negros, y ayuda a controlar esa piel difícil y propensa a sufrir imperfecciones",
               "ingredients": [
                 "Ácido Salicílico",
                 "Licochalcona A",
@@ -601,7 +582,7 @@
                 "Con dexpantenol y Vitamina E",
                 "NSOC08962-03CO"
               ],
-              "image": "c650e8c3-0531-42db-759f-dc26e2015b00",
+              "image": "34a6b63a-df9d-44d0-3767-ecfcd5949400",
               "index": 0,
               "orderNumber": "1-0-0"
             },
@@ -861,7 +842,7 @@
         {
           "name": "Faciales",
           "icon": "256d9010-6f29-45c6-cc21-32f04ef88700",
-          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "description": "Protección Solar superior para cada necesidad de la piel. Descubre el protector perfecto para complementar tu rutina facial y prevenir el envejecimiento prematuro.",
           "color": "#F7921E",
           "products": [
             {
@@ -1064,7 +1045,7 @@
         {
           "name": "Corporales",
           "icon": "73d15771-dacb-4b0e-a57d-d6ae79726b00",
-          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "description": "Protección solar superior con texturas ultra ligeras y absorción en segundos.",
           "color": "#F7921E",
           "products": [
             {
@@ -1129,7 +1110,7 @@
         {
           "name": "Niños",
           "icon": "dbb51105-79ba-428d-359d-f20090b5d300",
-          "description": "Protección solar superior para las necesidades individuales de tu piel.",
+          "description": "Máxima protección solar para la piel sensible de los más pequeños.",
           "color": "#F7921E",
           "products": [
             {
@@ -1289,7 +1270,7 @@
                 "Libre de fragancias, alcohol y preservantes",
                 "NSOC80508-17CO"
               ],
-              "image": "bc4f2710-5ef5-439b-dbb2-ebde5a4a7000",
+              "image": "8e1fd92f-93d8-44b4-5025-22fe831dc700",
               "index": 1,
               "orderNumber": "1-3-1"
             },
