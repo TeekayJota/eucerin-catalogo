@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Face",
+      "name": "Faciales",
       "icon": "272835d4-b57c-44e2-b5be-f492eb570200",
       "color": "#878C92",
       "subcategories": [
@@ -132,7 +132,7 @@
           "products": [
             {
               "name": "Eucerin Hyaluron-Filler Epigenetic Serum 30ml",
-              "description": "Un revolucionario serum antienvejecimiento con Epicelline® que revierte visiblemente los signos del envejecimiento y reactiva los genes de juventud de la piel para obtener resultados visibles en 4 semanas.",
+              "description": "Un revolucionario serum antienvejecimiento con Epicelline® que revierte visiblemente los signos del envejecimiento y reactiva los genes de la juventud de la piel para obtener resultados visibles en 4 semanas.",
               "ingredients": [
                 "Epicelline",
                 "Saponina de soya",
@@ -140,7 +140,7 @@
                 "Ácido Hialurónico"
               ],
               "bullets": [
-                "Ingrediente patentado Epicelline®, que reactiva los genes de juventud de la piel",
+                "Ingrediente patentado Epicelline®, que reactiva los genes de la juventud de la piel",
                 "Con ácido hialurónico y enoxolona",
                 "Resultados visibles en 4 semanas de uso",
                 "NSOC29883-24CO"
@@ -169,7 +169,7 @@
             },
             {
               "name": "Eucerin Hyaluron-Filler + 3x Effect Pore Minimizer Serum 30ml",
-              "description": "Nuevo Serum ultraligero que reduce los poros y previene las primeras líneas de expresión, con protección antioxidante.",
+              "description": "Serum ultraligero que reduce los poros y previene las primeras líneas de expresión, con protección antioxidante.",
               "ingredients": [
                 "Ácido Hialurónico",
                 "Ácido Glicólico",
@@ -301,50 +301,6 @@
               "image": "02696762-75d5-4016-fb98-29c6707dad00",
               "index": 7,
               "orderNumber": "0-1-7"
-            },
-            {
-              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Noche - Repuesto 50ml",
-              "description": "Crema Antiarrugas de noche que ayuda a rellenar hasta las arrugas más profundas.",
-              "ingredients": [
-                "Ácido Hialurónico",
-                "Saponina",
-                "Enoxolona"
-              ],
-              "bullets": [
-                "Crema facial de noche",
-                "Refill 90% menos plástico",
-                "Para piel seca",
-                "Rellena arrugas",
-                "Reactiva la producción natural de ácido hialurónico",
-                "Previene el envejecimiento causado por los rayos UV",
-                "No comedogénico",
-                "NSOC42349-11CO"
-              ],
-              "image": "f7363c69-6276-4e08-6ec4-d13ef544eb00",
-              "index": 8,
-              "orderNumber": "0-1-8"
-            },
-            {
-              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Piel Seca FPS15 - Repuesto 50ml",
-              "description": "Crema Antiarrugas facial de día con FPS15 para piel seca o normal con protección UVA y UVB que ayuda a rellenar las arrugas.",
-              "ingredients": [
-                "Ácido Hialurónico",
-                "Saponina",
-                "Enoxolona"
-              ],
-              "bullets": [
-                "Crema facial de día",
-                "Refill 90% menos plástico",
-                "Para piel seca",
-                "Rellena arrugas",
-                "Reactiva la producción natural de ácido hialurónico",
-                "Previene el envejecimiento causado por los rayos UV",
-                "No comedogénico",
-                "NSOC42346-11CO"
-              ],
-              "image": "c2160b53-d142-4ad9-aba8-f35fb93e1b00",
-              "index": 9,
-              "orderNumber": "0-1-9"
             }
           ]
         },
@@ -467,7 +423,7 @@
                 "Gel limpiador concentrado para uso diario",
                 "Reduce manchas post-imperfecciones",
                 "Reduce imperfecciones",
-                "Control el brillo de la piel",
+                "Controla el brillo de la piel",
                 "Para piel grasa y con tendencia a imperfecciones",
                 "NSOC26186-23CO"
               ],
@@ -620,7 +576,7 @@
       ]
     },
     {
-      "name": "Body",
+      "name": "Corporales",
       "icon": "8490aa6a-d4a8-49a6-3d1b-f30fdc78a800",
       "color": "#A70532",
       "subcategories": [
@@ -771,25 +727,6 @@
               "image": "fe9c7a76-f141-433c-b101-5e3fb084bd00",
               "index": 6,
               "orderNumber": "1-0-6"
-            },
-            {
-              "name": "Eucerin PH5 Refill Syndet Gel 400ml",
-              "description": "Sustituto del jabón para niños y adultos que limpia muy suavemente sin resecar la piel y protege las defensas naturales.",
-              "ingredients": [
-                "Dexpanthenol",
-                "PH5 Balance System"
-              ],
-              "bullets": [
-                "65% menos plástico",
-                "Para piel seca y sensible",
-                "Repuesto PH5 Syndet Gel",
-                "Libre de jabón alcalino",
-                "Limpieza extra suave",
-                "Mantiene el PH de la piel"
-              ],
-              "image": "66a2c20d-4b32-4687-e7e5-0e9519499d00",
-              "index": 7,
-              "orderNumber": "1-0-7"
             }
           ]
         },
@@ -818,94 +755,6 @@
               "image": "71b796cb-b8b0-4632-1c20-bbe7ffdf1300",
               "index": 0,
               "orderNumber": "1-1-0"
-            }
-          ]
-        },
-        {
-          "name": "Atopi Control",
-          "icon": "424a580d-e401-4355-8282-7dea3bc18100",
-          "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
-          "color": "#9DC8D8",
-          "products": [
-            {
-              "name": "Eucerin AtopiControl Aceite de Ducha 400ml",
-              "description": "Oleogel para el baño y la ducha de uso diario. Adecuado para niños y bebés. Repone la barrera cutánea y la protege frente a la sequedad.",
-              "ingredients": [
-                "Aceites Omega-3 y Omega-6"
-              ],
-              "bullets": [
-                "Limpiador suave de uso diario para piel seca y sensible",
-                "Con aceites Omega 3 y Omega 6",
-                "Apto para adultos, niños y bebés",
-                "Limpia suavemente",
-                "Ayuda a calmar y a preservar la barrera natural de la piel",
-                "Protege la piel de la sensación de picazón provocada por la resequedad",
-                "NSOC03218-20CO"
-              ],
-              "image": "424a580d-e401-4355-8282-7dea3bc18100",
-              "index": 0,
-              "orderNumber": "1-2-0"
-            },
-            {
-              "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml",
-              "description": "Alivio instantáneo de la comezón.",
-              "ingredients": [
-                "Mentoxipropanediol",
-                "SymSitive",
-                "Polidocanol"
-              ],
-              "bullets": [
-                "Spray corporal que calma el picor",
-                "Ayuda a reducir en 60 segundos, hasta por 6 horas la sensación de picazón provocada por la resequedad",
-                "Refresca, calma y suaviza al instante la piel irritada",
-                "Sensación refrescante para la piel",
-                "Apto para la piel de bebés",
-                "NSOC11197-21CO"
-              ],
-              "image": "57d7eeda-d338-4dc6-c955-07e96d7a9200",
-              "index": 1,
-              "orderNumber": "1-2-1"
-            },
-            {
-              "name": "Eucerin AtopiControl Bálsamo 400ml",
-              "description": "Cuidado diario básico para la piel con dermatitis atópica. Un bálsamo ligero que alivia el picor de la piel y la irritación, y fortalece la barrera de la piel.",
-              "ingredients": [
-                "Licochalcona A",
-                "Ceramidas",
-                "Manteca de karité"
-              ],
-              "bullets": [
-                "Bálsamo corporal de textura ligera de uso diario",
-                "Formulado especialmente para suavizar e hidratar intensamente la piel irritada y con picor",
-                "Enriquecido con Ceramidas, Omega 3 y 6, Manteca de Karité y Licochalcona A",
-                "Fortalece la barrera de la piel y alivia la sequedad y el picor",
-                "Se recomienda usar diariamente",
-                "NSOC97024-19CO"
-              ],
-              "image": "85680914-62bc-4ed8-9512-6fd8ef2a2500",
-              "index": 2,
-              "orderNumber": "1-2-2"
-            },
-            {
-              "name": "Eucerin AtopiControl Crema Forte 100ml",
-              "description": "Crema de Cuidado Intensivo con ingredientes antipicazón, antibacteriales y regeneradores que mejoran la apariencia de la piel atópica.",
-              "ingredients": [
-                "Licochalcona A",
-                "Decanediol",
-                "Mentoxipropandiol",
-                "Ceramidas"
-              ],
-              "bullets": [
-                "Crema corporal forte día y noche",
-                "Ayuda a reducir la sensación de picazón provocada por la resequedad",
-                "Refresca la piel",
-                "Cuidado intensivo para la piel sensible",
-                "Para brotes de atopia y eczema",
-                "NSOC57542-14CO"
-              ],
-              "image": "0c360963-6a7c-47b2-aea8-7f1cd9034b00",
-              "index": 3,
-              "orderNumber": "1-2-3"
             }
           ]
         },
@@ -974,34 +823,6 @@
               "image": "3bd2a1f8-e163-42e2-ab52-e0056eca7400",
               "index": 2,
               "orderNumber": "1-3-2"
-            }
-          ]
-        },
-        {
-          "name": "UreaRepair PLUS",
-          "icon": "f9bbcfeb-4058-4680-4ab9-db5360edc900",
-          "description": "Hidrata la piel seca y muy seca.",
-          "color": "#00305F",
-          "products": [
-            {
-              "name": "Eucerin UreaRepair PLUS Loción Corporal 10% Urea 250ml",
-              "description": "Loción con 10% de urea para piel seca, áspera y tirante.",
-              "ingredients": [
-                "Urea",
-                "Ceramidas",
-                "Factores Hidratantes Naturales"
-              ],
-              "bullets": [
-                "Piel seca / extremadamente seca",
-                "Loción corporal humectante",
-                "Loción de rápida absorción",
-                "Producto calma la piel con picazón",
-                "Hidratación intensiva para la piel áspera",
-                "NSOC46671-12CO"
-              ],
-              "image": "f9bbcfeb-4058-4680-4ab9-db5360edc900",
-              "index": 0,
-              "orderNumber": "1-4-0"
             }
           ]
         },
@@ -1101,18 +922,18 @@
       ]
     },
     {
-      "name": "Sun",
+      "name": "Fotoproteccion",
       "icon": "4be072ec-3580-4f4d-29ba-898114bea300",
       "color": "#F7921E",
       "subcategories": [
         {
-          "name": "Face",
+          "name": "Faciales",
           "icon": "256d9010-6f29-45c6-cc21-32f04ef88700",
           "description": "Protección solar superior para las necesidades individuales de tu piel.",
           "color": "#F7921E",
           "products": [
             {
-              "name": "Eucerin Protector Solar Facial Oil Control FPS50+ 50ml",
+              "name": "Eucerin Sun Gel- Crema Toque Seco Corporal FPS 50+",
               "description": "Un protector solar facial para piel grasa y con imperfecciones de rápida absorción, con efecto antibrillo por hasta por 8 horas.",
               "ingredients": [
                 "Licochalcona A",
@@ -1309,14 +1130,14 @@
           ]
         },
         {
-          "name": "Body",
+          "name": "Corporales",
           "icon": "73d15771-dacb-4b0e-a57d-d6ae79726b00",
           "description": "Protección solar superior para las necesidades individuales de tu piel.",
           "color": "#F7921E",
           "products": [
             {
-              "name": "Eucerin Protector Solar Corporal Oil Control Gel-Crema Toque seco FPS50+ 200ml",
-              "description": "Toque seco corporal crema gel.",
+              "name": "Eucerin Sun Gel- Crema Toque Seco Corporal FPS 50+",
+              "description": "Protector solar ligero y acabado toque seco. Textura gel-crema.",
               "ingredients": [
                 "Licochalcona A",
                 "Ácido Glicirretínico"
@@ -1333,8 +1154,8 @@
               "orderNumber": "2-1-0"
             },
             {
-              "name": "Eucerin Protector Solar Corporal Sensitive Protect Aerosol Toque Seco FPS50 200ml",
-              "description": "Eucerin Transparent Sun Spray Toque Seco FPS 50+ es un protector solar en spray transparente y ligero que brinda protección de nivel superior contra el sol para la piel sensible e incluso para la piel propensa al acné.",
+              "name": "Eucerin Sun Spray Toque Seco FPS 50+",
+              "description": " Protector solar en spray transparente y ligero que brinda protección de nivel superior contra el sol para la piel sensible e incluso para la piel propensa a imperfecciones.",
               "ingredients": [
                 "Licochalcona A"
               ],
@@ -1350,8 +1171,8 @@
               "orderNumber": "2-1-1"
             },
             {
-              "name": "Eucerin Protector Solar Corporal Sensitive Protect Loción Textura Muy Ligera FPS50+ 150ml",
-              "description": "Eucerin Sun Loción Textura Muy Ligera FPS 50 es un protector solar corporal con un factor de protección muy alto y con textura extra ligera de rápida absorción.",
+              "name": "Eucerin Sun Loción Ultra-Ligera FPS 50+",
+              "description": "Protector solar corporal con un factor de protección muy alto y con textura extra ligera de rápida absorción.",
               "ingredients": [
                 "Licochalcona A",
                 "Filtros UVA/UVB"
@@ -1374,7 +1195,7 @@
           ]
         },
         {
-          "name": "Kids",
+          "name": "Niños",
           "icon": "dbb51105-79ba-428d-359d-f20090b5d300",
           "description": "Protección solar superior para las necesidades individuales de tu piel.",
           "color": "#F7921E",
@@ -1491,6 +1312,122 @@
               "image": "69f7078f-4604-43af-81c2-0f4ac5dc8500",
               "index": 2,
               "orderNumber": "3-0-2"
+            }
+          ]
+        },
+        {
+          "name": "Atopi Control",
+          "icon": "424a580d-e401-4355-8282-7dea3bc18100",
+          "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
+          "color": "#9DC8D8",
+          "products": [
+            {
+              "name": "Eucerin AtopiControl Aceite de Ducha 400ml",
+              "description": "Oleogel para el baño y la ducha de uso diario. Adecuado para niños y bebés. Repone la barrera cutánea y la protege frente a la sequedad.",
+              "ingredients": [
+                "Aceites Omega-3 y Omega-6"
+              ],
+              "bullets": [
+                "Limpiador suave de uso diario para piel seca y sensible",
+                "Con aceites Omega 3 y Omega 6",
+                "Apto para adultos, niños y bebés",
+                "Limpia suavemente",
+                "Ayuda a calmar y a preservar la barrera natural de la piel",
+                "Protege la piel de la sensación de picazón provocada por la resequedad",
+                "NSOC03218-20CO"
+              ],
+              "image": "424a580d-e401-4355-8282-7dea3bc18100",
+              "index": 0,
+              "orderNumber": "1-2-0"
+            },
+            {
+              "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml",
+              "description": "Alivio instantáneo de la comezón.",
+              "ingredients": [
+                "Mentoxipropanediol",
+                "SymSitive",
+                "Polidocanol"
+              ],
+              "bullets": [
+                "Spray corporal que calma el picor",
+                "Ayuda a reducir en 60 segundos, hasta por 6 horas la sensación de picazón provocada por la resequedad",
+                "Refresca, calma y suaviza al instante la piel irritada",
+                "Sensación refrescante para la piel",
+                "Apto para la piel de bebés",
+                "NSOC11197-21CO"
+              ],
+              "image": "57d7eeda-d338-4dc6-c955-07e96d7a9200",
+              "index": 1,
+              "orderNumber": "1-2-1"
+            },
+            {
+              "name": "Eucerin AtopiControl Bálsamo 400ml",
+              "description": "Cuidado diario básico para la piel con dermatitis atópica. Un bálsamo ligero que alivia el picor de la piel y la irritación, y fortalece la barrera de la piel.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ceramidas",
+                "Manteca de karité"
+              ],
+              "bullets": [
+                "Bálsamo corporal de textura ligera de uso diario",
+                "Formulado especialmente para suavizar e hidratar intensamente la piel irritada y con picor",
+                "Enriquecido con Ceramidas, Omega 3 y 6, Manteca de Karité y Licochalcona A",
+                "Fortalece la barrera de la piel y alivia la sequedad y el picor",
+                "Se recomienda usar diariamente",
+                "NSOC97024-19CO"
+              ],
+              "image": "85680914-62bc-4ed8-9512-6fd8ef2a2500",
+              "index": 2,
+              "orderNumber": "1-2-2"
+            },
+            {
+              "name": "Eucerin AtopiControl Crema Forte 100ml",
+              "description": "Crema de Cuidado Intensivo con ingredientes antipicazón, antibacteriales y regeneradores que mejoran la apariencia de la piel atópica.",
+              "ingredients": [
+                "Licochalcona A",
+                "Decanediol",
+                "Mentoxipropandiol",
+                "Ceramidas"
+              ],
+              "bullets": [
+                "Crema corporal forte día y noche",
+                "Ayuda a reducir la sensación de picazón provocada por la resequedad",
+                "Refresca la piel",
+                "Cuidado intensivo para la piel sensible",
+                "Para brotes de atopia y eczema",
+                "NSOC57542-14CO"
+              ],
+              "image": "0c360963-6a7c-47b2-aea8-7f1cd9034b00",
+              "index": 3,
+              "orderNumber": "1-2-3"
+            }
+          ]
+        },
+        {
+          "name": "UreaRepair PLUS",
+          "icon": "f9bbcfeb-4058-4680-4ab9-db5360edc900",
+          "description": "Hidrata la piel seca y muy seca.",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin UreaRepair PLUS Loción Corporal 10% Urea 250ml",
+              "description": "Loción con 10% de urea para piel seca, áspera y tirante.",
+              "ingredients": [
+                "Urea",
+                "Ceramidas",
+                "Factores Hidratantes Naturales"
+              ],
+              "bullets": [
+                "Piel seca / extremadamente seca",
+                "Loción corporal humectante",
+                "Loción de rápida absorción",
+                "Producto calma la piel con picazón",
+                "Hidratación intensiva para la piel áspera",
+                "NSOC46671-12CO"
+              ],
+              "image": "f9bbcfeb-4058-4680-4ab9-db5360edc900",
+              "index": 0,
+              "orderNumber": "1-4-0"
             }
           ]
         }

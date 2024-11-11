@@ -18,10 +18,17 @@ const banners = [
   }
 ];
 
-// Filtra las categorías desde el JSON
+// Traducción del nombre solo para mostrar
+const translateCategoryName = (name: string) => {
+  if (name === "Baby") return "Bebé/Piel Seca";
+  return name;
+};
+
+// Procesa las categorías sin cambiar `name` en JSON
 const categories = data.categories.map((category) => ({
   ...category,
-  img: `https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${category.icon}/public`
+  img: `https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/${category.icon}/public`,
+  displayName: translateCategoryName(category.name), // Nombre traducido solo para mostrar
 }));
 ---
 
@@ -29,7 +36,7 @@ const categories = data.categories.map((category) => ({
   <main>
     <!-- Title Section -->
     <div class="text-custom-color bg-custom-color">
-      <h1 class="text-2xl md:text-3xl font-bold text-center" style="margin-bottom: 20px; padding:5px 0;">Conoce nuestras últimas innovaciones</h1>
+      <h1 class="text-2xl md:text-3xl font-bold text-center" style="margin-bottom: 20px; padding:5px 0;">CONOCE NUESTRAS ÚLTIMAS INNOVACIONES</h1>
     </div>
   
     <!-- Responsive Image Row Section -->
@@ -51,15 +58,15 @@ const categories = data.categories.map((category) => ({
     <!-- Categories Section -->
     <div class="flex flex-wrap justify-center" style="margin: 40px 0;">
       {categories.map((category) => (
-        <a href={`/categoria/${category.name.toLowerCase()}`} style="text-decoration: none; margin: 10px 10px">
+        <a href={`/categoria/${encodeURIComponent(category.name.toLowerCase())}`} style="text-decoration: none; margin: 10px 10px">
           <Card
             width="240px"
             height="270px"
             maxHeight="200px"
             color={category.color}
             img={category.img}
-            name={category.name}
-			imgWidth="100%"
+            name={category.displayName}  // Muestra el nombre traducido aquí
+            imgWidth="100%"
           />
         </a>
       ))}

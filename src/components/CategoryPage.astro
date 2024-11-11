@@ -1,6 +1,11 @@
 ---
 import Card from './Card.astro';
 
+const translateCategoryName = (name: string) => {
+  if (name === "Baby") return "Bebé/Piel Seca";
+  return name;
+};
+
 // Define el tipo para `category`
 interface CategoryType {
   name: string;
@@ -18,7 +23,9 @@ const { category } = Astro.props as { category: CategoryType };
 ---
 
 <header style={`background-color: ${category.color}; padding: 2rem; text-align: center; color: white;`}>
-  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem;">{category.name}</h1>
+  <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 0.5rem;">
+    {translateCategoryName(category.name)}
+  </h1>
 </header>
 
 <section style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0;">
