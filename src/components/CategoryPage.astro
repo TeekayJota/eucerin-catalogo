@@ -20,6 +20,7 @@ interface CategoryType {
 
 // Asegura que `category` cumple con el tipo `CategoryType`
 const { category } = Astro.props as { category: CategoryType };
+const gifUrl = `/categoria/faciales/${encodeURIComponent('hyaluron-filler + 3x effect')}/10`;
 ---
 
 <header style={`background-color: ${category.color}; padding: 2rem; text-align: center; color: white;`}>
@@ -31,7 +32,9 @@ const { category } = Astro.props as { category: CategoryType };
 <!-- Solo muestra el GIF si la categoría es "Faciales" -->
 {category.name === "Faciales" && (
   <div>
-    <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/0546b636-1208-4ed1-09fe-b9e9dd919a00/public" style="width: 100%;" />
+    <a href={gifUrl}>
+      <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/0546b636-1208-4ed1-09fe-b9e9dd919a00/public" style="width: 100%;" />
+    </a>
   </div>
 )}
 
