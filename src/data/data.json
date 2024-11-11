@@ -86,24 +86,6 @@
               "orderNumber": "0-0-0"
             },
             {
-              "name": "Eucerin Anti-Pigment Crema Facial de Noche 50ml",
-              "description": "Crema Antipigmento de Noche que reduce eficazmene las manchas y áreas de hiperpigmentación.",
-              "ingredients": [
-                "Thiamidol",
-                "Dexpanthenol"
-              ],
-              "bullets": [
-                "Con ingrediente antimanchas patentado Thiamidol",
-                "Crema regeneradora de noche para el cuidado facial",
-                "Reduce las manchas de hiperpigmentación y previene su reaparición.",
-                "Para todo tipo de piel",
-                "NSOC87495-18CO"
-              ],
-              "image": "1ff82f1b-ee9d-4241-cda3-57f7a9827900",
-              "index": 2,
-              "orderNumber": "0-0-2"
-            },
-            {
               "name": "Eucerin Anti-Pigment Crema Facial de Día Tono Medio FPS30 50ml",
               "description": "Crema Antipigmento de Día que cubre y reduce eficazmene las manchas y áreas de hiperpigmentación.",
               "ingredients": [
@@ -121,23 +103,42 @@
               "image": "29c3614c-c106-4e6c-2842-06726e850800",
               "index": 5,
               "orderNumber": "0-0-5"
+            },
+            {
+              "name": "Eucerin Anti-Pigment Crema Facial de Noche 50ml",
+              "description": "Crema Antipigmento de Noche que reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "ingredients": [
+                "Thiamidol",
+                "Dexpanthenol"
+              ],
+              "bullets": [
+                "Con ingrediente antimanchas patentado Thiamidol",
+                "Crema regeneradora de noche para el cuidado facial",
+                "Reduce las manchas de hiperpigmentación y previene su reaparición.",
+                "Para todo tipo de piel",
+                "NSOC87495-18CO"
+              ],
+              "image": "1ff82f1b-ee9d-4241-cda3-57f7a9827900",
+              "index": 2,
+              "orderNumber": "0-0-2"
             }
           ]
         },
         {
           "name": "Hyaluron-Filler + 3x Effect",
-          "icon": "7dea0d17-4b66-4aea-c81b-c64b9e178a00",
+          "icon": "aa3cf15e-ec61-44c4-9ffa-6c1c0e6f3b00",
           "description": "Rellena, estimula y protege. Conoce nuestra nueva innovación: Epicelline®",
           "color": "#878C92",
           "products": [
             {
               "name": "Eucerin Hyaluron-Filler Epigenetic Serum 30ml",
-              "description": "Un revolucionario serum antienvejecimiento con Epicelline® que revierte visiblemente los signos del envejecimiento y reactiva los genes de la juventud de la piel para obtener resultados visibles en 4 semanas.",
+              "description": "Un revolucionario serum antienvejecimiento con Epicelline®, que revierte visiblemente los signos del envejecimiento y reactiva los genes de la juventud de la piel para obtener resultados visibles en 4 semanas.",
               "ingredients": [
                 "Epicelline",
                 "Saponina de soya",
                 "Enoxolona",
-                "Ácido Hialurónico"
+                "Ácido Hialurónico",
+                "Epicelline®"
               ],
               "bullets": [
                 "Ingrediente patentado Epicelline®, que reactiva los genes de la juventud de la piel",
@@ -145,7 +146,7 @@
                 "Resultados visibles en 4 semanas de uso",
                 "NSOC29883-24CO"
               ],
-              "image": "7dea0d17-4b66-4aea-c81b-c64b9e178a00",
+              "image": "aa3cf15e-ec61-44c4-9ffa-6c1c0e6f3b00",
               "index": 10,
               "orderNumber": "0-1-10"
             },
@@ -412,7 +413,7 @@
               "orderNumber": "0-3-5"
             },
             {
-              "name": "Eucerin Dermopure Triple Effect Gel Limpiador Concentrado 150ml",
+              "name": "Eucerin DermoPure Triple Effect Gel Limpiador Concentrado 150ml",
               "description": "Gel Limpiador concentrado para piel grasa con triple efecto: anti-imperfecciones, anti-manchas y anti-brillo.",
               "ingredients": [
                 "2% de Ácido Salicílico",
@@ -563,7 +564,7 @@
       "subcategories": [
         {
           "name": "pH5",
-          "icon": "52c66031-caf5-4842-1729-8c6701cee500",
+          "icon": "18b11ab1-47bb-4996-11ec-00550768c500",
           "description": "Restaura las defensas naturales de la piel para más resistencia y menos sensibilidad.",
           "color": "#A70532",
           "products": [
@@ -663,7 +664,7 @@
                 "Ayuda a prevenir y reducir estrías",
                 "NSOC05780-21CO"
               ],
-              "image": "12396d98-7c48-4587-fa37-48ecf1460600",
+              "image": "3bd7fab1-c5fa-4f4b-b395-fa284fd33f00",
               "index": 4,
               "orderNumber": "1-0-4"
             },
@@ -684,7 +685,7 @@
                 "Se absorbe rápidamente",
                 "NSOC00130-20CO"
               ],
-              "image": "52c66031-caf5-4842-1729-8c6701cee500",
+              "image": "18b11ab1-47bb-4996-11ec-00550768c500",
               "index": 5,
               "orderNumber": "1-0-5"
             },
@@ -908,6 +909,25 @@
               "orderNumber": "2-0-7"
             },
             {
+              "name": "Eucerin Protector Solar Facial Photoaging Control FPS50+ 50ml",
+              "description": "Eucerin Sun Photoaging Control FPS 50+ es un protector solar anti-envejecimiento para todo tipo de piel, incluyendo piel sensible. Protege la piel del rostro de las quemaduras solares y del daño cutáneo inducido por el sol.",
+              "ingredients": [
+                "Licochalcona A",
+                "Ácido Hialurónico",
+                "Ácido Glicirretínico"
+              ],
+              "bullets": [
+                "Protector solar facial anti-edad",
+                "Con ácido hialurónico",
+                "Textura ligera",
+                "Alta protección UVA/UVB",
+                "NSOC72298-16CO"
+              ],
+              "image": "4098eb52-5d54-4462-dbee-cd271d1b7900",
+              "index": 1,
+              "orderNumber": "2-0-1"
+            },
+            {
               "name": "Eucerin Protector Solar Facial Photoaging Control Tono Medio FPS50+ 50ml",
               "description": "Eucerin Sun Photoaging Control FPS 50+ Tono Medio es un protector solar para el rostro con un alto factor de protección UV, Protección Biológica de Células y un corrección instantánea de la tez para piel de tono medio.",
               "ingredients": [
@@ -927,25 +947,6 @@
               "orderNumber": "2-0-0"
             },
             {
-              "name": "Eucerin Protector Solar Facial Photoaging Control FPS50+ 50ml",
-              "description": "Eucerin Sun Photoaging Control FPS 50+ es un protector solar anti-envejecimiento para todo tipo de piel, incluyendo piel sensible. Protege la piel del rostro de las quemaduras solares y del daño cutáneo inducido por el sol.",
-              "ingredients": [
-                "Licochalcona A",
-                "Ácido Hialurónico",
-                "Ácido Glicirretínico"
-              ],
-              "bullets": [
-                "Protector solar facial anti-edad",
-                "Con ácido hialurónico",
-                "Textura ligera",
-                "Alta protección UVA/UVB",
-                "NSOC72298-16CO"
-              ],
-              "image": "faac318f-cc30-4285-68db-d7e820948b00",
-              "index": 1,
-              "orderNumber": "2-0-1"
-            },
-            {
               "name": "Eucerin Protector Solar Facial Pigment Control FPS50+ 50ml",
               "description": "Protector solar facial avanzado para todo tipo de pieles que previene la hiperpigmentación provocada por el sol.",
               "ingredients": [
@@ -959,9 +960,47 @@
                 "No graso, no pegajoso",
                 "NSOC90478-19CO"
               ],
-              "image": "9e27d4b2-e731-4d7c-3257-72705a92bd00",
+              "image": "0d7362fc-b3b0-4848-98a7-37d916611700",
               "index": 2,
               "orderNumber": "2-0-2"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Pigment Control Tono Claro FPS50+ 50ml",
+              "description": "Eucerin Sun Pigment Control FPS50+ Tono Claro es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
+              "ingredients": [
+                "Thiamidol",
+                "Filtros UVA/UVB",
+                "Pigmentos Minerales con Color"
+              ],
+              "bullets": [
+                "Protector solar facial anti-manchas",
+                "Con Thiamidol",
+                "Cobertura de color tono claro",
+                "Alta protección UVA/UVB",
+                "NSOC09610-21CO"
+              ],
+              "image": "0a1e32d1-159d-4b88-196e-f9804db14f00",
+              "index": 9,
+              "orderNumber": "2-0-9"
+            },
+            {
+              "name": "Eucerin Protector Solar Facial Pigment Control Tono Medio FPS50+ 50ml",
+              "description": "Eucerin Sun Pigment Control FPS50+ Tono Medio es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
+              "ingredients": [
+                "Thiamidol",
+                "Filtros UVA/UVB",
+                "Pigmentos Minerales con Color"
+              ],
+              "bullets": [
+                "Protector solar facial anti-manchas",
+                "Con Thiamidol",
+                "Cobertura de color tono medio",
+                "Alta protección UVA/UVB",
+                "NSOC09605-21CO"
+              ],
+              "image": "f17006f6-89e3-4e7f-12d1-99a8f2ab8200",
+              "index": 8,
+              "orderNumber": "2-0-8"
             },
             {
               "name": "Eucerin Protector Solar Facial Hydro-Fluid FPS50+ 50ml",
@@ -1001,44 +1040,6 @@
               "image": "57511d14-b1b4-4378-52ed-a84bbd2b3a00",
               "index": 4,
               "orderNumber": "2-0-4"
-            },
-            {
-              "name": "Eucerin Protector Solar Facial Pigment Control Tono Medio FPS50+ 50ml",
-              "description": "Eucerin Sun Pigment Control FPS50+ Tono Medio es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
-              "ingredients": [
-                "Thiamidol",
-                "Filtros UVA/UVB",
-                "Pigmentos Minerales con Color"
-              ],
-              "bullets": [
-                "Protector solar facial anti-manchas",
-                "Con Thiamidol",
-                "Cobertura de color tono medio",
-                "Alta protección UVA/UVB",
-                "NSOC09605-21CO"
-              ],
-              "image": "f17006f6-89e3-4e7f-12d1-99a8f2ab8200",
-              "index": 8,
-              "orderNumber": "2-0-8"
-            },
-            {
-              "name": "Eucerin Protector Solar Facial Pigment Control Tono Claro FPS50+ 50ml",
-              "description": "Eucerin Sun Pigment Control FPS50+ Tono Claro es un protector solar avanzado facial para evitar las manchas de hiperpigmentación con pigmentos de color.",
-              "ingredients": [
-                "Thiamidol",
-                "Filtros UVA/UVB",
-                "Pigmentos Minerales con Color"
-              ],
-              "bullets": [
-                "Protector solar facial anti-manchas",
-                "Con Thiamidol",
-                "Cobertura de color tono claro",
-                "Alta protección UVA/UVB",
-                "NSOC09610-21CO"
-              ],
-              "image": "0a1e32d1-159d-4b88-196e-f9804db14f00",
-              "index": 9,
-              "orderNumber": "2-0-9"
             }
           ]
         },
@@ -1049,7 +1050,7 @@
           "color": "#F7921E",
           "products": [
             {
-              "name": "Eucerin Sun Gel- Crema Toque Seco Corporal FPS 50+",
+              "name": "Eucerin Sun Gel- Crema Toque Seco Corporal FPS 50+ 200ml",
               "description": "Protector solar ligero y acabado toque seco. Textura gel-crema.",
               "ingredients": [
                 "Licochalcona A",
@@ -1067,7 +1068,7 @@
               "orderNumber": "2-1-0"
             },
             {
-              "name": "Eucerin Sun Spray Toque Seco FPS 50+",
+              "name": "Eucerin Sun Spray Toque Seco FPS 50+ 200ml",
               "description": " Protector solar en spray transparente y ligero que brinda protección de nivel superior contra el sol para la piel sensible e incluso para la piel propensa a imperfecciones.",
               "ingredients": [
                 "Licochalcona A"
@@ -1084,7 +1085,7 @@
               "orderNumber": "2-1-1"
             },
             {
-              "name": "Eucerin Sun Loción Ultra-Ligera FPS 50+",
+              "name": "Eucerin Sun Loción Ultra-Ligera FPS 50+ 150ml",
               "description": "Protector solar corporal con un factor de protección muy alto y con textura extra ligera de rápida absorción.",
               "ingredients": [
                 "Licochalcona A",
