@@ -22,8 +22,9 @@
                 "Serum de doble acción con Thiamidol y ácido hialurónico",
                 "Reduce las manchas de hiperpigmentación y previene su reaparición",
                 "Reduce las arrugas",
-                "Resultados visibles a partir de 2 semanas",
-                "NSOC86957-18CO"
+                "Resultados visibles a partir de 2 semanas*",
+                "NSOC86957-18CO",
+                "*Estudio de percepción después de 2 semanas de uso regular. Beiersdorf A.G.*"
               ],
               "image": "2d93727d-b187-495f-ae2a-61071941ea00",
               "index": 1,
@@ -41,7 +42,8 @@
                 "Reduce las manchas de hiperpigmentación y previene su reaparición",
                 "Resultados visibles a partir de 2 semanas",
                 "Serum de doble acción con Thiamidol y ácido hialurónico",
-                "NSOC09647-21CO"
+                "NSOC09647-21CO",
+                "*Estudio de percepción después de 2 semanas de uso regular. Beiersdorf A.G.*"
               ],
               "image": "a913dc04-8186-48a0-9efd-d96b87c97300",
               "index": 3,
@@ -126,7 +128,7 @@
         },
         {
           "name": "Hyaluron-Filler + 3x Effect",
-          "icon": "aa3cf15e-ec61-44c4-9ffa-6c1c0e6f3b00",
+          "icon": "7dea0d17-4b66-4aea-c81b-c64b9e178a00",
           "description": "Rellena, estimula y protege. Conoce nuestra nueva innovación: Epicelline®",
           "color": "#878C92",
           "products": [
@@ -146,7 +148,7 @@
                 "Resultados visibles en 4 semanas de uso",
                 "NSOC29883-24CO"
               ],
-              "image": "aa3cf15e-ec61-44c4-9ffa-6c1c0e6f3b00",
+              "image": "7dea0d17-4b66-4aea-c81b-c64b9e178a00",
               "index": 10,
               "orderNumber": "0-1-10"
             },

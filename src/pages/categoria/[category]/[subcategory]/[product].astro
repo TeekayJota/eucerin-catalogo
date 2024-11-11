@@ -28,7 +28,6 @@ export async function getStaticPaths() {
     return paths;
 }
 
-
 // Encuentra la categoría, subcategoría y producto correspondientes en los datos JSON
 const categoryData = data.categories.find((cat) => cat.name.toLowerCase() === category.toLowerCase());
 if (!categoryData) {
