@@ -1,5 +1,4 @@
 ---
-// Importaciones
 import Layout from '../../../../layouts/Layout.astro';
 import data from '../../../../data/data.json';
 
@@ -14,18 +13,18 @@ interface Params {
 const { category, subcategory, product: productSlug } = Astro.params as Params;
 
 export async function getStaticPaths() {
-    const paths = data.categories.flatMap((category) =>
-        category.subcategories.flatMap((subcategory) =>
-            subcategory.products.map((product) => ({
-                params: {
-                    category: category.name.toLowerCase(),
-                    subcategory: subcategory.name.toLowerCase(),
-                    product: product.index.toString(),
-                },
-            }))
-        )
-    );
-    return paths;
+  const paths = data.categories.flatMap((category) =>
+    category.subcategories.flatMap((subcategory) =>
+      subcategory.products.map((product) => ({
+        params: {
+          category: category.name.toLowerCase(),
+          subcategory: subcategory.name.toLowerCase(),
+          product: product.index.toString(),
+        },
+      }))
+    )
+  );
+  return paths;
 }
 
 // Encuentra la categoría, subcategoría y producto correspondientes en los datos JSON
@@ -64,19 +63,31 @@ if (!productData) {
       <h3 style="font-size: 1.2rem; font-weight: bold;">Ingredientes</h3>
       <ul style="font-size: 1rem; color: #555;">
         {productData.ingredients.map((ingredient) => (
-          <li>· {ingredient}</li>
+          <li>
+            {ingredient.startsWith('*') && ingredient.endsWith('*') ? (
+              <i style="font-size: 0.5rem;">*{ingredient.slice(1, -1)}</i> // Texto en cursiva sin el "·" y con asterisco al inicio
+            ) : (
+              <>· {ingredient}</>
+            )}
+          </li>
         ))}
       </ul>
       
       <hr style="margin: 1rem 0;" />
-      
+
       <h3 style="font-size: 1.2rem; font-weight: bold;">Características</h3>
       <ul style="font-size: 1rem; color: #555;">
         {productData.bullets.map((bullet) => (
-          <li>· {bullet}</li>
+          <li style={bullet.startsWith('*') && bullet.endsWith('*') ? 'margin-top: 0.5rem;' : ''}>
+            {bullet.startsWith('*') && bullet.endsWith('*') ? (
+              <i style="font-size: 0.9rem;">*{bullet.slice(1, -1)}</i> // Texto en cursiva sin el "·" y con asterisco al inicio
+            ) : (
+              <>· {bullet}</>
+            )}
+          </li>
         ))}
       </ul>
-    </div>    
+    </div>
 
     <!-- Columna de imagen del producto -->
     <div style="flex: 1; display: flex; justify-content: center; align-items: center; border-radius: 15px; background-color: white; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">

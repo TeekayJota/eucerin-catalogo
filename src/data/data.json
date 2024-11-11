@@ -12,7 +12,7 @@
           "color": "#B88084",
           "products": [
             {
-              "name": "Eucerin Anti-Pigment Serum Dual 50ml",
+              "name": "Eucerin Anti-Pigment Serum Dual 30ml",
               "description": "Serum Antipigmento de doble acción con Thiamidol y Ácido Hialurónico concentrado para una piel radiante y con un tono homogéneo.",
               "ingredients": [
                 "Thiamidol",
@@ -31,7 +31,7 @@
               "orderNumber": "0-0-1"
             },
             {
-              "name": "Eucerin Anti-Pigment Serum Ultra Light 50ml",
+              "name": "Eucerin Anti-Pigment Serum Ultra Light 30ml",
               "description": "Eucerin Anti-Pigment Ultra Light Serum, clínicamente probado, contiene Thiamidol para ayudar a reducir las manchas de pigmentación y prevenir su reaparición.",
               "ingredients": [
                 "Thiamidol",
@@ -71,7 +71,7 @@
             },
             {
               "name": "Eucerin Anti-Pigment Crema Facial de Día FPS30 50ml",
-              "description": "Crema Antipigmento de Día que reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "description": "Crema Antipigmento de Día que reduce eficazmente las manchas y áreas de hiperpigmentación.",
               "ingredients": [
                 "Thiamidol",
                 "Sistema de Filtros UVA/UVB (FPS 30)"
@@ -89,7 +89,7 @@
             },
             {
               "name": "Eucerin Anti-Pigment Crema Facial de Día Tono Medio FPS30 50ml",
-              "description": "Crema Antipigmento de Día que cubre y reduce eficazmene las manchas y áreas de hiperpigmentación.",
+              "description": "Crema Antipigmento de Día que cubre y reduce eficazmente las manchas y áreas de hiperpigmentación.",
               "ingredients": [
                 "Thiamidol",
                 "Sistema de Filtros UVA/UVB (FPS 30)",
@@ -134,7 +134,7 @@
           "products": [
             {
               "name": "Eucerin Hyaluron-Filler Epigenetic Serum 30ml",
-              "description": "Un revolucionario serum antienvejecimiento con Epicelline®, que revierte visiblemente los signos del envejecimiento y reactiva los genes de la juventud de la piel para obtener resultados visibles en 4 semanas.",
+              "description": "Un revolucionario serum antienvejecimiento con Epicelline®, que revierte visiblemente los signos del envejecimiento y reactiva los genes de la juventud de la piel para obtener resultados visibles en 4 semanas.*",
               "ingredients": [
                 "Epicelline",
                 "Saponina de soya",
@@ -145,8 +145,9 @@
               "bullets": [
                 "Ingrediente patentado Epicelline®, que reactiva los genes de la juventud de la piel",
                 "Con ácido hialurónico y enoxolona",
-                "Resultados visibles en 4 semanas de uso",
-                "NSOC29883-24CO"
+                "Resultados visibles en 4 semanas de uso*",
+                "NSOC29883-24CO",
+                "*Resultados visibles después de 4 semanas de uso regular. Los resultados pueden variar de persona a persona. Basado en estudio de percepción. Beiersdorf A.G.*"
               ],
               "image": "b291218b-5d78-4ccb-7947-1fb0a0ef8000",
               "index": 10,
@@ -286,7 +287,7 @@
             },
             {
               "name": "Eucerin Hyaluron-Filler + 3x Effect Vitamin C Booster 8ml",
-              "description": "Serum de absorción rápida que fortalece y suaviza la piel a la vez que rellena las arrugas, aspecto más fresco y luminoso en tan solo siete días.",
+              "description": "Serum de absorción rápida que fortalece y suaviza la piel a la vez que rellena las arrugas, aspecto más fresco y luminoso en tan solo siete días.*",
               "ingredients": [
                 "Vitamina C",
                 "Ácido Hialurónico"
@@ -298,8 +299,9 @@
                 "Fortalece y suaviza la piel",
                 "Rellena arrugas",
                 "Potenciador de rápida absorción",
-                "Piel luce más fresca y radiante en sólo siete días",
-                "NSOC90623-19CO"
+                "Piel luce más fresca y radiante en sólo siete días*",
+                "NSOC90623-19CO",
+                "*Basado en estudios de percepción, resultados después de 4 semanas de uso regular, Beiersdorf A.G. Complementar siempre con bloqueador solar.*"
               ],
               "image": "02696762-75d5-4016-fb98-29c6707dad00",
               "index": 7,
@@ -324,9 +326,10 @@
               "bullets": [
                 "Serum anti-edad para pieles maduras",
                 "Con ingrediente antimanchas patentado Thiamidol",
-                "Resultados visibles en 2 semanas",
+                "Resultados visibles en 2 semanas*",
                 "Mejora la elasticidad y luminosidad de la piel",
-                "NSOC01135-20CO"
+                "NSOC01135-20CO",
+                "*Estudio de percepción después de 2 semanas de uso regular. Beiersdorf A.G.*"
               ],
               "image": "3822c305-c36e-43aa-1f32-4ba306a4ff00",
               "index": 2,
@@ -1320,29 +1323,9 @@
                 "Protege la piel de la sensación de picazón provocada por la resequedad",
                 "NSOC03218-20CO"
               ],
-              "image": "424a580d-e401-4355-8282-7dea3bc18100",
+              "image": "0e731f1e-e5ef-4ea8-8768-8e1ebfa81100",
               "index": 0,
               "orderNumber": "1-2-0"
-            },
-            {
-              "name": "Eucerin AtopiControl Spray Corporal Calmante 50ml",
-              "description": "Alivio instantáneo de la comezón.",
-              "ingredients": [
-                "Mentoxipropanediol",
-                "SymSitive",
-                "Polidocanol"
-              ],
-              "bullets": [
-                "Spray corporal que calma el picor",
-                "Ayuda a reducir en 60 segundos, hasta por 6 horas la sensación de picazón provocada por la resequedad",
-                "Refresca, calma y suaviza al instante la piel irritada",
-                "Sensación refrescante para la piel",
-                "Apto para la piel de bebés",
-                "NSOC11197-21CO"
-              ],
-              "image": "57d7eeda-d338-4dc6-c955-07e96d7a9200",
-              "index": 1,
-              "orderNumber": "1-2-1"
             },
             {
               "name": "Eucerin AtopiControl Bálsamo 400ml",
