@@ -28,6 +28,13 @@ const { category } = Astro.props as { category: CategoryType };
   </h1>
 </header>
 
+<!-- Solo muestra el GIF si la categoría es "Faciales" -->
+{category.name === "Faciales" && (
+  <div>
+    <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/0546b636-1208-4ed1-09fe-b9e9dd919a00/public" style="width: 100%;" />
+  </div>
+)}
+
 <section style="display: flex; flex-wrap: wrap; justify-content: center; margin: 10px 0;">
   {category.subcategories.map((subcategory) => (
     <div style="margin: 15px;">
