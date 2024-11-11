@@ -759,74 +759,6 @@
           ]
         },
         {
-          "name": "Aquaphor",
-          "icon": "924cdd86-83ec-4747-53fb-77a9e3cea500",
-          "description": "Experta para el cuidado de la piel dañada - probada clínicamente que ayuda a acelerar la regeneración de la piel.",
-          "color": "#00305F",
-          "products": [
-            {
-              "name": "Eucerin Aquaphor Ungüento Reparador 55ml",
-              "description": "Pomada regeneradora que ayuda a acelerar la regeneración de la piel comprobada clínicamente.",
-              "ingredients": [
-                "Panthenol",
-                "Glicerina",
-                "Bisabolol"
-              ],
-              "bullets": [
-                "Crema reparadora para las manos día y noche",
-                "Ayuda a acelerar la reparación de la piel",
-                "Suaviza la piel seca y agrietada",
-                "Sin fragancia",
-                "Sin conservadores",
-                "Para bebés, niños y adultos",
-                "NSOC80508-17CO"
-              ],
-              "image": "924cdd86-83ec-4747-53fb-77a9e3cea500",
-              "index": 0,
-              "orderNumber": "1-3-0"
-            },
-            {
-              "name": "Eucerin Aquaphor Ungüento Reparador Duo Pack 2x10ml",
-              "description": "Eucerin Aquaphor Ungüento Reparador es una pomada clínicamente probada para acelerar la regeneración de la piel.",
-              "ingredients": [
-                "Panthenol",
-                "Glicerina",
-                "Bisabolol"
-              ],
-              "bullets": [
-                "Suaviza la piel seca y agrietada",
-                "Ayuda a acelerar la reparación de la piel",
-                "Para bebés, niños y adultos",
-                "Libre de fragancias, alcohol y preservantes",
-                "NSOC80508-17CO"
-              ],
-              "image": "bc4f2710-5ef5-439b-dbb2-ebde5a4a7000",
-              "index": 1,
-              "orderNumber": "1-3-1"
-            },
-            {
-              "name": "Eucerin Aquaphor Bálsamo Reparador de Labios SOS 10ml",
-              "description": "Repara, protege y calma los labios secos y agrietados. Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios.",
-              "ingredients": [
-                "Panthenol",
-                "Vitaminas C & E"
-              ],
-              "bullets": [
-                "Bálsamo calmante para los labios",
-                "Alivio de labios en 60 segundos",
-                "Repara, protege y calma",
-                "Para labios secos y agrietados",
-                "Con vitamina C & E",
-                "Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios",
-                "NSOC01193-20CO"
-              ],
-              "image": "3bd2a1f8-e163-42e2-ab52-e0056eca7400",
-              "index": 2,
-              "orderNumber": "1-3-2"
-            }
-          ]
-        },
-        {
           "name": "DermoCapillaire",
           "icon": "b052ec7c-d487-40dd-7c91-5bc36c435800",
           "description": "Productos para el cuero cabelludo y el cabello.",
@@ -1312,6 +1244,74 @@
               "image": "69f7078f-4604-43af-81c2-0f4ac5dc8500",
               "index": 2,
               "orderNumber": "3-0-2"
+            }
+          ]
+        },
+        {
+          "name": "Aquaphor",
+          "icon": "924cdd86-83ec-4747-53fb-77a9e3cea500",
+          "description": "Experta para el cuidado de la piel dañada - probada clínicamente que ayuda a acelerar la regeneración de la piel.",
+          "color": "#00305F",
+          "products": [
+            {
+              "name": "Eucerin Aquaphor Ungüento Reparador 55ml",
+              "description": "Pomada regeneradora que ayuda a acelerar la regeneración de la piel comprobada clínicamente.",
+              "ingredients": [
+                "Panthenol",
+                "Glicerina",
+                "Bisabolol"
+              ],
+              "bullets": [
+                "Crema reparadora para las manos día y noche",
+                "Ayuda a acelerar la reparación de la piel",
+                "Suaviza la piel seca y agrietada",
+                "Sin fragancia",
+                "Sin conservadores",
+                "Para bebés, niños y adultos",
+                "NSOC80508-17CO"
+              ],
+              "image": "924cdd86-83ec-4747-53fb-77a9e3cea500",
+              "index": 0,
+              "orderNumber": "1-3-0"
+            },
+            {
+              "name": "Eucerin Aquaphor Ungüento Reparador Duo Pack 2x10ml",
+              "description": "Eucerin Aquaphor Ungüento Reparador es una pomada clínicamente probada para acelerar la regeneración de la piel.",
+              "ingredients": [
+                "Panthenol",
+                "Glicerina",
+                "Bisabolol"
+              ],
+              "bullets": [
+                "Suaviza la piel seca y agrietada",
+                "Ayuda a acelerar la reparación de la piel",
+                "Para bebés, niños y adultos",
+                "Libre de fragancias, alcohol y preservantes",
+                "NSOC80508-17CO"
+              ],
+              "image": "bc4f2710-5ef5-439b-dbb2-ebde5a4a7000",
+              "index": 1,
+              "orderNumber": "1-3-1"
+            },
+            {
+              "name": "Eucerin Aquaphor Bálsamo Reparador de Labios SOS 10ml",
+              "description": "Repara, protege y calma los labios secos y agrietados. Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios.",
+              "ingredients": [
+                "Panthenol",
+                "Vitaminas C & E"
+              ],
+              "bullets": [
+                "Bálsamo calmante para los labios",
+                "Alivio de labios en 60 segundos",
+                "Repara, protege y calma",
+                "Para labios secos y agrietados",
+                "Con vitamina C & E",
+                "Crea una barrera protectora ideal para favorecer una rápida reparación de la piel de los labios",
+                "NSOC01193-20CO"
+              ],
+              "image": "3bd2a1f8-e163-42e2-ab52-e0056eca7400",
+              "index": 2,
+              "orderNumber": "1-3-2"
             }
           ]
         },
