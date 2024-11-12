@@ -65,7 +65,7 @@
                 "Para todo tipo de piel",
                 "NSOC18071-22CO"
               ],
-              "image": "2e94328c-935e-48b7-5ac9-7f2650621000",
+              "image": "24f3c9ec-de8a-4026-a80d-13bc5d6abc00",
               "index": 4,
               "orderNumber": "0-0-4"
             },
@@ -149,7 +149,7 @@
                 "NSOC29883-24CO",
                 "*Resultados visibles después de 4 semanas de uso regular. Los resultados pueden variar de persona a persona. Basado en estudio de percepción. Beiersdorf A.G.*"
               ],
-              "image": "b291218b-5d78-4ccb-7947-1fb0a0ef8000",
+              "image": "28b5c58d-287c-4468-27a5-a07725ca9600",
               "index": 10,
               "orderNumber": "0-1-10"
             },
@@ -395,7 +395,7 @@
         },
         {
           "name": "DermoPure",
-          "icon": "7fa70814-a991-4047-a135-c8422b815800",
+          "icon": "88e70b4e-204e-45e5-77ff-7ecb42888300",
           "description": "Conoce la rutina ideal para pieles grasas con tendencia a imperfecciones.",
           "color": "#94BEA7",
           "products": [
@@ -433,7 +433,7 @@
                 "Para piel grasa y con tendencia a imperfecciones",
                 "NSOC26186-23CO"
               ],
-              "image": "7fa70814-a991-4047-a135-c8422b815800",
+              "image": "80742783-3c73-4a53-6091-3e1459a56600",
               "index": 6,
               "orderNumber": "0-3-6"
             },
@@ -491,7 +491,7 @@
                 "Mejora la textura de la piel",
                 "NSOC31553-08CO"
               ],
-              "image": "2d50778f-204c-4dac-4627-3a3fbd6ebe00",
+              "image": "f1ad8910-8ac0-466c-ca29-cf03722d5600",
               "index": 2,
               "orderNumber": "0-3-2"
             },
@@ -510,7 +510,7 @@
                 "Con ácido salicílico",
                 "NSOC45190-11CO"
               ],
-              "image": "9d5b0f7e-e428-4e14-a066-ca1f79c8c200",
+              "image": "369f26bf-748b-4eaf-8a3a-f07289b07200",
               "index": 4,
               "orderNumber": "0-3-4"
             }
@@ -718,7 +718,7 @@
                 "Exfolia suavemente",
                 "NSOC24466-23CO"
               ],
-              "image": "7de9663c-3418-4139-1575-7e4543c00a00",
+              "image": "0cc8d5ed-8372-40fc-3b68-85564adaaa00",
               "index": 0,
               "orderNumber": "1-1-0"
             }
@@ -726,7 +726,7 @@
         },
         {
           "name": "DermoCapillaire",
-          "icon": "b052ec7c-d487-40dd-7c91-5bc36c435800",
+          "icon": "afded58c-338e-4098-c600-d0ee8f5ee100",
           "description": "Productos para el cuero cabelludo y el cabello.",
           "color": "#007469",
           "products": [
@@ -811,7 +811,7 @@
                 "Libre de silicona, Libre de jabón alcalino",
                 "NSOC90424-19CO"
               ],
-              "image": "26932df0-4ab3-411d-285d-2a1aef67cc00",
+              "image": "dc991d48-3a48-4024-2b7f-d6f165ac0700",
               "index": 3,
               "orderNumber": "1-5-3"
             }
@@ -982,7 +982,7 @@
                 "Alta protección UVA/UVB",
                 "NSOC09610-21CO"
               ],
-              "image": "c5c865cc-a297-4996-1efb-9ccb6b758a00",
+              "image": "f637c5e5-c8c3-407f-c7f5-2d8f137df900",
               "index": 9,
               "orderNumber": "2-0-9"
             },
@@ -1002,7 +1002,7 @@
                 "Textura ultra-ligera",
                 "NSOC17861-22CO"
               ],
-              "image": "6bdad038-d888-4687-fbfb-c8d5f5172800",
+              "image": "6bb9bd3f-09a9-4592-ac5a-939db7984000",
               "index": 3,
               "orderNumber": "2-0-3"
             },
@@ -1141,7 +1141,7 @@
     {
       "name": "Baby",
       "icon": "b20aec37-1da7-4c3a-f84c-3b754ac50b00",
-      "color": "#b6b8dc",
+      "color": "#00305F",
       "subcategories": [
         {
           "name": "Bebé",
@@ -1255,7 +1255,7 @@
                 "Libre de fragancias, alcohol y preservantes",
                 "NSOC80508-17CO"
               ],
-              "image": "8e1fd92f-93d8-44b4-5025-22fe831dc700",
+              "image": "c2e61e8c-ace0-4911-3a32-f3fc0ff66d00",
               "index": 1,
               "orderNumber": "1-3-1"
             },
