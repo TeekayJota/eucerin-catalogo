@@ -48,7 +48,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
         <h2 class="text-xl font-bold text-center py-2 px-10 rounded-lg" style="color: white; background-color: #878C92; margin: 0 auto;">
           PIEL JOVEN
         </h2>
-        <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 90%;">
+        <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 100%;">
           {rutinaPielJoven.map((item, index) => {
             const productData = getProduct(item.subcategory, item.index, item.category);
             if (!productData) return null;
