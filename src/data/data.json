@@ -229,7 +229,7 @@
               "orderNumber": "0-1-2"
             },
             {
-              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día para Todo Tipo de Piel FPS30 50ml",
+              "name": "Eucerin Hyaluron-Filler + 3x Effect Crema Facial de Día FPS30 50ml",
               "description": "Crema Antiarrugas facial de día con FPS30 para piel normal a mixta con protección UVA y UVB que ayuda a rellenar las arrugas.",
               "ingredients": [
                 "Ácido Hialurónico",
@@ -517,13 +517,13 @@
           ]
         },
         {
-          "name": "DermatoCLEAN",
+          "name": "DermatoClean",
           "icon": "83fa0170-1cd1-4f45-59f6-829bd84f2200",
           "description": "Una limpieza suave pero efectiva para todo tipo de piel, incluso piel sensible.",
           "color": "#89BBE5",
           "products": [
             {
-              "name": "Eucerin DermatoCLEAN Gel Limpiador Facial 200ml",
+              "name": "Eucerin DermatoClean Gel Limpiador Facial 200ml",
               "description": "Este gel suave pero efectivo elimina el maquillaje y permite que la piel respire con mayor facilidad.",
               "ingredients": [
                 "Ácido Hialurónico",
@@ -541,7 +541,7 @@
               "orderNumber": "0-4-0"
             },
             {
-              "name": "Eucerin DermatoCLEAN Loción Micelar Limpiadora 3 en 1 200ml",
+              "name": "Eucerin DermatoClean Loción Micelar Limpiadora 3 en 1 200ml",
               "description": "Este líquido suave pero efectivo elimina el maquillaje y ayuda a que la piel respire con más facilidad.",
               "ingredients": [
                 "Ácido Hialurónico",
@@ -698,7 +698,7 @@
         },
         {
           "name": "Anti-Pigment",
-          "icon": "71b796cb-b8b0-4632-1c20-bbe7ffdf1300",
+          "icon": "7de9663c-3418-4139-1575-7e4543c00a00",
           "description": "Ayuda a reducir eficazmente las manchas oscuras y previene su reaparición. Con nuestro ingrediente patentado Thiamidol®",
           "color": "#B88084",
           "products": [
@@ -1099,7 +1099,7 @@
           "color": "#F7921E",
           "products": [
             {
-              "name": "Eucerin Protector Solar Niños Sensitive Protect Toque Seco Gel-Crema Ultra-Ligera FPS50+ 200ml",
+              "name": "Eucerin Protector Solar Niños Sensitive Protect Toque Seco FPS50+ 200ml",
               "description": "Un protector solar de nivel superior para niños. Ideal para proteger la piel sensible, y ayuda a reducir el riesgo de daños a largo plazo en la piel.",
               "ingredients": [
                 "Licochalcona A",
@@ -1141,13 +1141,13 @@
     {
       "name": "Baby",
       "icon": "b20aec37-1da7-4c3a-f84c-3b754ac50b00",
-      "color": "#00305F",
+      "color": "#b6b8dc",
       "subcategories": [
         {
           "name": "Bebé",
-          "icon": "c650e8c3-0531-42db-759f-dc26e2015b00",
+          "icon": "4c9a9fa8-a8e7-48ee-8703-832ef4fabd00",
           "description": "Fortifica la piel delicada y sensible del bebé",
-          "color": "#00305F",
+          "color": "#b6b8dc",
           "products": [
             {
               "name": "Eucerin Baby Crema Corporal 400ml",
@@ -1283,7 +1283,7 @@
         },
         {
           "name": "Atopi Control",
-          "icon": "424a580d-e401-4355-8282-7dea3bc18100",
+          "icon": "0e731f1e-e5ef-4ea8-8768-8e1ebfa81100",
           "description": "Para el cuidado diario de pieles atópicas secas, enrojecidas e inflamadas.",
           "color": "#9DC8D8",
           "products": [
