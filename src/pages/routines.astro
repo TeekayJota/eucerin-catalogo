@@ -45,7 +45,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
   
       <!-- Rutina Piel Joven -->
       <section class="mb-16" style="display: flex; flex-direction: column; align-items: center;">
-        <h2 class="text-xl font-bold text-center py-2 px-10 rounded-lg" style="color: white; background-color: #A70532; margin: 0 auto;">
+        <h2 class="text-xl font-bold text-center py-2 px-10" style="color: white; background-color: #A70532; margin: 0 auto;">
           PIEL JOVEN
         </h2>
         <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 100%;">
@@ -55,7 +55,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
   
             return (
               <div class="p-2 bg-white rounded-lg shadow-md flex flex-col items-center" style={Array.isArray(productData) ? 'width: auto;' : 'width: auto;'}>
-                <h3 class="text-center font-semibold mb-2" style="color: #223341;">
+                <h3 class="text-center font-semibold mb-2" style="color: white; background-color:#878C92; width: 100%;">
                   {index === 0 ? 'LIMPIEZA' : index === 1 ? 'TRATAMIENTO' : index === 2 ? 'HIDRATACIÓN' : 'PROTECCIÓN'}
                 </h3>
                 {Array.isArray(productData) ? (
@@ -68,8 +68,8 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
                             name={product.name}
                             color={product.color}
                             width="250px"
-                            height="460px"
-                            maxHeight="290px"
+                            height="360px"
+                            maxHeight="220px"
                           />
                         </a>
                       )
@@ -82,8 +82,8 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
                       name={productData.name}
                       color={productData.color}
                       width="250px"
-                      height="460px"
-                      maxHeight="290px"
+                      height="360px"
+                      maxHeight="220px"
                     />
                   </a>
                 )}
@@ -95,7 +95,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
   
       <!-- Rutina Piel Madura -->
       <section style="display: flex; flex-direction: column; align-items: center;">
-        <h2 class="text-xl font-bold text-center py-2 px-10 rounded-lg" style="color: white; background-color: #A70532; margin: 0 auto;">
+        <h2 class="text-xl font-bold text-center py-2 px-10" style="color: white; background-color: #A70532; margin: 0 auto;">
           PIEL MADURA
         </h2>
         <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 100%;">
@@ -105,7 +105,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
   
             return (
               <div class="p-2 bg-white rounded-lg shadow-md flex flex-col items-center">
-                <h3 class="text-center font-semibold mb-2" style="color: #223341;">
+                <h3 class="text-center font-semibold mb-2" style="color: white; background-color:#878C92; width: 100%;">
                   {index === 0 ? 'LIMPIEZA' : index === 1 ? 'TRATAMIENTO' : index === 2 ? 'HIDRATACIÓN' : 'PROTECCIÓN'}
                 </h3>
                 {Array.isArray(productData) ? (
@@ -118,8 +118,8 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
                             name={product.name}
                             color={product.color}
                             width="250px"
-                            height="460px"
-                            maxHeight="290px"
+                            height="360px"
+                            maxHeight="220px"
                           />
                         </a>
                       )
@@ -132,8 +132,8 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
                       name={productData.name}
                       color={productData.color}
                       width="250px"
-                      height="460px"
-                      maxHeight="290px"
+                      height="360px"
+                            maxHeight="220px"
                     />
                   </a>
                 )}
