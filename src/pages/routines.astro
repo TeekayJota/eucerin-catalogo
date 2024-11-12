@@ -7,42 +7,69 @@ import data from '../data/data.json';
 const rutinaPielJoven = [
   { subcategory: 'dermopure', index: 1 },
   { subcategory: 'hyaluron-filler + 3x effect', index: 10 },
-  { subcategory: 'hyaluron-filler + 3x effect', index: [4, 1] }, // Agrupados para "HIDRATA"
+  { subcategory: 'hyaluron-filler + 3x effect', index: [4, 1] },
   { subcategory: 'faciales', index: 3, category: 'fotoprotección' }
 ];
 
 const rutinaPielMadura = [
   { subcategory: 'dermatoclean', index: 0 },
   { subcategory: 'hyaluron-filler + 3x effect', index: 10 },
-  { subcategory: 'hyaluron filler + elasticity', index: [0, 1] }, // Agrupados para "HIDRATA"
+  { subcategory: 'hyaluron filler + elasticity', index: [0, 1] },
   { subcategory: 'faciales', index: 1, category: 'fotoprotección' }
 ];
 
-// Función para obtener el producto y el color de la subcategoría
-function getProduct(subcategoryName: string, index: number | number[], categoryName = 'faciales') {
+// Función para obtener el producto, el color de la subcategoría y la imagen específica
+function getProductWithImage(subcategoryName: string, index: number | number[], categoryName = 'faciales') {
   const category = data.categories.find(cat => cat.name.toLowerCase() === categoryName.toLowerCase());
   if (!category) return null;
 
   const subcategory = category.subcategories.find(sub => sub.name.toLowerCase() === subcategoryName.toLowerCase());
   if (!subcategory) return null;
 
+  // Asignación específica de imágenes según subcategoría e índice
+  const imageMap: Record<string, string> = {
+    'dermopure-1': "538ddbe9-91d6-40f7-2c2c-ab823aa3c300",
+    'hyaluron-filler + 3x effect-10': "02549a08-c1aa-4408-73ce-cf1fa4c02f00",
+    'hyaluron-filler + 3x effect-4': "e0029dc7-7fba-4ee5-c70b-cc3e2750d200",
+    'hyaluron-filler + 3x effect-1': "2ee68b21-126a-4d37-016c-9f8abf816e00",
+    'faciales-3': "177d5746-baa2-4bd0-577a-097bdb52d200",
+    'dermatoclean-0': "a4acd22c-eff0-48ab-83dd-ff35609c6a00",
+    'hyaluron-filler + 3x effect-10-madura': "1fdf9175-a0a1-466a-b4b5-bc5b050ba300",
+    'hyaluron filler + elasticity-0': "64311861-ed9f-47ff-92e9-e02c6e0d4400",
+    'hyaluron filler + elasticity-1': "70a02ed1-5cf2-4825-4853-7205c5d17400",
+    'faciales-1-madura': "07d57b35-fc12-4ae3-e636-b5e8717c6d00"
+  };
+
+  const getImageKey = (subcat: string, idx: number | number[], cat: string = 'faciales'): string | string[] =>
+    Array.isArray(idx)
+      ? idx.map(i => `${subcat}-${i}${cat === 'faciales' ? '' : '-madura'}`)
+      : `${subcat}-${idx}${cat === 'faciales' ? '' : '-madura'}`;
+
+  // Obtener imagen específica según la clave
+  const imageKey = getImageKey(subcategoryName, index, categoryName);
+  const productImages = Array.isArray(imageKey)
+    ? imageKey.map(key => imageMap[key] || '177d5746-baa2-4bd0-577a-097bdb52d200') // Usa una imagen predeterminada si no se encuentra
+    : imageMap[imageKey] || '177d5746-baa2-4bd0-577a-097bdb52d200'; // Usa una imagen predeterminada si no se encuentra
+
+  // Obtener producto
   if (Array.isArray(index)) {
     return index
-      .map(idx => subcategory.products.find(prod => prod.index === idx))
-      .filter(Boolean)
-      .map(product => ({ ...product, color: subcategory.color }));
+      .map((idx, i) => {
+        const product = subcategory.products.find(prod => prod.index === idx);
+        return product ? { ...product, color: subcategory.color, image: productImages[i] } : null;
+      })
+      .filter(Boolean);
   }
 
   const product = subcategory.products.find(prod => prod.index === index);
-  return product ? { ...product, color: subcategory.color } : null;
+  return product ? { ...product, color: subcategory.color, image: productImages } : null;
 }
 ---
 
 <Layout title="Rutina Ideal Antiedad">
     <main class="mx-auto" style="width: 100%; margin-bottom: 40px;">
-      <!-- Título principal -->
       <h1 class="text-3xl font-bold text-center mb-8" style="color: white; background-color: #878C92;">RUTINA IDEAL ANTIEDAD</h1>
-  
+
       <!-- Rutina Piel Joven -->
       <section class="mb-16" style="display: flex; flex-direction: column; align-items: center;">
         <h2 class="text-xl font-bold text-center py-2 px-10" style="color: white; background-color: #A70532; margin: 0 auto;">
@@ -50,9 +77,9 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
         </h2>
         <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 100%;">
           {rutinaPielJoven.map((item, index) => {
-            const productData = getProduct(item.subcategory, item.index, item.category);
+            const productData = getProductWithImage(item.subcategory, item.index, item.category);
             if (!productData) return null;
-  
+
             return (
               <div class="p-2 bg-white rounded-lg shadow-md flex flex-col items-center" style={Array.isArray(productData) ? 'width: auto;' : 'width: auto;'}>
                 <h3 class="text-center font-semibold mb-2" style="color: white; background-color:#878C92; width: 100%;">
@@ -92,7 +119,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
           })}
         </div>
       </section>
-  
+
       <!-- Rutina Piel Madura -->
       <section style="display: flex; flex-direction: column; align-items: center;">
         <h2 class="text-xl font-bold text-center py-2 px-10" style="color: white; background-color: #A70532; margin: 0 auto;">
@@ -100,9 +127,9 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
         </h2>
         <div class="flex flex-wrap justify-center gap-4 mt-6" style="width: 100%;">
           {rutinaPielMadura.map((item, index) => {
-            const productData = getProduct(item.subcategory, item.index, item.category);
+            const productData = getProductWithImage(item.subcategory, item.index, item.category);
             if (!productData) return null;
-  
+
             return (
               <div class="p-2 bg-white rounded-lg shadow-md flex flex-col items-center">
                 <h3 class="text-center font-semibold mb-2" style="color: white; background-color:#878C92; width: 100%;">
@@ -133,7 +160,7 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
                       color={productData.color}
                       width="250px"
                       height="360px"
-                            maxHeight="220px"
+                      maxHeight="220px"
                     />
                   </a>
                 )}
@@ -143,15 +170,4 @@ function getProduct(subcategoryName: string, index: number | number[], categoryN
         </div>
       </section>
     </main>
-    <!-- Navegación de botones -->
-  <div style="display: flex; justify-content: center; margin: 10px 0 40px 0;">
-    <!-- Botón para regresar a la página de subcategoría -->
-    <a href="/" style="margin: 0 40px;">
-      <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/67bb6f2c-4b78-4552-ff1a-259601741900/public" alt="Regresar" style="width: 50px; height: auto;" />
-    </a>
-    <!-- Botón para regresar a la página de inicio -->
-    <a href="/" style="margin: 0 40px;">
-      <img src="https://imagedelivery.net/igeTCv6NpihMSigS0bbQIQ/5825f952-6751-4012-b299-eaf994106600/public" alt="Inicio" style="width: 50px; height: auto;" />
-    </a>
-  </div>
-  </Layout> 
+</Layout>
